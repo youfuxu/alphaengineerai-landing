@@ -132,25 +132,6 @@
   .signup h2 { margin-bottom: 12px; }
   .signup p.lead { color: var(--text-dim); margin-bottom: 32px; }
 
-  form.email-form {
-    display: flex;
-    gap: 12px;
-    max-width: 480px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  form.email-form input[type="email"] {
-    flex: 1 1 260px;
-    background: var(--bg-card);
-    border: 1px solid rgba(255,255,255,0.12);
-    border-radius: 8px;
-    padding: 16px 20px;
-    color: var(--text);
-    font-family: inherit;
-    font-size: 16px;
-  }
-  form.email-form input[type="email"]:focus { outline: 2px solid var(--blue); }
   .privacy { font-size: 13px; color: var(--text-dim); margin-top: 16px; }
 
   .social { text-align: center; }
@@ -223,15 +204,7 @@
     <h2>Get instant access</h2>
     <p class="lead">Drop your email and the guide lands in your inbox right away.</p>
 
-    <!-- Mailchimp embedded form. Replace the action URL below with your real
-         Audience -> Signup forms -> Embedded form values (action URL + hidden b_ field). -->
-    <form action="https://hotmail.us1.list-manage.com/subscribe/post?u=REPLACE_U&id=REPLACE_LIST_ID" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="email-form" target="_blank" novalidate>
-      <input type="email" name="EMAIL" placeholder="you@email.com" required>
-      <div style="position: absolute; left: -5000px;" aria-hidden="true">
-        <input type="text" name="b_REPLACE_U_REPLACE_LIST_ID" tabindex="-1" value="">
-      </div>
-      <button type="submit" name="subscribe" class="btn">Send Me the Guide</button>
-    </form>
+    <a href="http://eepurl.com/vGISPFoHFk" target="_blank" rel="noopener" class="btn">Send Me the Guide →</a>
     <p class="privacy">No spam. Unsubscribe anytime.</p>
   </section>
 
