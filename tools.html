@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tools I Actually Use — Alpha Engineer</title>
+<meta name="description" content="The AI tools an engineer uses daily to build content, automate workflows, and create passive income streams. Honest recommendations with affiliate links.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #060810;
+    --bg-card: #0D1117;
+    --blue: #00D4FF;
+    --green: #39FF14;
+    --text: #F5F7FA;
+    --text-dim: #8A93A6;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,212,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,212,255,0.04) 1px, transparent 1px);
+    background-size: 72px 72px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .glow {
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .glow-1 { top: -300px; right: -200px; width: 700px; height: 700px; background: radial-gradient(circle, rgba(0,212,255,0.12) 0%, transparent 70%); }
+  .glow-2 { bottom: -300px; left: -200px; width: 700px; height: 700px; background: radial-gradient(circle, rgba(57,255,20,0.08) 0%, transparent 70%); }
+
+  .container { max-width: 880px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+
+  header.site-header {
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo { font-weight: 800; font-size: 22px; letter-spacing: 0.02em; text-decoration: none; color: var(--text); }
+  .logo span { color: var(--blue); }
+  .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 6px;
+    padding: 8px 16px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .nav-link:hover { color: var(--blue); border-color: rgba(0,212,255,0.4); }
+
+  .hero { padding: 60px 0 80px; text-align: center; border-top: none; }
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--blue);
+    border: 1px solid rgba(0,212,255,0.3);
+    border-radius: 999px;
+    padding: 6px 16px;
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-size: clamp(32px, 5.5vw, 56px);
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  h1 .accent { color: var(--blue); }
+  .subtitle {
+    font-size: clamp(15px, 2vw, 18px);
+    color: var(--text-dim);
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  .tools-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding: 60px 0;
+  }
+
+  .tool-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(0,212,255,0.15);
+    border-radius: 16px;
+    padding: 36px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .tool-card:hover {
+    border-color: rgba(0,212,255,0.4);
+    transform: translateY(-3px);
+  }
+
+  .tool-category {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--blue);
+    background: rgba(0,212,255,0.08);
+    border-radius: 4px;
+    padding: 4px 10px;
+  }
+
+  .tool-name {
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  .tool-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--green);
+    background: rgba(57,255,20,0.08);
+    border-radius: 4px;
+    padding: 4px 10px;
+  }
+
+  .tool-desc {
+    color: var(--text-dim);
+    font-size: 15px;
+    line-height: 1.65;
+    flex: 1;
+  }
+
+  .btn-tool {
+    display: inline-block;
+    background: var(--blue);
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 13px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    margin-top: 4px;
+  }
+  .btn-tool:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,212,255,0.35); }
+
+  .disclosure {
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 40px 0;
+    text-align: center;
+  }
+  .disclosure p {
+    font-size: 13px;
+    color: var(--text-dim);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  footer {
+    padding: 40px 0;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 14px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  footer a { color: var(--blue); text-decoration: none; }
+  footer .links { margin-top: 12px; display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+
+  @media (max-width: 640px) {
+    .tools-grid { grid-template-columns: 1fr; }
+    header.site-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+  }
+</style>
+</head>
+<body>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <header class="site-header container">
+    <a href="/" class="logo">Alpha <span>Engineer</span></a>
+    <a href="/" class="nav-link">← Back to Home</a>
+  </header>
+
+  <div class="hero container">
+    <div class="eyebrow">Honest Recommendations</div>
+    <h1>The AI Tools I Actually Use to<br><span class="accent">Build Income Streams</span></h1>
+    <p class="subtitle">No sponsored content. Just tools I use daily to create content, clone my voice, and build passive income — with affiliate links so you know I have skin in the game.</p>
+  </div>
+
+  <div class="container">
+    <div class="tools-grid">
+
+      <div class="tool-card">
+        <div>
+          <span class="tool-category">AI Voice & Audio</span>
+        </div>
+        <div class="tool-name">ElevenLabs</div>
+        <div class="tool-badge">✦ Free tier available</div>
+        <p class="tool-desc">
+          The voice bottleneck killed most faceless YouTube channels before they started. ElevenLabs removes it. Clone your voice in minutes, generate studio-quality narration at scale, and never record yourself again. I use it for every reel on this account.
+        </p>
+        <a href="https://try.elevenlabs.io/alphaengineer-ig" target="_blank" rel="noopener" class="btn-tool">Try ElevenLabs Free →</a>
+      </div>
+
+      <div class="tool-card">
+        <div>
+          <span class="tool-category">AI Video</span>
+        </div>
+        <div class="tool-name">Synthesia</div>
+        <div class="tool-badge">✦ No camera required</div>
+        <p class="tool-desc">
+          Turn a script into a professional video with an AI presenter — no camera, no studio, no editing timeline. Engineers use Synthesia to build explainer videos, online courses, and client deliverables without ever touching a camera. One script = one finished video.
+        </p>
+        <a href="https://www.synthesia.io?via=youfu" target="_blank" rel="noopener" class="btn-tool">Try Synthesia Free →</a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="disclosure container">
+    <p>Some links on this page are affiliate links. If you sign up through them, I may earn a commission at no extra cost to you. I only recommend tools I actually use and trust.</p>
+  </div>
+
+  <footer class="container">
+    <div>© 2026 Alpha Engineer</div>
+    <div class="links">
+      <a href="/">Home</a>
+      <a href="https://www.instagram.com/alphaengineer.ai/" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:alpha-engineer@hotmail.com">alpha-engineer@hotmail.com</a>
+    </div>
+  </footer>
+</body>
+</html>
