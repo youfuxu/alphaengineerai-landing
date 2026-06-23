@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alpha Engineer Blog — AI Tools & Passive Income for Engineers</title>
+<meta name="description" content="Honest guides and reviews on the AI tools engineers use to build passive income — ElevenLabs, Synthesia, side hustles, and more.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Alpha Engineer Blog — AI Tools & Passive Income for Engineers">
+<meta property="og:description" content="Honest guides and reviews on the AI tools engineers use to build passive income — ElevenLabs, Synthesia, side hustles, and more.">
+<meta property="og:url" content="https://alphaengineerai.com/blog.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alpha Engineer Blog — AI Tools & Passive Income for Engineers">
+<meta name="twitter:description" content="Honest guides and reviews on the AI tools engineers use to build passive income — ElevenLabs, Synthesia, side hustles, and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #060810;
+    --bg-card: #0D1117;
+    --blue: #00D4FF;
+    --green: #39FF14;
+    --text: #F5F7FA;
+    --text-dim: #8A93A6;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,212,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,212,255,0.04) 1px, transparent 1px);
+    background-size: 72px 72px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .glow {
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .glow-1 { top: -300px; right: -200px; width: 700px; height: 700px; background: radial-gradient(circle, rgba(0,212,255,0.12) 0%, transparent 70%); }
+  .glow-2 { bottom: -300px; left: -200px; width: 700px; height: 700px; background: radial-gradient(circle, rgba(57,255,20,0.08) 0%, transparent 70%); }
+
+  .container { max-width: 880px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+
+  header.site-header {
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo { font-weight: 800; font-size: 22px; letter-spacing: 0.02em; text-decoration: none; color: var(--text); }
+  .logo span { color: var(--blue); }
+  .nav { display: flex; gap: 12px; align-items: center; }
+  .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 6px;
+    padding: 8px 16px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .nav-link:hover { color: var(--blue); border-color: rgba(0,212,255,0.4); }
+  .nav-link.active { color: var(--blue); border-color: rgba(0,212,255,0.4); }
+
+  .hero { padding: 60px 0 40px; text-align: center; border-top: none; }
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--blue);
+    border: 1px solid rgba(0,212,255,0.3);
+    border-radius: 999px;
+    padding: 6px 16px;
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-size: clamp(32px, 5.5vw, 56px);
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  h1 .accent { color: var(--blue); }
+  .subtitle {
+    font-size: clamp(15px, 2vw, 18px);
+    color: var(--text-dim);
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  .posts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding: 50px 0;
+  }
+
+  .post-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(0,212,255,0.15);
+    border-radius: 16px;
+    padding: 36px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .post-card:hover {
+    border-color: rgba(0,212,255,0.4);
+    transform: translateY(-3px);
+  }
+
+  .post-pillar {
+    display: inline-block;
+    align-self: flex-start;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--blue);
+    background: rgba(0,212,255,0.08);
+    border-radius: 4px;
+    padding: 4px 10px;
+  }
+
+  .post-title {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.3;
+  }
+
+  .post-desc {
+    color: var(--text-dim);
+    font-size: 15px;
+    line-height: 1.65;
+    flex: 1;
+  }
+
+  .btn-read {
+    display: inline-block;
+    align-self: flex-start;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.15s ease;
+    margin-top: 4px;
+  }
+  .btn-read:hover { background: rgba(0,212,255,0.08); }
+
+  footer {
+    padding: 40px 0;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 14px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  footer a { color: var(--blue); text-decoration: none; }
+  footer .links { margin-top: 12px; display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+
+  @media (max-width: 640px) {
+    .posts-grid { grid-template-columns: 1fr; }
+    header.site-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+  }
+</style>
+</head>
+<body>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <header class="site-header container">
+    <a href="/" class="logo">Alpha <span>Engineer</span></a>
+    <nav class="nav">
+      <a href="tools.html" class="nav-link">Tools</a>
+      <a href="blog.html" class="nav-link active">Blog</a>
+    </nav>
+  </header>
+
+  <div class="hero container">
+    <div class="eyebrow">Alpha Engineer Blog</div>
+    <h1>AI Tools &amp; Passive Income<br><span class="accent">for Engineers</span></h1>
+    <p class="subtitle">Honest guides and reviews on the tools engineers use to build content pipelines, side hustles, and passive income with AI.</p>
+  </div>
+
+  <div class="container">
+    <div class="posts-grid">
+
+      <div class="post-card">
+        <span class="post-pillar">AI Tools</span>
+        <div class="post-title">Best AI Tools for Engineers to Build Passive Income (2025)</div>
+        <p class="post-desc">Discover the top AI tools engineers are using to generate passive income streams in 2025.</p>
+        <a href="blog/best-ai-tools-engineers-passive-income.html" class="btn-read">Read More →</a>
+      </div>
+
+      <div class="post-card">
+        <span class="post-pillar">Tool Review</span>
+        <div class="post-title">ElevenLabs Review 2025: Is It Worth It for Engineers?</div>
+        <p class="post-desc">Honest review of ElevenLabs for engineers building content pipelines and passive income.</p>
+        <a href="blog/elevenlabs-review-engineers.html" class="btn-read">Read More →</a>
+      </div>
+
+      <div class="post-card">
+        <span class="post-pillar">Side Hustle</span>
+        <div class="post-title">Engineer Side Hustle with AI 2025: The Complete Guide</div>
+        <p class="post-desc">How engineers are using AI tools to build profitable side hustles in 2025.</p>
+        <a href="blog/engineer-side-hustle-ai-2025.html" class="btn-read">Read More →</a>
+      </div>
+
+      <div class="post-card">
+        <span class="post-pillar">Tool Review</span>
+        <div class="post-title">Synthesia Review 2025: The Best AI Video Tool for Engineers?</div>
+        <p class="post-desc">Full review of Synthesia for engineers looking to build passive income with AI video tools.</p>
+        <a href="blog/synthesia-review-engineers-2025.html" class="btn-read">Read More →</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="container">
+    <div>© 2026 Alpha Engineer</div>
+    <div class="links">
+      <a href="/">Home</a>
+      <a href="tools.html">Tools</a>
+      <a href="blog.html">Blog</a>
+      <a href="https://www.instagram.com/alphaengineer.ai/" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:alpha-engineer@hotmail.com">alpha-engineer@hotmail.com</a>
+    </div>
+  </footer>
+</body>
+</html>
