@@ -154,6 +154,42 @@
     flex: 1;
   }
 
+  .tool-price {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .tool-price .price-now { font-size: 30px; font-weight: 800; color: var(--text); }
+  .tool-price .price-was { font-size: 16px; font-weight: 600; color: var(--text-dim); text-decoration: line-through; }
+  .tool-price .price-tag {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--green); background: rgba(57,255,20,0.08); border-radius: 4px; padding: 4px 10px;
+  }
+
+  .tool-points {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+  }
+  .tool-points li {
+    position: relative;
+    padding-left: 26px;
+    color: var(--text-dim);
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  .tool-points li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--green);
+    font-weight: 800;
+  }
+
   .btn-tool {
     display: inline-block;
     background: var(--blue);
@@ -220,10 +256,16 @@
           <span class="tool-category">★ Built by me · Digital Product</span>
         </div>
         <div class="tool-name">Faceless AI Content Engine</div>
-        <div class="tool-badge">✦ The exact system I use — $0/mo to run</div>
-        <p class="tool-desc">
-          Not another PDF. It's the actual codebase I use to auto-post faceless content to Instagram, Threads, YouTube Shorts & TikTok — running on GitHub Actions' free tier. Includes a multi-platform publisher, 30 ready-made carousel templates with a zero-API renderer, 100 post templates, and a 45-minute setup guide. Built by an engineer, for engineers who want to ship AI income without showing their face.
-        </p>
+        <div class="tool-price">
+          <span class="price-now">$29</span>
+          <span class="price-was">$39</span>
+          <span class="price-tag">Early bird</span>
+        </div>
+        <ul class="tool-points">
+          <li>The actual codebase — not a PDF. Auto-posts faceless content to Instagram, Threads, YouTube Shorts &amp; TikTok.</li>
+          <li>Runs on GitHub Actions' free tier — $0/mo to operate, no servers to rent.</li>
+          <li>30 carousel templates + zero-API renderer + 100 post templates + a 45-minute setup guide.</li>
+        </ul>
         <a href="https://alphatech4.gumroad.com/l/reijcb/EARLY" target="_blank" rel="noopener" class="btn-tool">Get the Engine — $29 early bird →</a>
       </div>
 
