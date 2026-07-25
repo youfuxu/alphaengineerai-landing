@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I Shipped 11 Scrapers in a Week - How I Picked Each Niche (With the Data) | Alpha Engineer</title>
+<meta name="description" content="Eleven web scrapers published to a marketplace in one week, and the competitor data behind every niche I chose. The queries, the numbers, three technical patterns, and the honest revenue so far.">
+<meta name="keywords" content="apify actor income, web scraper side income, niche selection data, build scrapers for money, marketplace revenue share">
+<meta property="og:type" content="article">
+<meta property="og:title" content="I Shipped 11 Scrapers in a Week - How I Picked Each Niche (With the Data)">
+<meta property="og:description" content="The competitor data behind every niche, the three technical patterns that made it fast, and the honest revenue so far.">
+<meta property="og:url" content="https://alphaengineerai.com/blog/shipped-11-scrapers-one-week-niche-data.html">
+<meta property="og:site_name" content="Alpha Engineer">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="I Shipped 11 Scrapers in a Week - How I Picked Each Niche">
+<meta name="twitter:description" content="The competitor data behind every niche, the three patterns, and the honest revenue so far.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0D1117; color: #C9D1D9; font-family: 'Inter', sans-serif; line-height: 1.7; font-size: 18px; }
+  .grid-bg { position: fixed; inset: 0; background-image: linear-gradient(rgba(0,212,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(0,212,255,0.04) 1px, transparent 1px); background-size: 60px 60px; pointer-events: none; z-index: 0; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 64px 24px 96px; position: relative; z-index: 1; }
+  .brand { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; color: #00D4FF; letter-spacing: 0.04em; text-decoration: none; display: inline-block; margin-bottom: 48px; }
+  .tag { display: inline-block; background: rgba(0,212,255,0.12); color: #00D4FF; font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 16px; border-radius: 6px; margin-bottom: 24px; }
+  h1 { font-family: 'Space Grotesk', sans-serif; font-size: 44px; font-weight: 700; color: #E6EDF3; line-height: 1.12; letter-spacing: -0.02em; margin-bottom: 20px; }
+  h1 span, h2 span { color: #00D4FF; }
+  h2 { font-family: 'Space Grotesk', sans-serif; font-size: 30px; font-weight: 700; color: #E6EDF3; line-height: 1.2; margin: 56px 0 20px; letter-spacing: -0.01em; }
+  h3 { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; color: #E6EDF3; margin: 36px 0 14px; }
+  p { margin-bottom: 20px; color: #C9D1D9; }
+  a { color: #00D4FF; text-decoration: none; border-bottom: 1px solid rgba(0,212,255,0.3); }
+  a:hover { border-bottom-color: #00D4FF; }
+  .meta { color: #768F92; font-size: 15px; margin-bottom: 40px; font-family: 'Space Grotesk', sans-serif; }
+  .lead { font-size: 21px; color: #E6EDF3; line-height: 1.6; margin-bottom: 32px; }
+  ul, ol { margin: 0 0 24px 0; padding-left: 0; list-style: none; }
+  ul li { padding: 8px 0 8px 28px; position: relative; }
+  ul li::before { content: '▸'; color: #00D4FF; position: absolute; left: 0; }
+  ol { counter-reset: item; }
+  ol li { padding: 8px 0 8px 36px; position: relative; counter-increment: item; }
+  ol li::before { content: counter(item); color: #00D4FF; font-family: 'Space Grotesk', sans-serif; font-weight: 700; position: absolute; left: 0; }
+  strong { color: #E6EDF3; font-weight: 600; }
+  .hero-card { background: #161B22; border: 1px solid #1E2A30; border-left: 3px solid #00D4FF; border-radius: 12px; padding: 28px 32px; margin: 32px 0; }
+  .hero-card h3 { margin-top: 0; }
+  .hero-card .score { font-family: 'Space Grotesk', sans-serif; font-size: 48px; font-weight: 700; color: #00D4FF; line-height: 1; margin-bottom: 8px; }
+  .feature { background: #161B22; border: 1px solid #1E2A30; border-left: 3px solid #00D4FF; border-radius: 10px; padding: 24px 32px; margin: 24px 0; }
+  .feature h3 { margin-top: 0; }
+  .shot { background: #0D1117; border: 1px dashed #1E2A30; border-radius: 8px; padding: 18px 20px; margin: 16px 0; font-family: 'Space Grotesk', sans-serif; font-size: 14px; color: #768F92; text-align: center; }
+  .use { background: #161B22; border: 1px solid #1E2A30; border-left: 3px solid #00D4FF; border-radius: 10px; padding: 24px 32px; margin: 24px 0; }
+  .use .num { font-family: 'Space Grotesk', sans-serif; color: #00D4FF; font-size: 14px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; display: block; margin-bottom: 8px; }
+  .use h3 { margin-top: 0; }
+  .use .stack { font-size: 14px; color: #768F92; margin-top: 12px; margin-bottom: 0; }
+  .use .stack strong { color: #00D4FF; font-weight: 600; }
+  table.cmp { width: 100%; border-collapse: collapse; margin: 28px 0; font-size: 16px; background: #161B22; border: 1px solid #1E2A30; border-radius: 10px; overflow: hidden; }
+  table.cmp th, table.cmp td { text-align: left; padding: 14px 18px; border-bottom: 1px solid #1E2A30; }
+  table.cmp th { font-family: 'Space Grotesk', sans-serif; color: #E6EDF3; font-weight: 600; background: #0D1117; }
+  table.cmp td:first-child { color: #768F92; font-family: 'Space Grotesk', sans-serif; font-size: 14px; }
+  table.cmp tr:last-child td { border-bottom: none; }
+  table.cmp .hi { color: #00D4FF; font-weight: 600; }
+  .proscons { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 32px 0; }
+  .pc { background: #161B22; border: 1px solid #1E2A30; border-radius: 10px; padding: 24px; }
+  .pc.pros { border-left: 3px solid #00D4FF; }
+  .pc.cons { border-left: 3px solid #768F92; }
+  .pc h3 { margin-top: 0; }
+  .pc ul li { font-size: 16px; padding: 6px 0 6px 24px; }
+  .pc.cons ul li::before { content: '▾'; color: #768F92; }
+  .verdict { background: #161B22; border: 1px solid #1E2A30; border-radius: 12px; padding: 28px 32px; margin: 40px 0; }
+  .verdict h2 { margin-top: 0; }
+  .score-lg { font-family: 'Space Grotesk', sans-serif; font-size: 48px; font-weight: 700; color: #00D4FF; line-height: 1; }
+  .cta { background: #161B22; border: 1px solid #00D4FF; border-radius: 12px; padding: 32px; margin: 48px 0; text-align: center; }
+  .cta h3 { margin-top: 0; color: #E6EDF3; }
+  .btn { display: inline-block; background: #00D4FF; color: #0D1117; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 16px; padding: 14px 32px; border-radius: 8px; border-bottom: none; margin-top: 12px; }
+  .btn:hover { background: #33ddff; border-bottom: none; }
+  .btn-ghost { display: inline-block; color: #00D4FF; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 15px; border: 1px solid #00D4FF; padding: 12px 26px; border-radius: 8px; border-bottom: 1px solid #00D4FF; margin-top: 8px; }
+  .btn-ghost:hover { background: rgba(0,212,255,0.08); }
+  .divider { height: 1px; background: #1E2A30; margin: 56px 0; border: none; }
+  footer { border-top: 1px solid #1E2A30; padding-top: 32px; margin-top: 64px; color: #768F92; font-size: 14px; }
+  footer a { color: #768F92; border-bottom: none; }
+  footer a:hover { color: #00D4FF; }
+  .disclosure { font-size: 13px; color: #768F92; font-style: italic; margin-bottom: 32px; padding: 14px 18px; background: #161B22; border-radius: 8px; border: 1px solid #1E2A30; }
+  @media (max-width: 600px) { .proscons { grid-template-columns: 1fr; } h1 { font-size: 34px; } table.cmp { font-size: 14px; } table.cmp th, table.cmp td { padding: 10px 12px; } }
+</style>
+</head>
+<body>
+<div class="grid-bg"></div>
+<div class="wrap">
+  <a href="../index.html" class="brand">&#10230; ALPHA ENGINEER</a>
+
+  <span class="tag">Build In Public</span>
+  <h1>I Shipped 11 Scrapers in a Week &mdash; <span>How I Picked Each Niche</span> (With the Data)</h1>
+  <div class="meta">By Alpha Engineer &middot; July 2026 &middot; 9 min read</div>
+
+  <p class="lead">Last week I published eleven web scrapers to a marketplace that pays developers a revenue share. This is not a "how I made $X" story &mdash; as of writing they have earned <strong>nothing</strong>, and the platform's own case studies say the first two months usually do. What I can share is the part nobody writes down: the data I queried before building each one, the three technical patterns that made most of them a single-evening job, and the mistakes that cost me hours.</p>
+
+  <h2>The one question that decides everything</h2>
+  <p>Every marketplace has the same shape: a handful of red-ocean targets everyone builds for, and a long tail nobody has touched. Building the twentieth Amazon scraper is a reliable way to earn nothing. So before writing a line of code, I asked one question per candidate site: <strong>how many competing tools already exist, and how many users do they have?</strong></p>
+  <p>The marketplace exposes a public search API, so this is a twenty-line script rather than an afternoon of clicking. I ran it across roughly fifty candidate targets. The output sorted itself into two piles.</p>
+
+  <div class="feature">
+    <h3>Red ocean &mdash; do not enter</h3>
+    <ul>
+      <li>A regional job board: three competing scrapers at 228 / 286 / 152 users</li>
+      <li>A South-East Asian marketplace: 419 users on the leading tool</li>
+      <li>A Korean marketplace: 185 users</li>
+      <li>A classifieds site: 164 users across four tools</li>
+    </ul>
+    <p style="margin-bottom:0;">Every one of these has more demand than my targets. Every one also has incumbents with reviews, ranking and years of uptime. A newcomer with zero reviews does not win that fight.</p>
+  </div>
+
+  <div class="feature">
+    <h3>Empty &mdash; but is anybody buying?</h3>
+    <ul>
+      <li>A Japanese local classifieds board: <strong>zero</strong> relevant tools</li>
+      <li>A Taiwanese tech job board: <strong>zero</strong> relevant tools</li>
+      <li>A Japanese restaurant directory: one tool, two users</li>
+    </ul>
+    <p style="margin-bottom:0;">Empty is only good news if the demand exists somewhere else in the same category. That is the second filter.</p>
+  </div>
+
+  <h3>The filter I actually used</h3>
+  <p>Empty niche <em>plus</em> proven category demand elsewhere. Concretely: the Japanese restaurant directory had almost no competition, but a <em>different</em> Japanese restaurant site had three scrapers with 17, 26 and 44 users. That says buyers of Japanese restaurant data exist and are paying &mdash; they simply have not been offered this source. Same logic for the classifieds board: neighbouring resale marketplaces had 91 and 166 users, so the buyer persona (resale sourcing) was already proven.</p>
+  <p>Where the category showed no demand anywhere, I skipped the niche no matter how empty it looked.</p>
+
+  <h2>Three technical patterns that did most of the work</h2>
+
+  <h3>1. The data is usually already JSON</h3>
+  <p>Most modern sites server-render from a JSON payload embedded in the page. Framework-specific script tags carry the entire result set &mdash; descriptions, structured prices, geo coordinates &mdash; in a form that survives redesigns. On one site the search results alone carried 28 usable fields before I opened a single detail page. Parsing styled HTML should be the fallback, not the default.</p>
+
+  <h3>2. Structured data blocks are the second-best source</h3>
+  <p>Where there is no framework payload, detail pages very often carry a schema.org block for search engines: phone numbers, opening hours, postal addresses, posted dates. It is public, it is stable, and it exists specifically to be machine-read.</p>
+
+  <h3>3. One site can be two sites</h3>
+  <p>My favourite trap of the week: a classifieds site whose <em>list</em> pages are a decade-old server-rendered template while its <em>detail</em> pages are a modern framework app. The detail pages also contained a global variable belonging to the ad stack with almost the name I was looking for &mdash; it parsed cleanly and returned nothing useful. Two parsers, one site, and an hour lost to a decoy.</p>
+
+  <h2>Four mistakes worth stealing</h2>
+  <ol>
+    <li><strong>"Not disclosed" is often the string "0".</strong> One site stores undisclosed salaries as <code>"0"</code>, which is truthy in JavaScript. My first version happily published "0 - 0 per month" salary ranges. Coerce to a number and require it to be positive.</li>
+    <li><strong>Politeness beats retries.</strong> Two targets rate-limited me on the fifth rapid request. A 1.5-second gap between pages plus exponential backoff turned a failing export into a boring one.</li>
+    <li><strong>Test the defaults, not your favourite input.</strong> The marketplace runs every listing daily with its <em>default</em> input and flags it broken after three failures. My own monitoring checked a custom two-item input, which would have missed a broken default completely.</li>
+    <li><strong>Never pass non-ASCII through a Windows command line.</strong> One listing went live with a mangled Chinese title because the string travelled as a shell argument. Put non-ASCII values inside the script file.</li>
+  </ol>
+
+  <h2>What is live</h2>
+  <p>Eleven scrapers across Taiwanese and Japanese job boards, marketplaces, rental portals and classifieds. A few of them:</p>
+  <ul>
+    <li><a href="https://apify.com/youfuxu/taiwan-104-job-scraper" target="_blank" rel="noopener">Taiwan 104 job scraper</a> &mdash; jobs, salary ranges, skills, hiring contacts</li>
+    <li><a href="https://apify.com/youfuxu/cake-jobs-scraper" target="_blank" rel="noopener">Cake job scraper</a> &mdash; Asia tech jobs with structured salary data</li>
+    <li><a href="https://apify.com/youfuxu/jimoty-japan-classifieds-scraper" target="_blank" rel="noopener">Jimoty classifieds scraper</a> &mdash; Japanese local listings, including free giveaways</li>
+    <li><a href="https://apify.com/youfuxu/suumo-japan-rentals-scraper" target="_blank" rel="noopener">SUUMO rentals scraper</a> &mdash; Japanese rentals with rent, deposit and layout</li>
+  </ul>
+
+  <h2>The honest scoreboard</h2>
+  <p>Revenue so far: <strong>zero</strong>. Eleven listings, a daily health check that runs every one of them, and a wait. The platform's published case study &mdash; 98 tools over six months &mdash; describes almost no income in months one and two, with the catalogue effect arriving around month five. I am one week in. Anyone telling you their marketplace listings printed money in week one is selling a course.</p>
+  <p>What I can say already is that the selection method held: every build took a single evening because I checked the data source before committing, and none of the eleven landed in a niche where an incumbent with hundreds of users was waiting. Whether that converts into revenue is the next three months' question, and I will publish that number too.</p>
+
+  <div class="cta">
+    <h3>Free: The Faceless YouTube Starter Checklist</h3>
+    <p>The exact setup behind a camera-free AI channel &mdash; tool stack, the order to wire it in, and the silent failure points that cost me weeks. Free, no email gate.</p>
+    <a href="https://alphatech4.gumroad.com/l/faceless-checklist?utm_source=alphaengineerai&amp;utm_medium=blog&amp;utm_campaign=checklist" class="btn" target="_blank" rel="noopener">Get the free checklist &rarr;</a>
+  </div>
+
+  <footer>
+    <p><strong>Alpha Engineer</strong> &mdash; Engineer using AI to build financial freedom.</p>
+    <p><a href="../index.html">Home</a> &middot; <a href="engineer-passive-income-ideas-2025.html">Passive income ideas</a> &middot; Built for engineers, by an engineer.</p>
+  </footer>
+</div>
+</body>
+</html>
