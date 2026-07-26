@@ -231,6 +231,14 @@
     .tools-grid { grid-template-columns: 1fr; }
     header.site-header { flex-direction: column; align-items: flex-start; gap: 16px; }
   }
+  .scrapers { border: 1px solid var(--line, #1E2A30); border-radius: 14px; padding: 32px; margin: 8px 0 48px; background: #12161d; }
+  .scrapers h2 { font-family: 'Space Grotesk', sans-serif; font-size: 26px; margin: 8px 0 12px; color: #E6EDF3; }
+  .scrapers-intro { color: #9FB0BD; font-size: 15px; line-height: 1.7; margin-bottom: 22px; max-width: 70ch; }
+  .scraper-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px 28px; }
+  .scraper-item { padding: 10px 0; border-top: 1px solid #1E2A30; }
+  .scraper-item a { display: block; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 15px; color: #00D4FF; text-decoration: none; margin-bottom: 3px; }
+  .scraper-item a:hover { text-decoration: underline; }
+  .scraper-item span { color: #768F92; font-size: 13.5px; line-height: 1.55; }
 </style>
 </head>
 <body>
@@ -293,6 +301,69 @@
         <a href="https://www.synthesia.io?via=youfu" target="_blank" rel="noopener" class="btn-tool">Try Synthesia Free →</a>
       </div>
 
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="scrapers">
+      <div class="eyebrow">★ Built by me · Data tools</div>
+      <h2>13 Web Scrapers for Asian Marketplaces</h2>
+      <p class="scrapers-intro">Structured data from Taiwanese and Japanese job boards, marketplaces, rental portals and classifieds — the sources most scraping tools skip. Each one runs on Apify, exports JSON, CSV or Excel, and bills per row so you only pay for what you actually receive. I wrote about <a href="blog/shipped-11-scrapers-one-week-niche-data.html">how I picked each niche</a>.</p>
+      <ul class="scraper-list">
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/taiwan-104-job-scraper" target="_blank" rel="noopener">Taiwan 104 Job Scraper</a>
+          <span>Taiwan's largest job board — titles, salary ranges, required skills, benefits and the recruiter's public contact email.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/cake-jobs-scraper" target="_blank" rel="noopener">Cake Job Scraper</a>
+          <span>Asia tech jobs with structured salary ranges — Taiwan, Japan and Southeast Asia in one feed.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/green-japan-tech-jobs-scraper" target="_blank" rel="noopener">Green Japan Tech Jobs</a>
+          <span>Japan's IT/Web board: numeric salary bands, requirements, and the hiring company's capital and headcount.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/suumo-japan-rentals-scraper" target="_blank" rel="noopener">SUUMO Japan Rentals</a>
+          <span>Rent, deposit, key money, layout, size and station distance for Japanese rental listings.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/lifull-homes-japan-scraper" target="_blank" rel="noopener">LIFULL HOMES Japan</a>
+          <span>The other major Japanese property portal — pairs with SUUMO for coverage.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/jimoty-japan-classifieds-scraper" target="_blank" rel="noopener">Jimoty Classifieds</a>
+          <span>Japan's local classifieds, including the free-giveaway listings no other marketplace has.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/gurunavi-japan-restaurants-scraper" target="_blank" rel="noopener">Gurunavi Restaurants</a>
+          <span>Japanese restaurants with lunch/dinner budgets, phone numbers and opening hours.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/yahoo-auctions-japan-scraper" target="_blank" rel="noopener">Yahoo! Auctions Japan</a>
+          <span>Current price, bid count, buy-it-now, seller and end time for Japanese auctions.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/kakaku-japan-scraper" target="_blank" rel="noopener">Kakaku.com</a>
+          <span>Japan's #1 price comparison site — lowest prices, makers, ratings and specs.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/paypay-flea-japan-scraper" target="_blank" rel="noopener">PayPay Flea Market</a>
+          <span>Japanese resale listings with condition, brand and seller data.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/rakuma-japan-scraper" target="_blank" rel="noopener">Rakuma (Rakuten)</a>
+          <span>Rakuten's resale marketplace — prices, brands, sellers and sold status.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/ruten-taiwan-scraper" target="_blank" rel="noopener">Ruten 露天拍賣</a>
+          <span>Taiwan's biggest C2C marketplace — prices, images, sellers and sold counts.</span>
+        </li>
+        <li class="scraper-item">
+          <a href="https://apify.com/youfuxu/pchome-taiwan-scraper" target="_blank" rel="noopener">PChome 24h</a>
+          <span>Taiwan's largest online store — prices, brands and product images.</span>
+        </li>
+      </ul>
     </div>
   </div>
 
