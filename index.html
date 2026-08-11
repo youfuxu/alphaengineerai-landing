@@ -149,6 +149,38 @@
   }
   .btn-outline:hover { background: rgba(0,212,255,0.08); }
 
+  /* Writing index — every post reachable directly from the homepage.
+     blog.html is the only path Google had into the posts, and it is itself
+     uncrawled, so the whole archive sat behind a page Googlebot never fetched. */
+  .writing h2 { margin-bottom: 12px; }
+  .writing p.lead { color: var(--text-dim); margin-bottom: 36px; max-width: 620px; }
+  .post-groups {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 32px 40px;
+    margin-bottom: 36px;
+  }
+  .post-group h3 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .post-group ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .post-group a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.4;
+    display: block;
+    transition: color 0.15s ease;
+  }
+  .post-group a:hover { color: var(--blue); }
+
   footer {
     padding: 40px 0;
     text-align: center;
@@ -256,6 +288,57 @@
 
     <a href="https://alphatech4.gumroad.com/l/faceless-checklist?utm_source=alphaengineerai&amp;utm_medium=home&amp;utm_campaign=checklist" target="_blank" rel="noopener" class="btn">Get the Free Checklist →</a>
     <p class="privacy">Instant download on Gumroad. $0.</p>
+  </section>
+
+  <section class="container writing" id="writing">
+    <h2>Writing</h2>
+    <p class="lead">Tool reviews, head-to-heads and build playbooks — written from actually running the stack, not from the vendor's landing page.</p>
+
+    <div class="post-groups">
+      <div class="post-group">
+        <h3>Reviews</h3>
+        <ul>
+          <li><a href="blog/jasper-ai-review-engineers-2025.html">Jasper AI — worth it for passive income?</a></li>
+          <li><a href="blog/github-copilot-review-engineers-2025.html">GitHub Copilot — is it worth it for engineers?</a></li>
+          <li><a href="blog/elevenlabs-review-engineers.html">ElevenLabs for content creation</a></li>
+          <li><a href="blog/synthesia-review-engineers-2025.html">Synthesia — best AI video tool?</a></li>
+          <li><a href="blog/cursor-ai-engineers-guide-2025.html">Cursor AI — the side hustle guide</a></li>
+          <li><a href="blog/kling-ai-video-engineers-guide-2025.html">Kling AI video generation guide</a></li>
+          <li><a href="blog/notion-ai-productivity-engineers-2025.html">Notion AI productivity stack</a></li>
+        </ul>
+      </div>
+
+      <div class="post-group">
+        <h3>Head to head</h3>
+        <ul>
+          <li><a href="blog/chatgpt-vs-claude-engineers-2025.html">ChatGPT vs Claude — which to build with</a></li>
+          <li><a href="blog/heygen-vs-synthesia-2025.html">HeyGen vs Synthesia — AI avatars</a></li>
+          <li><a href="blog/midjourney-vs-adobe-firefly-engineers-2025.html">Midjourney vs Adobe Firefly</a></li>
+          <li><a href="blog/ai-writing-tools-engineers-passive-income-2025.html">AI writing tools compared</a></li>
+          <li><a href="blog/best-ai-voiceover-tools-faceless-youtube-2025.html">Best AI voiceover tools</a></li>
+          <li><a href="blog/best-ai-tools-engineers-passive-income.html">7 best AI tools for passive income</a></li>
+          <li><a href="blog/best-passive-income-apps-engineers-2025.html">Passive income apps that work</a></li>
+        </ul>
+      </div>
+
+      <div class="post-group">
+        <h3>Playbooks</h3>
+        <ul>
+          <li><a href="blog/engineer-passive-income-ideas-2025.html">7 passive income ideas, ranked by effort</a></li>
+          <li><a href="blog/engineer-side-hustle-ai-2025.html">Building a $500/month side hustle with AI</a></li>
+          <li><a href="blog/faceless-youtube-channel-guide-engineers.html">Start a faceless YouTube channel</a></li>
+          <li><a href="blog/ai-cut-raw-footage-into-reels-broll.html">Cutting raw footage into reels — the B-roll problem</a></li>
+          <li><a href="blog/shipped-11-scrapers-one-week-niche-data.html">I shipped 11 scrapers in a week</a></li>
+          <li><a href="blog/notion-templates-passive-income-engineers-2025.html">Selling Notion templates</a></li>
+          <li><a href="blog/freelancing-engineers-ai-tools-2025.html">Doubling your freelance hourly rate</a></li>
+          <li><a href="blog/how-engineers-make-money-open-source-github-2025.html">Making money with open source</a></li>
+          <li><a href="blog/engineer-dividend-investing-guide-2025.html">Dividend investing, built like code</a></li>
+          <li><a href="blog/ai-tools-replace-expensive-subscriptions-2025.html">Free AI tools that replace $200/mo</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="blog.html" class="btn-outline">Browse the full blog →</a>
   </section>
 
   <section class="container social">
