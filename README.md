@@ -18,7 +18,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 
 ## Available language hubs
 
-The public guides are available in English, Spanish, Portuguese, French, German, Hindi, and Arabic.
+The public guides are available in English, Traditional Chinese, Spanish, Portuguese, French, German, Hindi, and Arabic.
 
 - [Español](https://alphaengineerai.com/estafas-online-comunes.html)
 - [Português](https://alphaengineerai.com/golpes-online-comuns.html)
@@ -26,6 +26,7 @@ The public guides are available in English, Spanish, Portuguese, French, German,
 - [Deutsch](https://alphaengineerai.com/online-betrugsmaschen.html)
 - [हिन्दी](https://alphaengineerai.com/online-scam-guide-hi.html)
 - [العربية](https://alphaengineerai.com/online-scam-guide-ar.html)
+- [繁體中文訊息檢查](https://alphaengineerai.com/scam-message-checker-zh-hant.html)
 
 ## Safe-use rule
 
