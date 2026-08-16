@@ -1,6 +1,6 @@
 # MindDividend Shield
 
-[Latest public release: global safety checker](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.0)
+[Latest public release: global discovery and language coverage](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.1)
 
 MindDividend Shield is a free, safety-first first check for suspicious texts, emails, social messages, payment requests, account alerts, job offers, and delivery notices.
 
