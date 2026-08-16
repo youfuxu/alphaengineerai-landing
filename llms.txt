@@ -1,0 +1,27 @@
+# Alpha Engineer / MindDividend Shield
+
+> A multilingual, safety-first first check for suspicious messages and practical guides for common online scams.
+
+MindDividend Shield helps people pause before clicking, paying, replying, sharing a code, or giving remote access. It is a first-pass signal, not a guarantee and not a replacement for a bank, platform, law-enforcement agency, or qualified professional.
+
+## Primary resources
+
+- [Start here](https://alphaengineerai.com/start.html): multilingual entry point, safety rule, and public sharing links.
+- [Scam message checker](https://alphaengineerai.com/scam-message-checker.html): English guide for suspicious texts, email, DMs, bank alerts, jobs, and payments.
+- [Common online scams](https://alphaengineerai.com/common-online-scams.html): English overview of bank, delivery, job, investment, marketplace, impersonation, and tech-support scams.
+- [What to do if you clicked a scam link](https://alphaengineerai.com/what-to-do-if-you-clicked-a-scam-link.html): calm response checklist after a click.
+- [How to tell if a text is a scam](https://alphaengineerai.com/how-to-tell-if-a-text-is-a-scam.html): pause-and-verify checklist.
+- [Privacy and safety](https://alphaengineerai.com/privacy-and-safety.html): what not to paste into a checker and how to use it responsibly.
+
+## Language hubs
+
+- [Español](https://alphaengineerai.com/estafas-online-comunes.html)
+- [Português](https://alphaengineerai.com/golpes-online-comuns.html)
+- [Français](https://alphaengineerai.com/arnaques-en-ligne-courantes.html)
+- [Deutsch](https://alphaengineerai.com/online-betrugsmaschen.html)
+- [हिन्दी](https://alphaengineerai.com/online-scam-guide-hi.html)
+- [العربية](https://alphaengineerai.com/online-scam-guide-ar.html)
+
+## Safe interpretation
+
+Never provide passwords, payment details, verification codes, identity documents, or private addresses to a public checker. Redact a message before review. A suspicious-looking message should be verified through the official app, website, or a known contact route.
