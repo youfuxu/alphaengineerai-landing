@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://alphaengineerai.com/sitemap.xml
+Sitemap: https://alphaengineerai.com/feed.xml
+Sitemap: https://alphaengineerai.com/blog-feed.xml
