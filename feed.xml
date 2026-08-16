@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MindDividend Shield Safety Guides</title>
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Aug 2026 03:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 03:33:00 GMT</lastBuildDate>
+    <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WhatsApp Scam Message Checker</title>
       <link>https://alphaengineerai.com/whatsapp-scam-message-checker.html</link>
