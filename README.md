@@ -41,4 +41,5 @@ Redact passwords, payment details, verification codes, identity documents, priva
 ## Project
 
 - Website: [alphaengineerai.com](https://alphaengineerai.com/)
+- Contributions: [help improve translations and safety guides](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md)
 - Public updates: [YouTube](https://www.youtube.com/@theminddividend), [TikTok](https://www.tiktok.com/@minddividend), [Instagram](https://www.instagram.com/minddividend/)
