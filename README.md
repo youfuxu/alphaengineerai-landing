@@ -12,6 +12,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Common online scams](https://alphaengineerai.com/common-online-scams.html)
 - [What to do after clicking a scam link](https://alphaengineerai.com/what-to-do-if-you-clicked-a-scam-link.html)
 - [Safety and privacy guide](https://alphaengineerai.com/privacy-and-safety.html)
+- [RSS safety guide feed](https://alphaengineerai.com/feed.xml)
 
 ## Available language hubs
 
