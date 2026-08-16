@@ -30,9 +30,9 @@ The public guides are available in English, Traditional Chinese, Spanish, Portug
 - [Deutsch](https://alphaengineerai.com/online-betrugsmaschen.html)
 - [हिन्दी](https://alphaengineerai.com/online-scam-guide-hi.html)
 - [العربية](https://alphaengineerai.com/online-scam-guide-ar.html)
-- [繁體中文訊息檢查](https://alphaengineerai.com/scam-message-checker-zh-hant.html)
+- [繁體中文](https://alphaengineerai.com/scam-message-checker-zh-hant.html)
 - [Pemeriksa pesan penipuan Bahasa Indonesia](https://alphaengineerai.com/pemeriksa-pesan-penipuan.html)
-- [Kiểm tra tin nhắn lừa đảo bằng tiếng Việt](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html)
+- [Kiểm tra tin nhắn lừa đảo tiếng Việt](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html)
 
 ## Safe-use rule
 
