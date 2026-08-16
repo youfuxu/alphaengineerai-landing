@@ -1,4 +1,0 @@
-Contact: mailto:alpha-engineer@hotmail.com
-Expires: 2027-08-16T00:00:00.000Z
-Preferred-Languages: en, zh-TW, es, pt-BR, fr, de, hi, ar, id, vi
-Policy: https://alphaengineerai.com/privacy-and-safety.html
