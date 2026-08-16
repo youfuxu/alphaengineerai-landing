@@ -19,6 +19,12 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Kiểm tra tin nhắn lừa đảo bằng tiếng Việt](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html): Kiểm tra dấu hiệu đáng ngờ trước khi nhấp, trả tiền hoặc trả lời.
 - [AI tools and passive-income blog feed](https://alphaengineerai.com/blog-feed.xml): RSS feed of practical build notes, tool reviews, and engineering workflows.
 
+## Public project and updates
+
+- [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the Alpha Engineer / MindDividend Shield site.
+- [Mind Dividend on YouTube](https://www.youtube.com/@theminddividend): public videos and multilingual safety updates.
+- [MindDividend on Instagram](https://www.instagram.com/minddividend/): short-form psychology, money, human behavior, and online-safety updates.
+
 ## Language hubs
 
 - [Español](https://alphaengineerai.com/estafas-online-comunes.html)
