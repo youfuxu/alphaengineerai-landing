@@ -16,10 +16,18 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [How to tell if a text is a scam](https://alphaengineerai.com/how-to-tell-if-a-text-is-a-scam.html): pause-and-verify checklist.
 - [Privacy and safety](https://alphaengineerai.com/privacy-and-safety.html): what not to paste into a checker and how to use it responsibly.
 - [How to report an online scam](https://alphaengineerai.com/report-online-scam.html): official reporting links by country and safer steps after a suspicious message or payment request.
-- [繁體中文檢查指南](https://alphaengineerai.com/scam-message-checker-zh-hant.html): 在回覆、點擊或付款前，先檢查可疑訊息的常見警訊。
-- [Pemeriksa pesan penipuan Bahasa Indonesia](https://alphaengineerai.com/pemeriksa-pesan-penipuan.html): Periksa tanda bahaya sebelum mengeklik, membayar, atau membalas.
-- [Kiểm tra tin nhắn lừa đảo bằng tiếng Việt](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html): Kiểm tra dấu hiệu đáng ngờ trước khi nhấp, trả tiền hoặc trả lời.
-- [AI tools and passive-income blog feed](https://alphaengineerai.com/blog-feed.xml): RSS feed of practical build notes, tool reviews, and engineering workflows.
+
+## Language resources
+
+- [繁體中文詐騙訊息檢查器](https://alphaengineerai.com/scam-message-checker-zh-hant.html): 在點擊、付款或回覆前，先檢查可疑訊息。
+- [Comprobador de mensajes de estafa en español](https://alphaengineerai.com/comprobador-mensajes-estafa.html): señales de alerta antes de hacer clic, pagar o responder.
+- [Verificador de mensagens de golpe em português](https://alphaengineerai.com/verificador-mensagem-golpe.html): sinais de alerta antes de clicar, pagar ou responder.
+- [Vérificateur de messages d'arnaque en français](https://alphaengineerai.com/verificateur-message-arnaque.html): vérifiez les signaux d'alerte avant de cliquer, payer ou répondre.
+- [Betrugsnachrichten auf Deutsch prüfen](https://alphaengineerai.com/betrugsnachricht-pruefen.html): Warnzeichen vor dem Klicken, Bezahlen oder Antworten.
+- [हिंदी धोखाधड़ी संदेश चेकर](https://alphaengineerai.com/scam-message-checker-hi.html): क्लिक, भुगतान या जवाब देने से पहले संकेतों की जाँच करें।
+- [فاحص رسائل الاحتيال بالعربية](https://alphaengineerai.com/scam-message-checker-ar.html): تحقق من إشارات الخطر قبل النقر أو الدفع أو الرد.
+- [Pemeriksa pesan penipuan Bahasa Indonesia](https://alphaengineerai.com/pemeriksa-pesan-penipuan.html): periksa tanda bahaya sebelum mengeklik, membayar, atau membalas.
+- [Kiểm tra tin nhắn lừa đảo bằng tiếng Việt](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html): kiểm tra dấu hiệu nguy hiểm trước khi nhấp, trả tiền hoặc trả lời.
 
 ## Public project and updates
 
@@ -32,6 +40,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 
 ## Language hubs
 
+- [English](https://alphaengineerai.com/common-online-scams.html)
 - [Español](https://alphaengineerai.com/estafas-online-comunes.html)
 - [Português](https://alphaengineerai.com/golpes-online-comuns.html)
 - [Français](https://alphaengineerai.com/arnaques-en-ligne-courantes.html)
