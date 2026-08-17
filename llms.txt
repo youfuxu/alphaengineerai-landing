@@ -32,7 +32,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 ## Public project and updates
 
 - [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the Alpha Engineer / MindDividend Shield site.
-- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.3): international hreflang alignment, SEO freshness, cross-platform identity, language coverage, RSS distribution, and public feedback path.
+- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.4): international hreflang alignment, SEO freshness, privacy-safe measurement across checker and reporting paths, RSS distribution, and public feedback path.
 - [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
 - [Public discussions](https://github.com/youfuxu/alphaengineerai-landing/discussions): regional scam patterns and translation feedback.
 - [Mind Dividend on YouTube](https://www.youtube.com/@theminddividend): public videos and multilingual safety updates.
