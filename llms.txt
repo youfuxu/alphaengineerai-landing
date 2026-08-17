@@ -33,6 +33,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Reportar una estafa online](https://alphaengineerai.com/reportar-estafa-online.html): canales oficiales en español y pasos seguros antes de enviar pruebas o datos sensibles.
 - [Denunciar um golpe online](https://alphaengineerai.com/denunciar-golpe-online.html): canais oficiais em português e passos seguros antes de enviar provas ou dados sensíveis.
 - [Signaler une arnaque en ligne](https://alphaengineerai.com/signaler-arnaque-en-ligne.html): canaux officiels en français et étapes sûres avant d'envoyer des preuves ou données sensibles.
+- [Online-Betrug melden](https://alphaengineerai.com/betrug-online-melden.html): offizielle Meldestellen auf Deutsch und sichere Schritte vor dem Senden von Beweisen oder sensiblen Daten.
 
 ## Language resources
 
@@ -41,6 +42,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Spanish official reporting guide](https://alphaengineerai.com/reportar-estafa-online.html): official fraud and cybercrime routes by country in Spanish.
 - [Portuguese official reporting guide](https://alphaengineerai.com/denunciar-golpe-online.html): official fraud and cybercrime routes by country in Portuguese.
 - [French official reporting guide](https://alphaengineerai.com/signaler-arnaque-en-ligne.html): official fraud and cybercrime routes by country in French.
+- [German official reporting guide](https://alphaengineerai.com/betrug-online-melden.html): official fraud and cybercrime routes by country in German.
 - [Portuguese](https://alphaengineerai.com/verificador-mensagem-golpe.html): warning signs before clicking, paying, or replying.
 - [French](https://alphaengineerai.com/verificateur-message-arnaque.html): warning signs before clicking, paying, or replying.
 - [German](https://alphaengineerai.com/betrugsnachricht-pruefen.html): warning signs before clicking, paying, or replying.
