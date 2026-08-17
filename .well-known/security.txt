@@ -1,0 +1,4 @@
+Contact: mailto:alpha-engineer@hotmail.com
+Expires: 2027-08-18T00:00:00.000Z
+Preferred-Languages: en, zh-Hant, es, pt-BR, fr, de, it, hi, ar, id, vi, ja, ko
+Canonical: https://alphaengineerai.com/.well-known/security.txt
