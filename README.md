@@ -13,7 +13,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Is this text a scam?](https://alphaengineerai.com/is-this-text-a-scam.html?utm_source=github&utm_medium=readme&utm_campaign=text_scam_intent): warning signs, safer verification, and post-click recovery.
 - [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=global_checker)
 - [Scam message checker guide](https://alphaengineerai.com/scam-message-checker.html)
-- [How to report an online scam officially](https://alphaengineerai.com/report-online-scam.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting): official reporting routes across 15 countries and regions, plus guidance for others.
+- [How to report an online scam officially](https://alphaengineerai.com/report-online-scam.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting): official reporting routes across 19 countries and regions, plus guidance for others.
 - [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html)
 - [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html)
 - [Common online scams](https://alphaengineerai.com/common-online-scams.html)
