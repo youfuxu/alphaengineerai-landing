@@ -10,8 +10,9 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 
 - [Multilingual start page](https://alphaengineerai.com/start.html?utm_source=github&utm_medium=readme&utm_campaign=minddividend)
 - [Live MindDividend Shield checker](https://minddividend-shield.joe303262000.chatgpt.site/)
-- [Scam message checker guide](https://alphaengineerai.com/scam-message-checker.html)
 - [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=global_checker)
+- [Scam message checker guide](https://alphaengineerai.com/scam-message-checker.html)
+- [How to report an online scam officially](https://alphaengineerai.com/report-online-scam.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
 - [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html)
 - [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html)
 - [Common online scams](https://alphaengineerai.com/common-online-scams.html)
@@ -24,6 +25,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 
 The public guides are available in English, Traditional Chinese, Spanish, Portuguese, French, German, Hindi, Arabic, Indonesian, and Vietnamese.
 
+- [English](https://alphaengineerai.com/common-online-scams.html)
 - [Español](https://alphaengineerai.com/estafas-online-comunes.html)
 - [Português](https://alphaengineerai.com/golpes-online-comuns.html)
 - [Français](https://alphaengineerai.com/arnaques-en-ligne-courantes.html)
