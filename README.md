@@ -12,13 +12,13 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Live MindDividend Shield checker](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=global_checker)
 - [Is this text a scam?](https://alphaengineerai.com/is-this-text-a-scam.html?utm_source=github&utm_medium=readme&utm_campaign=text_scam_intent): warning signs, safer verification, and post-click recovery.
 - [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=global_checker)
-- [Scam message checker guide](https://alphaengineerai.com/scam-message-checker.html)
+- [Scam message checker guide](https://alphaengineerai.com/scam-message-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [How to report an online scam officially](https://alphaengineerai.com/report-online-scam.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting): official reporting routes across 19 countries and regions, plus guidance for others.
-- [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html)
-- [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html)
-- [Common online scams](https://alphaengineerai.com/common-online-scams.html)
-- [What to do after clicking a scam link](https://alphaengineerai.com/what-to-do-if-you-clicked-a-scam-link.html)
-- [Safety and privacy guide](https://alphaengineerai.com/privacy-and-safety.html)
+- [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
+- [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
+- [Common online scams](https://alphaengineerai.com/common-online-scams.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
+- [What to do after clicking a scam link](https://alphaengineerai.com/what-to-do-if-you-clicked-a-scam-link.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
+- [Safety and privacy guide](https://alphaengineerai.com/privacy-and-safety.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [RSS safety guide feed](https://alphaengineerai.com/feed.xml)
 - [AI tools and passive-income blog feed](https://alphaengineerai.com/blog-feed.xml)
 - [Machine-readable site guide](https://alphaengineerai.com/llms.txt)
@@ -27,16 +27,16 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 
 The public guides are available in English, Traditional Chinese, Spanish, Portuguese, French, German, Hindi, Arabic, Indonesian, and Vietnamese.
 
-- [English](https://alphaengineerai.com/common-online-scams.html)
-- [Español](https://alphaengineerai.com/estafas-online-comunes.html)
-- [Português](https://alphaengineerai.com/golpes-online-comuns.html)
-- [Français](https://alphaengineerai.com/arnaques-en-ligne-courantes.html)
-- [Deutsch](https://alphaengineerai.com/online-betrugsmaschen.html)
-- [हिन्दी](https://alphaengineerai.com/online-scam-guide-hi.html)
-- [العربية](https://alphaengineerai.com/online-scam-guide-ar.html)
-- [繁體中文](https://alphaengineerai.com/scam-message-checker-zh-hant.html)
-- [Pemeriksa pesan penipuan Bahasa Indonesia](https://alphaengineerai.com/pemeriksa-pesan-penipuan.html)
-- [Kiểm tra tin nhắn lừa đảo tiếng Việt](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html)
+- [English](https://alphaengineerai.com/common-online-scams.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [Español](https://alphaengineerai.com/estafas-online-comunes.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [Português](https://alphaengineerai.com/golpes-online-comuns.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [Français](https://alphaengineerai.com/arnaques-en-ligne-courantes.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [Deutsch](https://alphaengineerai.com/online-betrugsmaschen.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [हिन्दी](https://alphaengineerai.com/online-scam-guide-hi.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [العربية](https://alphaengineerai.com/online-scam-guide-ar.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [繁體中文](https://alphaengineerai.com/scam-message-checker-zh-hant.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [Pemeriksa pesan penipuan Bahasa Indonesia](https://alphaengineerai.com/pemeriksa-pesan-penipuan.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [Kiểm tra tin nhắn lừa đảo tiếng Việt](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 
 ## Safe-use rule
 
@@ -44,7 +44,7 @@ Redact passwords, payment details, verification codes, identity documents, priva
 
 ## Project
 
-- Website: [alphaengineerai.com](https://alphaengineerai.com/)
+- Website: [alphaengineerai.com](https://alphaengineerai.com/?utm_source=github&utm_medium=readme&utm_campaign=project)
 - Contributions: [help improve translations and safety guides](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md)
 - Discussions: [share regional patterns and translation feedback](https://github.com/youfuxu/alphaengineerai-landing/discussions/1)
 - Launch announcement: [free global first check for suspicious messages](https://github.com/youfuxu/alphaengineerai-landing/discussions/3)
