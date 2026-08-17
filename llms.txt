@@ -31,12 +31,14 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Privacy and safety](https://alphaengineerai.com/privacy-and-safety.html): what not to paste into a checker and how to use it responsibly.
 - [How to report an online scam](https://alphaengineerai.com/report-online-scam.html): official reporting routes across 19 countries and regions, plus guidance for others.
 - [Reportar una estafa online](https://alphaengineerai.com/reportar-estafa-online.html): canales oficiales en español y pasos seguros antes de enviar pruebas o datos sensibles.
+- [Denunciar um golpe online](https://alphaengineerai.com/denunciar-golpe-online.html): canais oficiais em português e passos seguros antes de enviar provas ou dados sensíveis.
 
 ## Language resources
 
 - [Traditional Chinese](https://alphaengineerai.com/scam-message-checker-zh-hant.html): safe first check for suspicious messages.
 - [Spanish](https://alphaengineerai.com/comprobador-mensajes-estafa.html): warning signs before clicking, paying, or replying.
 - [Spanish official reporting guide](https://alphaengineerai.com/reportar-estafa-online.html): official fraud and cybercrime routes by country in Spanish.
+- [Portuguese official reporting guide](https://alphaengineerai.com/denunciar-golpe-online.html): official fraud and cybercrime routes by country in Portuguese.
 - [Portuguese](https://alphaengineerai.com/verificador-mensagem-golpe.html): warning signs before clicking, paying, or replying.
 - [French](https://alphaengineerai.com/verificateur-message-arnaque.html): warning signs before clicking, paying, or replying.
 - [German](https://alphaengineerai.com/betrugsnachricht-pruefen.html): warning signs before clicking, paying, or replying.
