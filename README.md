@@ -48,5 +48,6 @@ Redact passwords, payment details, verification codes, identity documents, priva
 - Contributions: [help improve translations and safety guides](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md)
 - Discussions: [share regional patterns and translation feedback](https://github.com/youfuxu/alphaengineerai-landing/discussions/1)
 - Practical first check: [what to do with a suspicious SMS, email, or WhatsApp message](https://github.com/youfuxu/alphaengineerai-landing/discussions/4)
+- Clicked-link recovery: [a calm next-step checklist](https://github.com/youfuxu/alphaengineerai-landing/discussions/5)
 - Launch announcement: [free global first check for suspicious messages](https://github.com/youfuxu/alphaengineerai-landing/discussions/3)
 - Public updates: [YouTube](https://www.youtube.com/@theminddividend), [TikTok](https://www.tiktok.com/@minddividend), [Instagram](https://www.instagram.com/minddividend/)
