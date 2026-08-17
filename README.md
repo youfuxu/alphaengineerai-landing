@@ -9,7 +9,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 ## Start here
 
 - [Multilingual start page](https://alphaengineerai.com/start.html?utm_source=github&utm_medium=readme&utm_campaign=minddividend)
-- [Live MindDividend Shield checker](https://minddividend-shield.joe303262000.chatgpt.site/)
+- [Live MindDividend Shield checker](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=global_checker)
 - [Is this text a scam?](https://alphaengineerai.com/is-this-text-a-scam.html?utm_source=github&utm_medium=readme&utm_campaign=text_scam_intent): warning signs, safer verification, and post-click recovery.
 - [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=global_checker)
 - [Scam message checker guide](https://alphaengineerai.com/scam-message-checker.html)
