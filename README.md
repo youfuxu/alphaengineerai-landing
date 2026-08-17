@@ -16,6 +16,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [How to report an online scam officially](https://alphaengineerai.com/report-online-scam.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting): official reporting routes across 19 countries and regions, plus guidance for others.
 - [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
+- [Online job scam checker](https://alphaengineerai.com/online-job-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [Common online scams](https://alphaengineerai.com/common-online-scams.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [What to do after clicking a scam link](https://alphaengineerai.com/what-to-do-if-you-clicked-a-scam-link.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [Safety and privacy guide](https://alphaengineerai.com/privacy-and-safety.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
