@@ -24,6 +24,8 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Phải Làm Gì Sau Khi Nhấp Vào Liên Kết Lừa Đảo](https://alphaengineerai.com/phai-lam-gi-sau-khi-nhap-vao-lien-ket-lua-dao.html): các bước bình tĩnh bằng tiếng Việt sau khi mở liên kết đáng ngờ.
 - [詐欺リンクをクリックした後にすべきこと](https://alphaengineerai.com/what-to-do-after-clicking-scam-link-ja.html): 不審なリンクを開いた後にアカウント、支払い、端末を守る日本語チェックリスト。
 - [詐欺メッセージチェッカー](https://alphaengineerai.com/scam-message-checker-ja.html): 日本語のSMS、メール、DMを行動する前に確認する安全ガイド。
+- [사기 메시지 검사기](https://alphaengineerai.com/scam-message-checker-ko.html): 한국어 문자, 이메일, DM을 행동하기 전에 확인하는 안전 가이드.
+- [사기 링크를 클릭한 후 해야 할 일](https://alphaengineerai.com/what-to-do-after-clicking-scam-link-ko.html): 수상한 링크를 연 후 계정, 결제, 기기를 보호하는 한국어 체크리스트.
 - [How to tell if a text is a scam](https://alphaengineerai.com/how-to-tell-if-a-text-is-a-scam.html): pause-and-verify checklist.
 - [Privacy and safety](https://alphaengineerai.com/privacy-and-safety.html): what not to paste into a checker and how to use it responsibly.
 - [How to report an online scam](https://alphaengineerai.com/report-online-scam.html): official reporting routes across 19 countries and regions, plus guidance for others.
