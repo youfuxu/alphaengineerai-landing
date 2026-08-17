@@ -25,7 +25,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 
 ## Available language hubs
 
-The public guides are available in English, Traditional Chinese, Spanish, Portuguese, French, German, Hindi, Arabic, Indonesian, and Vietnamese.
+The public guides are available in English, Traditional Chinese, Spanish, Portuguese, French, German, Hindi, Arabic, Indonesian, Vietnamese, Japanese, and Korean.
 
 - [English](https://alphaengineerai.com/common-online-scams.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Español](https://alphaengineerai.com/estafas-online-comunes.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
@@ -37,6 +37,8 @@ The public guides are available in English, Traditional Chinese, Spanish, Portug
 - [繁體中文](https://alphaengineerai.com/scam-message-checker-zh-hant.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Pemeriksa pesan penipuan Bahasa Indonesia](https://alphaengineerai.com/pemeriksa-pesan-penipuan.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Kiểm tra tin nhắn lừa đảo tiếng Việt](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [日本語の詐欺メッセージチェッカー](https://alphaengineerai.com/scam-message-checker-ja.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [한국어 사기 메시지 검사기](https://alphaengineerai.com/scam-message-checker-ko.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 
 ## Safe-use rule
 
