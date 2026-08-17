@@ -71,12 +71,13 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Vietnamese](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html)
 - [Japanese](https://alphaengineerai.com/scam-message-checker-ja.html)
 - [Korean](https://alphaengineerai.com/scam-message-checker-ko.html)
+- [Italian](https://alphaengineerai.com/controllo-messaggio-truffa.html)
 
 ## Public project and updates
 
 - [XML sitemap](https://alphaengineerai.com/sitemap.xml): machine-readable index of the public pages.
 - [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the Alpha Engineer / MindDividend Shield site.
-- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.11): clicked-link recovery guidance, global checker routing, and refreshed discovery metadata.
+- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.12): Italian checker routing, 13-language discovery, and refreshed sharing metadata.
 - [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
 - [Public discussions](https://github.com/youfuxu/alphaengineerai-landing/discussions): regional scam patterns and translation feedback.
 - [Launch announcement](https://github.com/youfuxu/alphaengineerai-landing/discussions/3): free global first check, thirteen languages including Italian, and safe-use rules.
