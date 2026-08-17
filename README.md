@@ -10,6 +10,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 
 - [Multilingual start page](https://alphaengineerai.com/start.html?utm_source=github&utm_medium=readme&utm_campaign=minddividend)
 - [Live MindDividend Shield checker](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=global_checker)
+- [Italian scam message checker](https://alphaengineerai.com/controllo-messaggio-truffa.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Is this text a scam?](https://alphaengineerai.com/is-this-text-a-scam.html?utm_source=github&utm_medium=readme&utm_campaign=text_scam_intent): warning signs, safer verification, and post-click recovery.
 - [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=global_checker)
 - [Scam message checker guide](https://alphaengineerai.com/scam-message-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
@@ -26,7 +27,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 
 ## Available language hubs
 
-The public guides are available in English, Traditional Chinese, Spanish, Portuguese, French, German, Hindi, Arabic, Indonesian, Vietnamese, Japanese, and Korean.
+The public guides are available in English, Traditional Chinese, Spanish, Portuguese, French, German, Hindi, Arabic, Indonesian, Vietnamese, Japanese, Korean, and Italian.
 
 - [English](https://alphaengineerai.com/common-online-scams.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Español](https://alphaengineerai.com/estafas-online-comunes.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
@@ -40,6 +41,7 @@ The public guides are available in English, Traditional Chinese, Spanish, Portug
 - [Kiểm tra tin nhắn lừa đảo tiếng Việt](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [日本語の詐欺メッセージチェッカー](https://alphaengineerai.com/scam-message-checker-ja.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [한국어 사기 메시지 검사기](https://alphaengineerai.com/scam-message-checker-ko.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [Controllo messaggio truffa in italiano](https://alphaengineerai.com/controllo-messaggio-truffa.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 
 ## Safe-use rule
 
