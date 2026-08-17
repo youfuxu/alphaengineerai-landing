@@ -7,7 +7,8 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 ## Primary resources
 
 - [Start here](https://alphaengineerai.com/start.html): multilingual entry point, safety rule, and public sharing links.
-- [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html): focused search entry point with safe-use rules, common signals, FAQs, and ten-language links.
+- [Is this text a scam?](https://alphaengineerai.com/is-this-text-a-scam.html): high-intent guide to urgency, codes, payment requests, impersonation, unsafe links, and safer next steps.
+- [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html): focused entry point with safe-use rules, common signals, FAQs, and ten-language links.
 - [Scam message checker](https://alphaengineerai.com/scam-message-checker.html): English guide for suspicious texts, email, DMs, bank alerts, jobs, and payments.
 - [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html): checks verification-code requests, family emergencies, fake support, groups, and payment links.
 - [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html): checks sender identity, login links, attachments, invoices, payment requests, and urgency.
@@ -15,38 +16,38 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [What to do if you clicked a scam link](https://alphaengineerai.com/what-to-do-if-you-clicked-a-scam-link.html): calm response checklist after a click.
 - [How to tell if a text is a scam](https://alphaengineerai.com/how-to-tell-if-a-text-is-a-scam.html): pause-and-verify checklist.
 - [Privacy and safety](https://alphaengineerai.com/privacy-and-safety.html): what not to paste into a checker and how to use it responsibly.
-- [How to report an online scam](https://alphaengineerai.com/report-online-scam.html): official reporting routes across 15 countries and regions, plus guidance for others and safer steps after a suspicious message or payment request.
+- [How to report an online scam](https://alphaengineerai.com/report-online-scam.html): official reporting routes across 15 countries and regions, plus guidance for others.
 
 ## Language resources
 
-- [繁體中文詐騙訊息檢查器](https://alphaengineerai.com/scam-message-checker-zh-hant.html): 在點擊、付款或回覆前，先檢查可疑訊息。
-- [Comprobador de mensajes de estafa en español](https://alphaengineerai.com/comprobador-mensajes-estafa.html): señales de alerta antes de hacer clic, pagar o responder.
-- [Verificador de mensagens de golpe em português](https://alphaengineerai.com/verificador-mensagem-golpe.html): sinais de alerta antes de clicar, pagar ou responder.
-- [Vérificateur de messages d'arnaque en français](https://alphaengineerai.com/verificateur-message-arnaque.html): vérifiez les signaux d'alerte avant de cliquer, payer ou répondre.
-- [Betrugsnachrichten auf Deutsch prüfen](https://alphaengineerai.com/betrugsnachricht-pruefen.html): Warnzeichen vor dem Klicken, Bezahlen oder Antworten.
-- [हिंदी धोखाधड़ी संदेश चेकर](https://alphaengineerai.com/scam-message-checker-hi.html): क्लिक, भुगतान या जवाब देने से पहले संकेतों की जाँच करें।
-- [فاحص رسائل الاحتيال بالعربية](https://alphaengineerai.com/scam-message-checker-ar.html): تحقق من إشارات الخطر قبل النقر أو الدفع أو الرد.
-- [Pemeriksa pesan penipuan Bahasa Indonesia](https://alphaengineerai.com/pemeriksa-pesan-penipuan.html): periksa tanda bahaya sebelum mengeklik, membayar, atau membalas.
-- [Kiểm tra tin nhắn lừa đảo bằng tiếng Việt](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html): kiểm tra dấu hiệu nguy hiểm trước khi nhấp, trả tiền hoặc trả lời.
-
-## Public project and updates
-
-- [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the Alpha Engineer / MindDividend Shield site.
-- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.4): international hreflang alignment, SEO freshness, privacy-safe measurement across checker and reporting paths, RSS distribution, and public feedback path.
-- [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
-- [Public discussions](https://github.com/youfuxu/alphaengineerai-landing/discussions): regional scam patterns and translation feedback.
-- [Mind Dividend on YouTube](https://www.youtube.com/@theminddividend): public videos and multilingual safety updates.
-- [MindDividend on Instagram](https://www.instagram.com/minddividend/): short-form psychology, money, human behavior, and online-safety updates.
+- [Traditional Chinese](https://alphaengineerai.com/scam-message-checker-zh-hant.html): safe first check for suspicious messages.
+- [Spanish](https://alphaengineerai.com/comprobador-mensajes-estafa.html): warning signs before clicking, paying, or replying.
+- [Portuguese](https://alphaengineerai.com/verificador-mensagem-golpe.html): warning signs before clicking, paying, or replying.
+- [French](https://alphaengineerai.com/verificateur-message-arnaque.html): warning signs before clicking, paying, or replying.
+- [German](https://alphaengineerai.com/betrugsnachricht-pruefen.html): warning signs before clicking, paying, or replying.
+- [Hindi](https://alphaengineerai.com/scam-message-checker-hi.html): safe first check for suspicious messages.
+- [Arabic](https://alphaengineerai.com/scam-message-checker-ar.html): safe first check for suspicious messages.
+- [Indonesian](https://alphaengineerai.com/pemeriksa-pesan-penipuan.html): warning signs before clicking, paying, or replying.
+- [Vietnamese](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html): warning signs before clicking, paying, or replying.
 
 ## Language hubs
 
 - [English](https://alphaengineerai.com/common-online-scams.html)
-- [Español](https://alphaengineerai.com/estafas-online-comunes.html)
-- [Português](https://alphaengineerai.com/golpes-online-comuns.html)
-- [Français](https://alphaengineerai.com/arnaques-en-ligne-courantes.html)
-- [Deutsch](https://alphaengineerai.com/online-betrugsmaschen.html)
-- [हिन्दी](https://alphaengineerai.com/online-scam-guide-hi.html)
-- [العربية](https://alphaengineerai.com/online-scam-guide-ar.html)
+- [Spanish](https://alphaengineerai.com/estafas-online-comunes.html)
+- [Portuguese](https://alphaengineerai.com/golpes-online-comuns.html)
+- [French](https://alphaengineerai.com/arnaques-en-ligne-courantes.html)
+- [German](https://alphaengineerai.com/online-betrugsmaschen.html)
+- [Hindi](https://alphaengineerai.com/online-scam-guide-hi.html)
+- [Arabic](https://alphaengineerai.com/online-scam-guide-ar.html)
+
+## Public project and updates
+
+- [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the Alpha Engineer / MindDividend Shield site.
+- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.4): international hreflang alignment, SEO freshness, privacy-safe measurement, RSS distribution, and public feedback path.
+- [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
+- [Public discussions](https://github.com/youfuxu/alphaengineerai-landing/discussions): regional scam patterns and translation feedback.
+- [Mind Dividend on YouTube](https://www.youtube.com/@theminddividend): public videos and multilingual safety updates.
+- [MindDividend on Instagram](https://www.instagram.com/minddividend/): short-form psychology, money, human behavior, and online-safety updates.
 
 ## Safe interpretation
 
