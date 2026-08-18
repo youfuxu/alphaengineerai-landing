@@ -5,7 +5,7 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 10:39:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 11:01:00 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Share the safety rule before you click or pay</title>
@@ -13,6 +13,13 @@
       <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/discussions/7</guid>
       <description>A public, multilingual first-check page to share without forwarding passwords, payment details, verification codes, or private messages.</description>
       <pubDate>Tue, 18 Aug 2026 10:39:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>v0.1.17: global RSS and machine-readable distribution</title>
+      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.17</link>
+      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.17</guid>
+      <description>MindDividend Shield v0.1.17 exposes safety and blog RSS feeds across the public site, adds machine-readable discovery links, and completes social preview metadata across 76 indexable pages.</description>
+      <pubDate>Tue, 18 Aug 2026 11:01:00 GMT</pubDate>
     </item>
     <item>
       <title>v0.1.16: opt-in safety sharing entry points</title>

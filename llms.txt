@@ -80,7 +80,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [RSS safety guide feed](https://alphaengineerai.com/feed.xml): machine-readable updates for the global safety guides.
 - [AI tools and passive-income blog feed](https://alphaengineerai.com/blog-feed.xml): machine-readable updates for the Alpha Engineer blog.
 - [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the Alpha Engineer / MindDividend Shield site.
-- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.16): opt-in WhatsApp, Telegram, Facebook, and X sharing entry points for the safety rule, with anonymous share-click attribution.
+- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.17): global RSS feeds, machine-readable discovery links, and complete social preview metadata across the public site.
 - [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
 - [Public discussions](https://github.com/youfuxu/alphaengineerai-landing/discussions): regional scam patterns and translation feedback.
 - [Launch announcement](https://github.com/youfuxu/alphaengineerai-landing/discussions/3): free global first check, thirteen languages including Italian, and safe-use rules.
