@@ -13,7 +13,6 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Live MindDividend Shield checker](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=global_checker)
 - [Italian scam message checker](https://alphaengineerai.com/controllo-messaggio-truffa.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Is this text a scam?](https://alphaengineerai.com/is-this-text-a-scam.html?utm_source=github&utm_medium=readme&utm_campaign=text_scam_intent): warning signs, safer verification, and post-click recovery.
-- [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=global_checker)
 - [Scam message checker guide](https://alphaengineerai.com/scam-message-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [How to report an online scam officially](https://alphaengineerai.com/report-online-scam.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting): official reporting routes across 19 countries and regions, plus guidance for others.
 - [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
