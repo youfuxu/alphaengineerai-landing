@@ -5,7 +5,7 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 12:25:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 12:32:26 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>v0.1.20: complete 13-language post-click recovery coverage</title>
@@ -13,6 +13,13 @@
       <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.20</guid>
       <description>A Traditional Chinese recovery checklist completes reciprocal post-click hreflang coverage across all thirteen language hubs, with directory, RSS, and XML sitemap links.</description>
       <pubDate>Tue, 18 Aug 2026 12:25:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Global directory now lists all 13 post-click recovery guides</title>
+      <link>https://alphaengineerai.com/guide-directory.html#recovery-guides</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/guide-directory.html#recovery-guides</guid>
+      <description>The public directory now exposes every language-specific recovery checklist in one place, alongside message checkers, common scam patterns, and official reporting routes.</description>
+      <pubDate>Tue, 18 Aug 2026 12:32:26 GMT</pubDate>
     </item>
     <item>
       <title>Global guide directory: quick answers before you start</title>
