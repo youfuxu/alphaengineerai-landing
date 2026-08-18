@@ -78,11 +78,11 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 
 - [XML sitemap](https://alphaengineerai.com/sitemap.xml): machine-readable index of the public pages.
 - [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the Alpha Engineer / MindDividend Shield site.
-- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.14): safety-first homepage positioning, public security metadata, complete multilingual discovery coverage, reciprocal hreflang links, and refreshed sitemap timestamps.
+- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.15): Italian post-click recovery checklist, direct start-page entry, reciprocal hreflang links, and refreshed public discovery paths.
 - [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
 - [Public discussions](https://github.com/youfuxu/alphaengineerai-landing/discussions): regional scam patterns and translation feedback.
 - [Launch announcement](https://github.com/youfuxu/alphaengineerai-landing/discussions/3): free global first check, thirteen languages including Italian, and safe-use rules.
-- [Safety-first v0.1.14 announcement](https://github.com/youfuxu/alphaengineerai-landing/discussions/6): public release positioning, redaction guidance, and global entry points.
+- [Safety-first v0.1.15 release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.15): Italian recovery guidance, redaction guidance, and global entry points.
 - [Practical first check Q&A](https://github.com/youfuxu/alphaengineerai-landing/discussions/4): what to do with a suspicious SMS, email, or WhatsApp message.
 - [Clicked-link recovery checklist](https://github.com/youfuxu/alphaengineerai-landing/discussions/5): calm next steps after clicking, paying, downloading, or sharing information.
 - [Mind Dividend on YouTube](https://www.youtube.com/@theminddividend): public videos and multilingual safety updates.
