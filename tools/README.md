@@ -15,7 +15,10 @@
 python tools/add_seo_meta.py            # dry-run，只印出會改什麼
 python tools/add_seo_meta.py --apply    # 實際寫入
 python tools/build_common_scam_hubs.py  # 產生六個新增語言主題頁
+powershell -ExecutionPolicy Bypass -File tools/submit-indexnow.ps1  # 送出目前 sitemap 的完整網址清單
 ```
+
+`submit-indexnow.ps1` 會讀取線上 `sitemap.xml` 與公開 IndexNow key，提交目前完整網址清單，並輸出 HTTP 狀態及提交數量。
 
 維護腳本都遵循冪等模式；批次寫入後，請依下方清單驗證再提交。
 
