@@ -5,8 +5,15 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 13:49:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 13:56:27 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Start page now exposes all thirteen language checkers</title>
+      <link>https://alphaengineerai.com/start.html#languages</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/start.html#languages</guid>
+      <description>The primary start page now presents all thirteen language-specific scam message checkers in one visible selector and a machine-readable ItemList.</description>
+      <pubDate>Tue, 18 Aug 2026 13:56:27 GMT</pubDate>
+    </item>
     <item>
       <title>v0.1.21: standard sitemap index and recurring discovery</title>
       <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.21</link>
