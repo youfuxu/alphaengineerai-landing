@@ -5,7 +5,7 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 12:34:33 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 12:38:16 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>v0.1.20: complete 13-language post-click recovery coverage</title>
@@ -27,6 +27,13 @@
       <guid isPermaLink="true">https://alphaengineerai.com/guide-directory.html#common-scam-guides</guid>
       <description>The public directory now exposes every language-specific common-scam overview alongside message checkers, recovery checklists, and official reporting routes.</description>
       <pubDate>Tue, 18 Aug 2026 12:34:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Machine-readable global directory map expanded</title>
+      <link>https://alphaengineerai.com/guide-directory.html#machine-readable-map</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/guide-directory.html#machine-readable-map</guid>
+      <description>The directory schema now describes all thirteen message checkers, thirteen common-scam pattern guides, and thirteen post-click recovery guides for search and machine discovery.</description>
+      <pubDate>Tue, 18 Aug 2026 12:38:16 GMT</pubDate>
     </item>
     <item>
       <title>Global guide directory: quick answers before you start</title>
