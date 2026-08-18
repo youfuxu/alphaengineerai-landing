@@ -75,6 +75,16 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Korean](https://alphaengineerai.com/scam-message-checker-ko.html)
 - [Italian](https://alphaengineerai.com/controllo-messaggio-truffa.html)
 
+## Common scam pattern guides
+
+- [English common online scams](https://alphaengineerai.com/common-online-scams.html): bank, delivery, job, investment, marketplace, impersonation, and tech-support patterns.
+- [常見網路詐騙（繁體中文）](https://alphaengineerai.com/common-online-scams-zh-hant.html): 點擊、付款或回覆前的常見故事與施壓模式。
+- [Penipuan online umum（Bahasa Indonesia）](https://alphaengineerai.com/common-online-scams-id.html): tanda bahaya bank, pengiriman, pekerjaan, investasi, marketplace, dan akun palsu.
+- [Các trò lừa đảo trực tuyến phổ biến（Tiếng Việt）](https://alphaengineerai.com/common-online-scams-vi.html): dấu hiệu trong ngân hàng, giao hàng, việc làm, đầu tư và hỗ trợ giả.
+- [よくあるネット詐欺（日本語）](https://alphaengineerai.com/common-online-scams-ja.html): 急がせるパターンをクリック・送金・返信の前に確認するガイド。
+- [흔한 온라인 사기（한국어）](https://alphaengineerai.com/common-online-scams-ko.html): 은행, 배송, 일자리, 투자, 거래와 계정 사칭의 위험 신호。
+- [Truffe online comuni（Italiano）](https://alphaengineerai.com/common-online-scams-it.html): segnali di banca, consegne, lavoro, investimenti, marketplace e falso supporto.
+
 ## Public project and updates
 
 - [XML sitemap](https://alphaengineerai.com/sitemap.xml): machine-readable index of the public pages.

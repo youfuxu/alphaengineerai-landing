@@ -1,21 +1,23 @@
 # tools/ — 一次性維護腳本（全部冪等，可安全重跑）
 
-這裡放的是對 `blog/*.html` 與根頁面做批次維護的腳本。**每一支都是冪等的**——已經處理過的檔案會自動跳過，所以新增文章後直接重跑即可，不會產生重複內容。
+這裡放的是對 `blog/*.html`、根頁面與全球語言入口做批次維護的腳本。**每一支都是冪等的**——已經處理過的檔案會自動跳過，所以新增文章或語言頁後可以直接重跑。
 
 | 腳本 | 做什麼 | 何時重跑 |
 |---|---|---|
 | `add_seo_meta.py` | 為 `blog/*.html` 補 `canonical`、`og:url`、`BlogPosting` JSON-LD。日期取自 `sitemap.xml` 的 `<lastmod>`，headline 取 `<title>` 去掉「 \| Alpha Engineer」後綴 | **每次新增文章後** |
 | `add_root_schema.py` | 為 `index.html` / `blog.html` / `tools.html` 補 canonical 與站台層級 schema（Organization + WebSite + WebPage / Blog / CollectionPage，以 `@id` 互相連結） | 幾乎不用重跑，除非新增根頁面 |
 | `hub_links.py` | 在 `best-ai-tools-engineers-passive-income.html` 的每張 tool-card 末尾，補一句連向該工具深度專文的內部連結 | 該清單文新增工具、或新增工具專文時 |
+| `build_common_scam_hubs.py` | 產生繁中、印尼、越南、日、韓、義大利文的常見詐騙主題入口 | 翻譯內容更新或新增語言入口時 |
 
 ## 用法
 
 ```bash
 python tools/add_seo_meta.py            # dry-run，只印出會改什麼
 python tools/add_seo_meta.py --apply    # 實際寫入
+python tools/build_common_scam_hubs.py  # 產生六個新增語言主題頁
 ```
 
-三支都遵循同一個模式：**先 dry-run 看清單，確認無誤再 `--apply`**。
+維護腳本都遵循冪等模式；批次寫入後，請依下方清單驗證再提交。
 
 ## 驗證方式（2026-08-06 建立時用的）
 

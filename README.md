@@ -46,6 +46,17 @@ The public guides are available in English, Traditional Chinese, Spanish, Portug
 - [Controllo messaggio truffa in italiano](https://alphaengineerai.com/controllo-messaggio-truffa.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Cosa fare dopo un clic sospetto in italiano](https://alphaengineerai.com/cosa-fare-dopo-aver-cliccato-link-truffa.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 
+## Common scam pattern guides
+
+These topic pages explain the recurring pressure patterns behind bank, delivery, job, investment, marketplace, impersonation, and fake-support scams in six additional language-specific entry points:
+
+- [繁體中文常見網路詐騙](https://alphaengineerai.com/common-online-scams-zh-hant.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
+- [Penipuan online umum dalam Bahasa Indonesia](https://alphaengineerai.com/common-online-scams-id.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
+- [Các trò lừa đảo trực tuyến phổ biến bằng tiếng Việt](https://alphaengineerai.com/common-online-scams-vi.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
+- [よくあるネット詐欺（日本語）](https://alphaengineerai.com/common-online-scams-ja.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
+- [한국어 흔한 온라인 사기](https://alphaengineerai.com/common-online-scams-ko.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
+- [Truffe online comuni in italiano](https://alphaengineerai.com/common-online-scams-it.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
+
 ## Safe-use rule
 
 Redact passwords, payment details, verification codes, identity documents, private addresses, and other sensitive information before using a checker. When money or account access is involved, verify through the official app, website, or a known contact route.

@@ -5,7 +5,7 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 11:34:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 12:06:00 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Global scam safety guide directory: 13 languages</title>
@@ -356,6 +356,48 @@
       <guid isPermaLink="true">https://alphaengineerai.com/online-scam-guide-ar.html</guid>
       <description>A practical guide to common online scams and safer next steps in Arabic.</description>
       <pubDate>Sat, 16 Aug 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>常見網路詐騙（繁體中文）</title>
+      <link>https://alphaengineerai.com/common-online-scams-zh-hant.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/common-online-scams-zh-hant.html</guid>
+      <description>點擊、付款或回覆前，了解銀行、包裹、工作、投資與假客服的常見施壓模式。</description>
+      <pubDate>Tue, 18 Aug 2026 12:01:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Common Online Scams in Indonesian</title>
+      <link>https://alphaengineerai.com/common-online-scams-id.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/common-online-scams-id.html</guid>
+      <description>Kenali pola umum penipuan bank, pengiriman, pekerjaan, investasi, marketplace, dan dukungan palsu.</description>
+      <pubDate>Tue, 18 Aug 2026 12:01:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Các trò lừa đảo trực tuyến phổ biến bằng tiếng Việt</title>
+      <link>https://alphaengineerai.com/common-online-scams-vi.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/common-online-scams-vi.html</guid>
+      <description>Nhận biết các mô hình lừa đảo ngân hàng, giao hàng, việc làm, đầu tư và hỗ trợ kỹ thuật giả.</description>
+      <pubDate>Tue, 18 Aug 2026 12:01:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>よくあるネット詐欺（日本語）</title>
+      <link>https://alphaengineerai.com/common-online-scams-ja.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/common-online-scams-ja.html</guid>
+      <description>銀行、配送、求人、投資、フリマ、なりすまし、偽サポートの危険サインを確認するガイド。</description>
+      <pubDate>Tue, 18 Aug 2026 12:01:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>흔한 온라인 사기（한국어）</title>
+      <link>https://alphaengineerai.com/common-online-scams-ko.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/common-online-scams-ko.html</guid>
+      <description>은행, 배송, 일자리, 투자, 거래와 계정 사칭의 공통 위험 신호를 확인하는 가이드.</description>
+      <pubDate>Tue, 18 Aug 2026 12:01:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Truffe online comuni in italiano</title>
+      <link>https://alphaengineerai.com/common-online-scams-it.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/common-online-scams-it.html</guid>
+      <description>Segnali comuni di truffe bancarie, consegne, lavoro, investimenti, marketplace e falso supporto tecnico.</description>
+      <pubDate>Tue, 18 Aug 2026 12:01:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
