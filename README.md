@@ -1,6 +1,6 @@
 # MindDividend Shield
 
-[Latest public release: Italian post-click recovery entry](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.15)
+[Latest public release: opt-in safety sharing entry points](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.16)
 
 MindDividend Shield is a free, safety-first first check for suspicious texts, emails, social messages, payment requests, account alerts, job offers, and delivery notices.
 
@@ -57,5 +57,5 @@ Redact passwords, payment details, verification codes, identity documents, priva
 - Practical first check: [what to do with a suspicious SMS, email, or WhatsApp message](https://github.com/youfuxu/alphaengineerai-landing/discussions/4)
 - Clicked-link recovery: [a calm next-step checklist](https://github.com/youfuxu/alphaengineerai-landing/discussions/5)
 - Launch announcement: [free global first check for suspicious messages](https://github.com/youfuxu/alphaengineerai-landing/discussions/3)
-- Latest safety-first release: [v0.1.15 Italian post-click recovery entry](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.15)
+- Latest safety-first release: [v0.1.16 opt-in safety sharing entry points](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.16)
 - Public updates: [YouTube](https://www.youtube.com/@theminddividend), [TikTok](https://www.tiktok.com/@minddividend), [Instagram](https://www.instagram.com/minddividend/)

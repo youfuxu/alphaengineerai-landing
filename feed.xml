@@ -5,8 +5,15 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 08:56:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 09:42:34 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>v0.1.16: opt-in safety sharing entry points</title>
+      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.16</link>
+      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.16</guid>
+      <description>MindDividend Shield v0.1.16 adds opt-in WhatsApp, Telegram, Facebook, and X sharing links for the safety rule, with anonymous share-click attribution.</description>
+      <pubDate>Tue, 18 Aug 2026 09:42:34 GMT</pubDate>
+    </item>
     <item>
       <title>MindDividend Shield Start Here</title>
       <link>https://alphaengineerai.com/start.html</link>
