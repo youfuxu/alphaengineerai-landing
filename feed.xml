@@ -5,8 +5,15 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 12:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 12:20:05 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global guide directory: quick answers before you start</title>
+      <link>https://alphaengineerai.com/guide-directory.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/guide-directory.html#quick-answers</guid>
+      <description>Four practical answers explain what to redact, why a checker is only a first-pass signal, how to choose a language and situation guide, and what to do after a click or payment.</description>
+      <pubDate>Tue, 18 Aug 2026 12:20:05 GMT</pubDate>
+    </item>
     <item>
       <title>Global scam safety guide directory: 13 languages</title>
       <link>https://github.com/youfuxu/alphaengineerai-landing/discussions/8</link>
