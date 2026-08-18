@@ -20,6 +20,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Online job scam checker](https://alphaengineerai.com/online-job-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [Common online scams](https://alphaengineerai.com/common-online-scams.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [What to do after clicking a scam link](https://alphaengineerai.com/what-to-do-if-you-clicked-a-scam-link.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
+- [Cosa fare dopo aver cliccato un link truffa](https://alphaengineerai.com/cosa-fare-dopo-aver-cliccato-link-truffa.html?utm_source=github&utm_medium=readme&utm_campaign=italian_recovery)
 - [Safety and privacy guide](https://alphaengineerai.com/privacy-and-safety.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [RSS safety guide feed](https://alphaengineerai.com/feed.xml)
 - [AI tools and passive-income blog feed](https://alphaengineerai.com/blog-feed.xml)
@@ -42,6 +43,7 @@ The public guides are available in English, Traditional Chinese, Spanish, Portug
 - [日本語の詐欺メッセージチェッカー](https://alphaengineerai.com/scam-message-checker-ja.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [한국어 사기 메시지 검사기](https://alphaengineerai.com/scam-message-checker-ko.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Controllo messaggio truffa in italiano](https://alphaengineerai.com/controllo-messaggio-truffa.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [Cosa fare dopo un clic sospetto in italiano](https://alphaengineerai.com/cosa-fare-dopo-aver-cliccato-link-truffa.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 
 ## Safe-use rule
 
