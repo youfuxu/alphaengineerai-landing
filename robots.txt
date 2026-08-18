@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://alphaengineerai.com/sitemap-index.xml
 Sitemap: https://alphaengineerai.com/sitemap.xml
 Sitemap: https://alphaengineerai.com/core-sitemap.xml
 Sitemap: https://alphaengineerai.com/feed.xml

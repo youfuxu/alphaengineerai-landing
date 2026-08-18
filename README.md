@@ -26,6 +26,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Safety and privacy guide](https://alphaengineerai.com/privacy-and-safety.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [RSS safety guide feed](https://alphaengineerai.com/feed.xml)
 - [AI tools and passive-income blog feed](https://alphaengineerai.com/blog-feed.xml)
+- [Sitemap index](https://alphaengineerai.com/sitemap-index.xml)
 - [Machine-readable site guide](https://alphaengineerai.com/llms.txt)
 
 ## Available language hubs
