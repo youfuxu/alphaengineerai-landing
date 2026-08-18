@@ -49,8 +49,14 @@ The public guides are available in English, Traditional Chinese, Spanish, Portug
 
 ## Common scam pattern guides
 
-These topic pages explain the recurring pressure patterns behind bank, delivery, job, investment, marketplace, impersonation, and fake-support scams in six additional language-specific entry points:
+These topic pages explain the recurring pressure patterns behind bank, delivery, job, investment, marketplace, impersonation, and fake-support scams across all thirteen language-specific entry points:
 
+- [Estafas online comunes en español](https://alphaengineerai.com/estafas-online-comunes.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
+- [Golpes online comuns em português](https://alphaengineerai.com/golpes-online-comuns.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
+- [Arnaques en ligne courantes en français](https://alphaengineerai.com/arnaques-en-ligne-courantes.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
+- [Häufige Online-Betrugsmaschen auf Deutsch](https://alphaengineerai.com/online-betrugsmaschen.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
+- [हिन्दी में आम ऑनलाइन ठगी](https://alphaengineerai.com/online-scam-guide-hi.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
+- [أشكال الاحتيال الشائعة بالعربية](https://alphaengineerai.com/online-scam-guide-ar.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
 - [繁體中文常見網路詐騙](https://alphaengineerai.com/common-online-scams-zh-hant.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
 - [Penipuan online umum dalam Bahasa Indonesia](https://alphaengineerai.com/common-online-scams-id.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
 - [Các trò lừa đảo trực tuyến phổ biến bằng tiếng Việt](https://alphaengineerai.com/common-online-scams-vi.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)

@@ -7,7 +7,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 ## Primary resources
 
 - [Start here](https://alphaengineerai.com/start.html): multilingual entry point, safety rule, and public sharing links.
-- [Global safety guide directory](https://alphaengineerai.com/guide-directory.html): browse thirteen language hubs, message checkers, recovery checklists, and reporting guides.
+- [Global safety guide directory](https://alphaengineerai.com/guide-directory.html): browse thirteen language hubs, message checkers, recovery checklists, common-scam pattern guides, and official reporting routes.
 - [Is this text a scam?](https://alphaengineerai.com/is-this-text-a-scam.html): high-intent guide to urgency, codes, payment requests, impersonation, unsafe links, and safer next steps.
 - [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html): focused entry point with safe-use rules, common signals, FAQs, and thirteen-language links including Italian.
 - [Scam message checker](https://alphaengineerai.com/scam-message-checker.html): English guide for suspicious texts, email, DMs, bank alerts, jobs, and payments.
@@ -42,7 +42,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 
 ## Language resources
 
-- [Traditional Chinese](https://alphaengineerai.com/scam-message-checker-zh-hant.html): safe first check for suspicious messages.
+- [Traditional Chinese](https://alphaengineerai.com/common-online-scams-zh-hant.html): common scam patterns before clicking, paying, or replying.
 - [Spanish](https://alphaengineerai.com/comprobador-mensajes-estafa.html): warning signs before clicking, paying, or replying.
 - [Spanish official reporting guide](https://alphaengineerai.com/reportar-estafa-online.html): official fraud and cybercrime routes by country in Spanish.
 - [Portuguese official reporting guide](https://alphaengineerai.com/denunciar-golpe-online.html): official fraud and cybercrime routes by country in Portuguese.
@@ -55,10 +55,10 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [German](https://alphaengineerai.com/betrugsnachricht-pruefen.html): warning signs before clicking, paying, or replying.
 - [Hindi](https://alphaengineerai.com/scam-message-checker-hi.html): safe first check for suspicious messages.
 - [Arabic](https://alphaengineerai.com/scam-message-checker-ar.html): safe first check for suspicious messages.
-- [Indonesian](https://alphaengineerai.com/pemeriksa-pesan-penipuan.html): warning signs before clicking, paying, or replying.
-- [Vietnamese](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html): warning signs before clicking, paying, or replying.
-- [Japanese](https://alphaengineerai.com/scam-message-checker-ja.html): warning signs before replying, sending money, or clicking.
-- [Korean](https://alphaengineerai.com/scam-message-checker-ko.html): warning signs before replying, sending money, or clicking.
+- [Indonesian](https://alphaengineerai.com/common-online-scams-id.html): common scam patterns before clicking, paying, or replying.
+- [Vietnamese](https://alphaengineerai.com/common-online-scams-vi.html): common scam patterns before clicking, paying, or replying.
+- [Japanese](https://alphaengineerai.com/common-online-scams-ja.html): common scam patterns before replying, sending money, or clicking.
+- [Korean](https://alphaengineerai.com/common-online-scams-ko.html): common scam patterns before replying, sending money, or clicking.
 
 ## Language hubs
 
@@ -74,10 +74,16 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Vietnamese](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html)
 - [Japanese](https://alphaengineerai.com/scam-message-checker-ja.html)
 - [Korean](https://alphaengineerai.com/scam-message-checker-ko.html)
-- [Italian](https://alphaengineerai.com/controllo-messaggio-truffa.html)
+- [Italian](https://alphaengineerai.com/common-online-scams-it.html)
 
 ## Common scam pattern guides
 
+- [Estafas online comunes（Español）](https://alphaengineerai.com/estafas-online-comunes.html): patrones de banca, entregas, empleo, inversión, marketplaces y suplantación.
+- [Golpes online comuns（Português）](https://alphaengineerai.com/golpes-online-comuns.html): padrões de banco, entregas, emprego, investimento e suporte falso.
+- [Arnaques en ligne courantes（Français）](https://alphaengineerai.com/arnaques-en-ligne-courantes.html): signaux liés aux banques, livraisons, emploi, investissement et faux support.
+- [Häufige Online-Betrugsmaschen（Deutsch）](https://alphaengineerai.com/online-betrugsmaschen.html): Warnzeichen bei Bank, Lieferung, Job, Investition und Identitätsvortäuschung.
+- [आम ऑनलाइन ठगी（हिन्दी）](https://alphaengineerai.com/online-scam-guide-hi.html): बैंक, डिलीवरी, नौकरी, निवेश और नकली सहायता के सामान्य तरीके।
+- [أشكال الاحتيال الشائعة（العربية）](https://alphaengineerai.com/online-scam-guide-ar.html): علامات التحذير في البنوك والتوصيل والعمل والاستثمار والدعم المزيف.
 - [English common online scams](https://alphaengineerai.com/common-online-scams.html): bank, delivery, job, investment, marketplace, impersonation, and tech-support patterns.
 - [常見網路詐騙（繁體中文）](https://alphaengineerai.com/common-online-scams-zh-hant.html): 點擊、付款或回覆前的常見故事與施壓模式。
 - [Penipuan online umum（Bahasa Indonesia）](https://alphaengineerai.com/common-online-scams-id.html): tanda bahaya bank, pengiriman, pekerjaan, investasi, marketplace, dan akun palsu.
