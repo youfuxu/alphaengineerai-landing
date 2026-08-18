@@ -64,6 +64,17 @@ These topic pages explain the recurring pressure patterns behind bank, delivery,
 - [한국어 흔한 온라인 사기](https://alphaengineerai.com/common-online-scams-ko.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
 - [Truffe online comuni in italiano](https://alphaengineerai.com/common-online-scams-it.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
 
+## Official reporting guides
+
+Use the route for the relevant country or service, and verify through an official app, website, or known contact channel before sending evidence.
+
+- [English official reporting guide](https://alphaengineerai.com/report-online-scam.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [Guía oficial en español](https://alphaengineerai.com/reportar-estafa-online.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [Guia oficial em português](https://alphaengineerai.com/denunciar-golpe-online.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [Guide officiel en français](https://alphaengineerai.com/signaler-arnaque-en-ligne.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [Offizieller Leitfaden auf Deutsch](https://alphaengineerai.com/betrug-online-melden.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [Guida ufficiale in italiano](https://alphaengineerai.com/segnalare-truffa-online.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+
 ## Safe-use rule
 
 Redact passwords, payment details, verification codes, identity documents, private addresses, and other sensitive information before using a checker. When money or account access is involved, verify through the official app, website, or a known contact route.
