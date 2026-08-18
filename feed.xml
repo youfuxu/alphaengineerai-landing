@@ -5,8 +5,15 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 12:41:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 13:49:56 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>v0.1.21: standard sitemap index and recurring discovery</title>
+      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.21</link>
+      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.21</guid>
+      <description>The public site now exposes a standard sitemap index and submits its current 84-page sitemap to IndexNow after successful deployments and on a recurring schedule.</description>
+      <pubDate>Tue, 18 Aug 2026 13:21:23 GMT</pubDate>
+    </item>
     <item>
       <title>v0.1.20: complete 13-language post-click recovery coverage</title>
       <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.20</link>
