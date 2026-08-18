@@ -1,0 +1,20 @@
+name: Submit public URLs to IndexNow
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the public site map
+        uses: actions/checkout@v4
+
+      - name: Submit the current sitemap to IndexNow
+        shell: pwsh
+        run: ./tools/submit-indexnow.ps1

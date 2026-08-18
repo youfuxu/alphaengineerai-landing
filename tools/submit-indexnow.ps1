@@ -5,7 +5,7 @@ param(
 $ErrorActionPreference = "Stop"
 $BaseUrl = $BaseUrl.TrimEnd('/')
 $sitemapUrl = "$BaseUrl/sitemap.xml"
-$keyPath = Join-Path $PSScriptRoot "..\c7b8e5d1-7a4f-4c6b-9e21-3d8f2a6b5c40.txt"
+$keyPath = Join-Path (Join-Path $PSScriptRoot "..") "c7b8e5d1-7a4f-4c6b-9e21-3d8f2a6b5c40.txt"
 
 $sitemap = [xml](Invoke-WebRequest -Uri $sitemapUrl -UseBasicParsing -TimeoutSec 30).Content
 $urls = @($sitemap.urlset.url.loc)
