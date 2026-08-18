@@ -16,6 +16,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Online job scam checker](https://alphaengineerai.com/online-job-scam-checker.html): checks upfront fees, crypto tasks, reshipping requests, fake recruiters, and pressure to move off-platform.
 - [Common online scams](https://alphaengineerai.com/common-online-scams.html): English overview of bank, delivery, job, investment, marketplace, impersonation, and tech-support scams.
 - [What to do if you clicked a scam link](https://alphaengineerai.com/what-to-do-if-you-clicked-a-scam-link.html): calm response checklist after a click.
+- [點擊詐騙連結後怎麼辦？](https://alphaengineerai.com/what-to-do-after-clicking-scam-link-zh-hant.html): 點擊可疑連結後保護帳戶、付款、裝置與證據的繁體中文清單。
 - [Cosa fare dopo aver cliccato un link truffa](https://alphaengineerai.com/cosa-fare-dopo-aver-cliccato-link-truffa.html): checklist italiana per proteggere account, pagamenti e dispositivo dopo un clic sospetto.
 - [Qué hacer si hiciste clic en un enlace de estafa](https://alphaengineerai.com/que-hacer-si-hiciste-clic-en-un-enlace-de-estafa.html): lista tranquila en español para proteger cuentas, pagos y dispositivos.
 - [O que fazer se clicou num link de golpe](https://alphaengineerai.com/o-que-fazer-se-clicou-num-link-de-golpe.html): lista calma em português para proteger contas, pagamentos e dispositivos.
@@ -91,7 +92,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [RSS safety guide feed](https://alphaengineerai.com/feed.xml): machine-readable updates for the global safety guides.
 - [AI tools and passive-income blog feed](https://alphaengineerai.com/blog-feed.xml): machine-readable updates for the Alpha Engineer blog.
 - [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the Alpha Engineer / MindDividend Shield site.
-- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.19): six additional language-specific common-scam pattern guides, linked through the global directory, RSS, hreflang, and XML sitemaps.
+- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.20): Traditional Chinese post-click recovery coverage, completing the thirteen-language recovery cluster with reciprocal hreflang links, RSS, and XML sitemaps.
 - [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
 - [Public discussions](https://github.com/youfuxu/alphaengineerai-landing/discussions): regional scam patterns and translation feedback.
 - [Launch announcement](https://github.com/youfuxu/alphaengineerai-landing/discussions/3): free global first check, thirteen languages including Italian, and safe-use rules.
