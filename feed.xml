@@ -5,8 +5,15 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 11:07:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 11:29:44 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>v0.1.18: global guide navigation across the site</title>
+      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.18</link>
+      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.18</guid>
+      <description>MindDividend Shield v0.1.18 links the global safety guide directory from all 76 indexable HTML pages, making the thirteen-language resource hub easier to discover and share.</description>
+      <pubDate>Tue, 18 Aug 2026 11:29:44 GMT</pubDate>
+    </item>
     <item>
       <title>Share the safety rule before you click or pay</title>
       <link>https://github.com/youfuxu/alphaengineerai-landing/discussions/7</link>
