@@ -39,18 +39,19 @@ The public guides are available in English, Traditional Chinese, Spanish, Portug
 - [Deutsch](https://alphaengineerai.com/online-betrugsmaschen.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [हिन्दी](https://alphaengineerai.com/online-scam-guide-hi.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [العربية](https://alphaengineerai.com/online-scam-guide-ar.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
-- [繁體中文](https://alphaengineerai.com/scam-message-checker-zh-hant.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [繁體中文](https://alphaengineerai.com/common-online-scams-zh-hant.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Pemeriksa pesan penipuan Bahasa Indonesia](https://alphaengineerai.com/pemeriksa-pesan-penipuan.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Kiểm tra tin nhắn lừa đảo tiếng Việt](https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [日本語の詐欺メッセージチェッカー](https://alphaengineerai.com/scam-message-checker-ja.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [한국어 사기 메시지 검사기](https://alphaengineerai.com/scam-message-checker-ko.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
-- [Controllo messaggio truffa in italiano](https://alphaengineerai.com/controllo-messaggio-truffa.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
+- [Truffe online comuni in italiano](https://alphaengineerai.com/common-online-scams-it.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Cosa fare dopo un clic sospetto in italiano](https://alphaengineerai.com/cosa-fare-dopo-aver-cliccato-link-truffa.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 
 ## Common scam pattern guides
 
 These topic pages explain the recurring pressure patterns behind bank, delivery, job, investment, marketplace, impersonation, and fake-support scams across all thirteen language-specific entry points:
 
+- [Common online scams in English](https://alphaengineerai.com/common-online-scams.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
 - [Estafas online comunes en español](https://alphaengineerai.com/estafas-online-comunes.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
 - [Golpes online comuns em português](https://alphaengineerai.com/golpes-online-comuns.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
 - [Arnaques en ligne courantes en français](https://alphaengineerai.com/arnaques-en-ligne-courantes.html?utm_source=github&utm_medium=readme&utm_campaign=common_scam_hubs)
