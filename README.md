@@ -2,7 +2,7 @@
 
 [![MindDividend Shield — Global Scam Checker](https://alphaengineerai.com/og-shield.png)](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=og_banner)
 
-[Latest public release: complete 13-language FAQ coverage](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.25)
+[Latest public release: global reporting routes and crawl hygiene](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.26)
 
 MindDividend Shield is a free, safety-first first check for suspicious texts, emails, social messages, payment requests, account alerts, job offers, and delivery notices.
 
