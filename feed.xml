@@ -5,8 +5,15 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 13:48:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 14:01:55 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Safety RSS now contains first-party guide links only</title>
+      <link>https://alphaengineerai.com/guide-directory.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/guide-directory.html?update=2026-08-19-rss-first-party</guid>
+      <description>The safety feed now keeps every item on alphaengineerai.com so search engines and readers can discover the multilingual guide network without leaving the first-party safety site.</description>
+      <pubDate>Wed, 19 Aug 2026 14:01:55 GMT</pubDate>
+    </item>
     <item>
       <title>Global discovery paths now point to the current safety resources</title>
       <link>https://alphaengineerai.com/guide-directory.html</link>
@@ -36,32 +43,11 @@
       <pubDate>Tue, 18 Aug 2026 14:45:49 GMT</pubDate>
     </item>
     <item>
-      <title>v0.1.22: multilingual checker discovery metadata</title>
-      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.22</link>
-      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.22</guid>
-      <description>All thirteen language-specific checker pages now describe the same free MindDividend Shield web application with machine-readable language and free-access metadata.</description>
-      <pubDate>Tue, 18 Aug 2026 14:11:03 GMT</pubDate>
-    </item>
-    <item>
       <title>Start page now exposes all thirteen language checkers</title>
       <link>https://alphaengineerai.com/start.html#languages</link>
       <guid isPermaLink="true">https://alphaengineerai.com/start.html#languages</guid>
       <description>The primary start page now presents all thirteen language-specific scam message checkers in one visible selector and a machine-readable ItemList.</description>
       <pubDate>Tue, 18 Aug 2026 13:56:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>v0.1.21: standard sitemap index and recurring discovery</title>
-      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.21</link>
-      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.21</guid>
-      <description>The public site now exposes a standard sitemap index and submits its current 84-page sitemap to IndexNow after successful deployments and on a recurring schedule.</description>
-      <pubDate>Tue, 18 Aug 2026 13:21:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>v0.1.20: complete 13-language post-click recovery coverage</title>
-      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.20</link>
-      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.20</guid>
-      <description>A Traditional Chinese recovery checklist completes reciprocal post-click hreflang coverage across all thirteen language hubs, with directory, RSS, and XML sitemap links.</description>
-      <pubDate>Tue, 18 Aug 2026 12:25:49 GMT</pubDate>
     </item>
     <item>
       <title>Global directory now lists all 13 post-click recovery guides</title>
@@ -106,34 +92,6 @@
       <pubDate>Tue, 18 Aug 2026 12:25:49 GMT</pubDate>
     </item>
     <item>
-      <title>Global scam safety guide directory: 13 languages</title>
-      <link>https://github.com/youfuxu/alphaengineerai-landing/discussions/8</link>
-      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/discussions/8</guid>
-      <description>A public discussion introducing the multilingual guide directory, global first check, and safe sharing rule for suspicious messages.</description>
-      <pubDate>Tue, 18 Aug 2026 11:34:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>v0.1.19: six multilingual common scam guides</title>
-      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.19</link>
-      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.19</guid>
-      <description>Six additional common-scam pattern guides in Traditional Chinese, Indonesian, Vietnamese, Japanese, Korean, and Italian, linked through the public directory.</description>
-      <pubDate>Tue, 18 Aug 2026 12:10:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>v0.1.18: global guide navigation across the site</title>
-      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.18</link>
-      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.18</guid>
-      <description>MindDividend Shield v0.1.18 links the global safety guide directory from all 76 indexable HTML pages, making the thirteen-language resource hub easier to discover and share.</description>
-      <pubDate>Tue, 18 Aug 2026 11:29:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Share the safety rule before you click or pay</title>
-      <link>https://github.com/youfuxu/alphaengineerai-landing/discussions/7</link>
-      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/discussions/7</guid>
-      <description>A public, multilingual first-check page to share without forwarding passwords, payment details, verification codes, or private messages.</description>
-      <pubDate>Tue, 18 Aug 2026 10:39:57 GMT</pubDate>
-    </item>
-    <item>
       <title>Global scam safety guide directory</title>
       <link>https://alphaengineerai.com/guide-directory.html</link>
       <guid isPermaLink="true">https://alphaengineerai.com/guide-directory.html</guid>
@@ -141,32 +99,11 @@
       <pubDate>Tue, 18 Aug 2026 11:07:05 GMT</pubDate>
     </item>
     <item>
-      <title>v0.1.17: global RSS and machine-readable distribution</title>
-      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.17</link>
-      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.17</guid>
-      <description>MindDividend Shield v0.1.17 exposes safety and blog RSS feeds across the public site, adds machine-readable discovery links, and completes social preview metadata across 76 indexable pages.</description>
-      <pubDate>Tue, 18 Aug 2026 11:01:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>v0.1.16: opt-in safety sharing entry points</title>
-      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.16</link>
-      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.16</guid>
-      <description>MindDividend Shield v0.1.16 adds opt-in WhatsApp, Telegram, Facebook, and X sharing links for the safety rule, with anonymous share-click attribution.</description>
-      <pubDate>Tue, 18 Aug 2026 09:42:34 GMT</pubDate>
-    </item>
-    <item>
       <title>MindDividend Shield Start Here</title>
       <link>https://alphaengineerai.com/start.html</link>
       <guid isPermaLink="true">https://alphaengineerai.com/start.html</guid>
     <description>Start with a free first check for suspicious messages and practical safety guides in thirteen languages, including Italian.</description>
       <pubDate>Mon, 17 Aug 2026 16:30:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>v0.1.15: Italian post-click recovery entry</title>
-      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.15</link>
-      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.15</guid>
-      <description>MindDividend Shield v0.1.15 adds an Italian post-click recovery checklist, a direct start-page entry, and refreshed global discovery paths.</description>
-      <pubDate>Tue, 18 Aug 2026 08:31:17 GMT</pubDate>
     </item>
     <item>
       <title>Official reporting links refreshed across global guides</title>
