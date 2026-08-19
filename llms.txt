@@ -97,7 +97,6 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Sitemap index](https://alphaengineerai.com/sitemap-index.xml): standard sitemap index linking the complete and core public-page sitemaps.
 - [XML sitemap](https://alphaengineerai.com/sitemap.xml): machine-readable index of the public pages.
 - [RSS safety guide feed](https://alphaengineerai.com/feed.xml): machine-readable updates for the global safety guides.
-- [AI tools and passive-income blog feed](https://alphaengineerai.com/blog-feed.xml): machine-readable updates for the Alpha Engineer blog.
 - [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the Alpha Engineer / MindDividend Shield site.
 - [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.26): refreshed multilingual reporting routes, crawl hygiene, and synchronized public discovery signals.
 - [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
