@@ -107,6 +107,7 @@
     });
   };
   button.addEventListener('click', async () => {
+    trackPublicShare(navigator.share ? 'native_share_intent' : 'copy_link_intent');
     if (navigator.share) {
       try {
         await navigator.share({
@@ -115,7 +116,7 @@
           url: publicLink
         });
         status.textContent = 'Thanks for sharing the public page.';
-        trackPublicShare('native_share');
+        trackPublicShare('native_share_success');
         return;
       } catch (error) {
         if (error && error.name === 'AbortError') {
@@ -138,7 +139,7 @@
       field.remove();
     }
     status.textContent = 'Copied — share the public page.';
-    trackPublicShare('copy_link');
+    trackPublicShare('copy_link_success');
   });
 })();
 </script>
