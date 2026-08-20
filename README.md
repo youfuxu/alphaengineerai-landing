@@ -94,3 +94,4 @@ Redact passwords, payment details, verification codes, identity documents, priva
 - Global guide directory: [13 languages, one safe starting point](https://github.com/youfuxu/alphaengineerai-landing/discussions/8)
 - Latest safety release: [v0.1.32 global sharing entry points](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.32)
 - Public updates: [YouTube](https://www.youtube.com/@theminddividend), [TikTok](https://www.tiktok.com/@minddividend), [Instagram](https://www.instagram.com/minddividend/)
+- Live safety posts: [pause-before-clicking](https://www.instagram.com/minddividend/p/DcQBgqpgdWq/) · [after-click recovery](https://www.instagram.com/minddividend/p/DcQDJCHAV7g/)
