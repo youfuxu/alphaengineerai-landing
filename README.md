@@ -2,7 +2,7 @@
 
 [![MindDividend Shield — Global Scam Checker](https://alphaengineerai.com/og-shield.png)](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=og_banner)
 
-[Latest public release: searchable brand consistency](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.40)
+[Latest public release: global search metadata and language alignment](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.41)
 
 MindDividend Shield is a free, safety-first first check for suspicious texts, emails, social messages, payment requests, account alerts, job offers, and delivery notices.
 
@@ -97,6 +97,6 @@ Redact passwords, payment details, verification codes, identity documents, priva
 - Launch announcement: [free global first check for suspicious messages](https://github.com/youfuxu/alphaengineerai-landing/discussions/3)
 - Public share announcement: [share the safety rule before you click or pay](https://github.com/youfuxu/alphaengineerai-landing/discussions/7)
 - Global guide directory: [13 languages, one safe starting point](https://github.com/youfuxu/alphaengineerai-landing/discussions/8)
-- Latest safety release: [v0.1.40 searchable brand consistency](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.40)
+- Latest safety release: [v0.1.41 global search metadata and language alignment](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.41)
 - Public updates: [YouTube](https://www.youtube.com/@theminddividend), [TikTok](https://www.tiktok.com/@minddividend), [Instagram](https://www.instagram.com/minddividend/)
 - Live safety posts: [pause-before-clicking](https://www.instagram.com/minddividend/p/DcQBgqpgdWq/) · [after-click recovery](https://www.instagram.com/minddividend/p/DcQDJCHAV7g/)
