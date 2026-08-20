@@ -1,0 +1,49 @@
+name: Check public site health
+
+on:
+  schedule:
+    - cron: "43 */6 * * *"
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check public pages and discovery files
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="https://alphaengineerai.com"
+          urls=(
+            "$base/"
+            "$base/start.html"
+            "$base/global-online-scam-checker.html"
+            "$base/guide-directory.html"
+            "$base/report-online-scam.html"
+            "$base/ai-deepfake-scam-checker.html"
+            "$base/investment-scam-checker.html"
+            "$base/robots.txt"
+            "$base/sitemap-index.xml"
+            "$base/core-sitemap.xml"
+          )
+
+          for url in "${urls[@]}"; do
+            echo "Checking $url"
+            curl --fail --silent --show-error --location --max-time 30 "$url" >/dev/null
+          done
+
+          robots="$(curl --fail --silent --show-error --location --max-time 30 "$base/robots.txt")"
+          grep -Fq "Sitemap: $base/sitemap-index.xml" <<<"$robots"
+
+          index="$(curl --fail --silent --show-error --location --max-time 30 "$base/sitemap-index.xml")"
+          grep -Fq "$base/core-sitemap.xml" <<<"$index"
+          grep -Fq "$base/sitemap.xml" <<<"$index"
+
+          echo "Public site health checks passed."
