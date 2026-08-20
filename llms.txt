@@ -9,7 +9,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [MindDividend Shield](https://minddividend-shield.joe303262000.chatgpt.site/): live interactive first-pass checker for a redacted suspicious message; never paste passwords, payment details, verification codes, or identity documents.
 - [Start here](https://alphaengineerai.com/start.html): multilingual entry point, safety rule, and public sharing links.
 - [Global safety guide directory](https://alphaengineerai.com/guide-directory.html): browse thirteen language hubs, message checkers, recovery checklists, common-scam pattern guides, and official reporting routes.
-- [Is this text a scam?](https://alphaengineerai.com/is-this-text-a-scam.html): high-intent guide to urgency, codes, payment requests, impersonation, unsafe links, and safer next steps.
+- [Is this text a scam?](https://alphaengineerai.com/is-this-text-a-scam.html): psychology-aware first-check guide to urgency, codes, payment requests, impersonation, unsafe links, and safer next steps.
 - [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html): focused entry point with safe-use rules, common signals, FAQs, and thirteen-language links including Italian.
 - [Scam message checker](https://alphaengineerai.com/scam-message-checker.html): English guide for suspicious texts, email, DMs, bank alerts, jobs, and payments.
 - [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html): checks verification-code requests, family emergencies, fake support, groups, and payment links.
