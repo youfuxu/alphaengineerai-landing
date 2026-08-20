@@ -5,8 +5,15 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 11:11:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 11:34:15 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>v0.1.38 global discovery and public health release</title>
+      <link>https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.38</link>
+      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.38</guid>
+      <description>The public project now exposes focused scam-safety guides from the homepage, adds social preview metadata, monitors public health after deployment, and keeps search freshness signals synchronized.</description>
+      <pubDate>Thu, 20 Aug 2026 11:34:15 GMT</pubDate>
+    </item>
     <item>
       <title>Investment scam checker published</title>
       <link>https://alphaengineerai.com/investment-scam-checker.html</link>
