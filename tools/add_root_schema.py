@@ -7,19 +7,19 @@ APPLY = "--apply" in sys.argv
 BASE = "https://alphaengineerai.com/"
 
 SITE = {"@type": "WebSite", "@id": BASE + "#website", "url": BASE,
-        "name": "Alpha Engineer",
-        "description": "Engineer using AI to build financial freedom — AI tools, passive income systems and build-in-public results.",
+        "name": "MindDividend Shield",
+        "description": "A free global first check for suspicious messages, links, and payment requests, with practical safety guides.",
         "inLanguage": "en",
         "publisher": {"@id": BASE + "#org"}}
 ORG = {"@type": "Organization", "@id": BASE + "#org", "url": BASE,
-       "name": "Alpha Engineer"}
+       "name": "MindDividend Shield"}
 
 PAGES = {
     "index.html": {
         "url": BASE,
         "graph": [ORG, SITE,
                   {"@type": "WebPage", "@id": BASE + "#webpage", "url": BASE,
-                   "name": "Alpha Engineer — Engineer Your Way to Financial Freedom with AI",
+                   "name": "MindDividend Shield | Free Global Online Scam Checker",
                    "isPartOf": {"@id": BASE + "#website"},
                    "about": {"@id": BASE + "#org"}, "inLanguage": "en"}],
     },
@@ -27,8 +27,8 @@ PAGES = {
         "url": BASE + "blog.html",
         "graph": [{"@type": "Blog", "@id": BASE + "blog.html#blog",
                    "url": BASE + "blog.html",
-                   "name": "Alpha Engineer Blog",
-                   "description": "AI tools, passive income systems and build-in-public results for engineers.",
+                   "name": "MindDividend Shield Safety Guides",
+                   "description": "Public safety guides for checking suspicious messages and scam patterns.",
                    "isPartOf": {"@id": BASE + "#website"},
                    "publisher": {"@id": BASE + "#org"}, "inLanguage": "en"}],
     },
@@ -37,7 +37,7 @@ PAGES = {
         "graph": [{"@type": "CollectionPage", "@id": BASE + "tools.html#page",
                    "url": BASE + "tools.html",
                    "name": "AI Tools I Actually Use",
-                   "description": "The AI tools and self-built utilities behind the Alpha Engineer stack.",
+                   "description": "The public safety tools and guides behind MindDividend Shield.",
                    "isPartOf": {"@id": BASE + "#website"},
                    "publisher": {"@id": BASE + "#org"}, "inLanguage": "en"}],
     },

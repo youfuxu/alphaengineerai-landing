@@ -4,7 +4,7 @@
 
 | 腳本 | 做什麼 | 何時重跑 |
 |---|---|---|
-| `add_seo_meta.py` | 為 `blog/*.html` 補 `canonical`、`og:url`、`BlogPosting` JSON-LD。日期取自 `sitemap.xml` 的 `<lastmod>`，headline 取 `<title>` 去掉「 \| Alpha Engineer」後綴 | **每次新增文章後** |
+| `add_seo_meta.py` | 為 `blog/*.html` 補 `canonical`、`og:url`、`BlogPosting` JSON-LD。日期取自 `sitemap.xml` 的 `<lastmod>`，headline 取 `<title>` 去掉品牌後綴 | **每次新增文章後** |
 | `add_root_schema.py` | 為 `index.html` / `blog.html` / `tools.html` 補 canonical 與站台層級 schema（Organization + WebSite + WebPage / Blog / CollectionPage，以 `@id` 互相連結） | 幾乎不用重跑，除非新增根頁面 |
 | `hub_links.py` | 在 `best-ai-tools-engineers-passive-income.html` 的每張 tool-card 末尾，補一句連向該工具深度專文的內部連結 | 該清單文新增工具、或新增工具專文時 |
 | `build_common_scam_hubs.py` | 產生繁中、印尼、越南、日、韓、義大利文的常見詐騙主題入口 | 翻譯內容更新或新增語言入口時 |

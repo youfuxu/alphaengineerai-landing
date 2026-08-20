@@ -147,8 +147,8 @@ def render(filename, d, stamp):
         "@context": "https://schema.org", "@type": "Article",
         "headline": d["title"], "description": d["description"], "url": url,
         "datePublished": "2026-08-18T00:00:00+08:00", "dateModified": stamp,
-        "author": {"@type": "Organization", "name": "Alpha Engineer", "url": BASE},
-        "publisher": {"@type": "Organization", "name": "Alpha Engineer", "url": BASE},
+        "author": {"@type": "Organization", "name": "MindDividend Shield", "url": BASE},
+        "publisher": {"@type": "Organization", "name": "MindDividend Shield", "url": BASE},
         "image": BASE + "og-shield.png", "inLanguage": d["lang"],
     }, ensure_ascii=False, separators=(",", ":"))
     breadcrumb_json = json.dumps({
@@ -194,7 +194,7 @@ def render(filename, d, stamp):
 <link rel="alternate" type="application/rss+xml" title="MindDividend Shield Safety Guides" href="{BASE}feed.xml">
 </head>
 <body>
-<header class="container"><a class="logo" href="/">Alpha <span>Engineer</span></a><nav><a href="minddividend-shield.html">Shield</a><a href="{d["checker"]}">{escape(d["checker_label"])}</a></nav></header>
+<header class="container"><a class="logo" href="/">MindDividend <span>Shield</span></a><nav><a href="minddividend-shield.html">Shield</a><a href="{d["checker"]}">{escape(d["checker_label"])}</a></nav></header>
 <main>
 <section class="hero container"><div class="eyebrow">MindDividend Shield · {escape(d["lang"])}</div><h1>{escape(d["hero1"])} <span>{escape(d["hero2"])}</span></h1><p class="dek">{escape(d["dek"])}</p><a class="btn" href="{tool_url}" target="_blank" rel="noopener" data-analytics-event="checker_open" data-analytics-target="shield_tool">{escape(d["check"])}</a></section>
 <section><div class="container"><h2>{escape(d["scenarios"])}</h2><p class="muted">{escape(d["intro"])}</p><div class="grid">{cards}</div></div></section>
@@ -203,7 +203,7 @@ def render(filename, d, stamp):
 <section><div class="container"><h2>{escape(d["share_heading"])}</h2><p class="muted">{escape(d["share"])}</p><div class="share-strip"><a class="share-link" href="https://x.com/intent/post?text=Pause%20before%20you%20click%20or%20pay.&amp;url={share_encoded}" target="_blank" rel="noopener" data-analytics-event="guide_share_click" data-analytics-target="x">X</a><a class="share-link" href="https://www.facebook.com/sharer/sharer.php?u={share_encoded}" target="_blank" rel="noopener" data-analytics-event="guide_share_click" data-analytics-target="facebook">Facebook</a><a class="share-link" href="https://www.linkedin.com/sharing/share-offsite/?url={share_encoded}" target="_blank" rel="noopener" data-analytics-event="guide_share_click" data-analytics-target="linkedin">LinkedIn</a><a class="share-link" href="https://wa.me/?text=Pause%20before%20you%20click%20or%20pay%3A%20{share_encoded}" target="_blank" rel="noopener" data-analytics-event="guide_share_click" data-analytics-target="whatsapp">WhatsApp</a></div></div></section>
 <section class="cta"><div class="container"><h2>{escape(d["cta_heading"])}</h2><p class="muted">{escape(d["cta"])}</p><a class="btn" href="{tool_url}" target="_blank" rel="noopener" data-analytics-event="checker_open" data-analytics-target="shield_tool">{escape(d["open"])} &rarr;</a></div></section>
 </main>
-<footer class="container"><div>&copy; 2026 Alpha Engineer</div><div class="links"><a class="link" href="/">{escape(d["home"])}</a><a class="link" href="{d["checker"]}">{escape(d["checker_label"])}</a><a class="link" href="global-online-scam-checker.html">{escape(d["global"])}</a><a class="link" href="report-online-scam.html">{escape(d["report"])}</a><a class="link" href="privacy-and-safety.html">{escape(d["privacy"])}</a><a class="link" href="guide-directory.html">{escape(d["directory"])}</a></div></footer>
+<footer class="container"><div>&copy; 2026 MindDividend Shield</div><div class="links"><a class="link" href="/">{escape(d["home"])}</a><a class="link" href="{d["checker"]}">{escape(d["checker_label"])}</a><a class="link" href="global-online-scam-checker.html">{escape(d["global"])}</a><a class="link" href="report-online-scam.html">{escape(d["report"])}</a><a class="link" href="privacy-and-safety.html">{escape(d["privacy"])}</a><a class="link" href="guide-directory.html">{escape(d["directory"])}</a></div></footer>
 </body>
 </html>
 '''

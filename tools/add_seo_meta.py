@@ -16,7 +16,7 @@ for m in re.finditer(r"<loc>(.*?)</loc>\s*<lastmod>(.*?)</lastmod>", sm, re.S):
 
 def clean(t):
     t = html.unescape(t)
-    t = re.sub(r"\s*\|\s*Alpha Engineer\s*$", "", t)
+    t = re.sub(r"\s*\|\s*(?:Alpha Engineer|MindDividend Shield)\s*$", "", t)
     return t.strip()
 
 changed = []
@@ -54,8 +54,8 @@ for f in sorted(glob.glob(os.path.join(ROOT, "blog", "*.html"))):
         "dateModified": date,
         "inLanguage": "en",
         "mainEntityOfPage": {"@type": "WebPage", "@id": url},
-        "author": {"@type": "Person", "name": "Alpha Engineer", "url": BASE},
-        "publisher": {"@type": "Organization", "name": "Alpha Engineer", "url": BASE},
+        "author": {"@type": "Organization", "name": "MindDividend Shield", "url": BASE},
+        "publisher": {"@type": "Organization", "name": "MindDividend Shield", "url": BASE},
     }
     add.append('<script type="application/ld+json">\n%s\n</script>'
                % json.dumps(ld, ensure_ascii=False, indent=2))
