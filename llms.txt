@@ -109,6 +109,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Launch announcement](https://github.com/youfuxu/alphaengineerai-landing/discussions/3): free global first check, thirteen languages including Italian, and safe-use rules.
 - [Public share announcement](https://github.com/youfuxu/alphaengineerai-landing/discussions/7): a safe public page to share before someone clicks, pays, replies, or shares a code.
 - [Global guide directory discussion](https://github.com/youfuxu/alphaengineerai-landing/discussions/8): a public introduction to the 13-language safety resource and safe sharing rule.
+- [Global guide feedback issue](https://github.com/youfuxu/alphaengineerai-landing/issues/10): request a missing language, country, or scam pattern without posting private or sensitive data.
 - [Practical first check Q&A](https://github.com/youfuxu/alphaengineerai-landing/discussions/4): what to do with a suspicious SMS, email, or WhatsApp message.
 - [Clicked-link recovery checklist](https://github.com/youfuxu/alphaengineerai-landing/discussions/5): calm next steps after clicking, paying, downloading, or sharing information.
 - [Mind Dividend on YouTube](https://www.youtube.com/@theminddividend): public videos and multilingual safety updates.
