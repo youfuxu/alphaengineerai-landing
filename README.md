@@ -23,6 +23,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [Online job scam checker](https://alphaengineerai.com/online-job-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [AI and deepfake scam checker](https://alphaengineerai.com/ai-deepfake-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides): check voice clones, synthetic video, fake executives, and family-emergency impersonation
+- [Investment scam checker](https://alphaengineerai.com/investment-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides): check guaranteed returns, fake trading apps, crypto pitches, social-media tips, and withdrawal fees
 - [Common online scams](https://alphaengineerai.com/common-online-scams.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [What to do after clicking a scam link](https://alphaengineerai.com/what-to-do-if-you-clicked-a-scam-link.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [點擊詐騙連結後怎麼辦？（繁體中文）](https://alphaengineerai.com/what-to-do-after-clicking-scam-link-zh-hant.html?utm_source=github&utm_medium=readme&utm_campaign=zh_hant_recovery)

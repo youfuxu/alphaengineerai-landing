@@ -18,6 +18,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html): checks sender identity, login links, attachments, invoices, payment requests, and urgency.
 - [Online job scam checker](https://alphaengineerai.com/online-job-scam-checker.html): checks upfront fees, crypto tasks, reshipping requests, fake recruiters, and pressure to move off-platform.
 - [AI and deepfake scam checker](https://alphaengineerai.com/ai-deepfake-scam-checker.html): checks voice clones, realistic videos, fake executives, and family-emergency impersonation before payment or disclosure.
+- [Investment scam checker](https://alphaengineerai.com/investment-scam-checker.html): checks guaranteed returns, fake trading apps, social-media tips, crypto deposits, romance-investment pressure, and withdrawal fees.
 - [Common online scams](https://alphaengineerai.com/common-online-scams.html): English overview of bank, delivery, job, investment, marketplace, impersonation, and tech-support scams.
 - [What to do if you clicked a scam link](https://alphaengineerai.com/what-to-do-if-you-clicked-a-scam-link.html): calm response checklist after a click.
 - [點擊詐騙連結後怎麼辦？](https://alphaengineerai.com/what-to-do-after-clicking-scam-link-zh-hant.html): 點擊可疑連結後保護帳戶、付款、裝置與證據的繁體中文清單。
