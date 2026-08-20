@@ -5,8 +5,15 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Aug 2026 07:31:49 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 Aug 2026 07:39:28 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multilingual search entry points published in v0.1.37</title>
+      <link>https://alphaengineerai.com/start.html</link>
+      <guid isPermaLink="false">multilingual-search-entry-release-2026-08-20</guid>
+      <description>The public project release adds language-alternate discovery signals to the shared start page so visitors can reach the most relevant checker and safety guide. Release notes: https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.37</description>
+      <pubDate>Wed, 20 Aug 2026 07:39:28 GMT</pubDate>
+    </item>
     <item>
       <title>Multilingual start page now maps language alternatives</title>
       <link>https://alphaengineerai.com/start.html</link>

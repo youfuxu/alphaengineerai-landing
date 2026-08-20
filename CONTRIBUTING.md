@@ -18,7 +18,7 @@ Never include real passwords, payment details, verification codes, identity docu
 - [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html)
 - [Multilingual start page](https://alphaengineerai.com/start.html)
 - [Global safety guide directory](https://alphaengineerai.com/guide-directory.html)
-- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.36)
+- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.37)
 - [Global feedback discussion](https://github.com/youfuxu/alphaengineerai-landing/discussions/1)
 
 When reporting a problem, include the public page URL, the language, and the smallest safe example that explains the issue.
