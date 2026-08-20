@@ -90,6 +90,7 @@ Redact passwords, payment details, verification codes, identity documents, priva
 - Website: [alphaengineerai.com](https://alphaengineerai.com/?utm_source=github&utm_medium=readme&utm_campaign=project)
 - Direct tool: [open MindDividend Shield](https://minddividend-shield.joe303262000.chatgpt.site/?utm_source=github&utm_medium=readme&utm_campaign=direct_tool)
 - Contributions: [help improve translations and safety guides](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md)
+- Global feedback: [suggest a missing language, country, or scam pattern](https://github.com/youfuxu/alphaengineerai-landing/issues/10?utm_source=github&utm_medium=readme&utm_campaign=global_feedback)
 - Discussions: [share regional patterns and translation feedback](https://github.com/youfuxu/alphaengineerai-landing/discussions/1)
 - Practical first check: [what to do with a suspicious SMS, email, or WhatsApp message](https://github.com/youfuxu/alphaengineerai-landing/discussions/4)
 - Clicked-link recovery: [a calm next-step checklist](https://github.com/youfuxu/alphaengineerai-landing/discussions/5)
