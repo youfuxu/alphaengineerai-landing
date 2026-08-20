@@ -98,6 +98,14 @@
   const status = document.getElementById('copy-status');
   const publicLink = 'https://alphaengineerai.com/start.html';
   if (!button || !status) return;
+  const trackPublicShare = (method) => {
+    if (typeof window.gtag !== 'function') return;
+    window.gtag('event', 'start_public_share', {
+      page_path: window.location.pathname,
+      share_method: method,
+      link_target: 'public_start_page'
+    });
+  };
   button.addEventListener('click', async () => {
     if (navigator.share) {
       try {
@@ -107,6 +115,7 @@
           url: publicLink
         });
         status.textContent = 'Thanks for sharing the public page.';
+        trackPublicShare('native_share');
         return;
       } catch (error) {
         if (error && error.name === 'AbortError') {
@@ -129,6 +138,7 @@
       field.remove();
     }
     status.textContent = 'Copied — share the public page.';
+    trackPublicShare('copy_link');
   });
 })();
 </script>
