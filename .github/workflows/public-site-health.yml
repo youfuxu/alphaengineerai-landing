@@ -29,9 +29,13 @@ jobs:
             "$base/report-online-scam.html"
             "$base/ai-deepfake-scam-checker.html"
             "$base/investment-scam-checker.html"
+            "$base/privacy-and-safety.html"
             "$base/robots.txt"
+            "$base/llms.txt"
+            "$base/feed.xml"
             "$base/sitemap-index.xml"
             "$base/core-sitemap.xml"
+            "$base/sitemap.xml"
           )
 
           check_url() {
@@ -55,6 +59,18 @@ jobs:
 
           robots="$(curl --fail --silent --show-error --location --max-time 30 "$base/robots.txt")"
           grep -Fq "Sitemap: $base/sitemap-index.xml" <<<"$robots"
+
+          home="$(curl --fail --silent --show-error --location --max-time 30 "$base/")"
+          grep -Fq "MindDividend Shield" <<<"$home"
+          ! grep -Fq "Alpha Engineer" <<<"$home"
+
+          llms="$(curl --fail --silent --show-error --location --max-time 30 "$base/llms.txt")"
+          grep -Fq "MindDividend Shield" <<<"$llms"
+          grep -Fq "Global safety guide directory" <<<"$llms"
+
+          feed="$(curl --fail --silent --show-error --location --max-time 30 "$base/feed.xml")"
+          grep -Fq "<rss" <<<"$feed"
+          grep -Fq "MindDividend Shield" <<<"$feed"
 
           index="$(curl --fail --silent --show-error --location --max-time 30 "$base/sitemap-index.xml")"
           grep -Fq "$base/core-sitemap.xml" <<<"$index"
