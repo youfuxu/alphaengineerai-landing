@@ -34,9 +34,23 @@ jobs:
             "$base/core-sitemap.xml"
           )
 
+          check_url() {
+            local url="$1"
+            local attempt
+            for attempt in 1 2 3 4; do
+              if curl --fail --silent --show-error --location --max-time 30 "$url" >/dev/null; then
+                return 0
+              fi
+              echo "Attempt $attempt failed for $url; waiting for CDN propagation."
+              sleep 5
+            done
+            echo "Public URL did not become available: $url" >&2
+            return 1
+          }
+
           for url in "${urls[@]}"; do
             echo "Checking $url"
-            curl --fail --silent --show-error --location --max-time 30 "$url" >/dev/null
+            check_url "$url"
           done
 
           robots="$(curl --fail --silent --show-error --location --max-time 30 "$base/robots.txt")"
