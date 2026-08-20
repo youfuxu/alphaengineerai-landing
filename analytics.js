@@ -21,6 +21,14 @@
     allow_google_signals: false
   });
 
+  // Keep legacy share links usable as X evolves its public Intent endpoint.
+  document.querySelectorAll('a[href^="https://twitter.com/intent/tweet"]').forEach(function (link) {
+    link.href = link.href.replace(
+      "https://twitter.com/intent/tweet",
+      "https://x.com/intent/post"
+    );
+  });
+
   // Track only intentional, labeled outbound actions. Never send message text,
   // form input, passwords, codes, payment details, or other user-supplied data.
   document.addEventListener("click", function (event) {
