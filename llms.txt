@@ -17,6 +17,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html): checks verification-code requests, family emergencies, fake support, groups, and payment links.
 - [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html): checks sender identity, login links, attachments, invoices, payment requests, and urgency.
 - [Online job scam checker](https://alphaengineerai.com/online-job-scam-checker.html): checks upfront fees, crypto tasks, reshipping requests, fake recruiters, and pressure to move off-platform.
+- [Fake package delivery message checker](https://alphaengineerai.com/fake-package-delivery-text.html): checks shipping alerts, customs-fee requests, delivery links, and demands for payment or personal details.
 - [AI and deepfake scam checker](https://alphaengineerai.com/ai-deepfake-scam-checker.html): checks voice clones, realistic videos, fake executives, and family-emergency impersonation before payment or disclosure.
 - [Investment scam checker](https://alphaengineerai.com/investment-scam-checker.html): checks guaranteed returns, fake trading apps, social-media tips, crypto deposits, romance-investment pressure, and withdrawal fees.
 - [Common online scams](https://alphaengineerai.com/common-online-scams.html): English overview of bank, delivery, job, investment, marketplace, impersonation, and tech-support scams.
