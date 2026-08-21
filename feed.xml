@@ -5,7 +5,7 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 21:40:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 21:44:59 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Phone scam checker: is this call or number safe?</title>
@@ -34,6 +34,13 @@
       <guid isPermaLink="false">phone-private-red-flag-check-2026-08-22-0540</guid>
       <description>A local browser-only checklist helps people pause around urgency, secrets, supplied callback routes, and unusual payment requests without sending phone numbers anywhere.</description>
       <pubDate>Fri, 21 Aug 2026 21:40:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>v0.1.50 privacy-first phone check released</title>
+      <link>https://alphaengineerai.com/suspicious-call-checker.html</link>
+      <guid isPermaLink="false">v0.1.50-privacy-first-phone-check-2026-08-22</guid>
+      <description>MindDividend Shield now publishes a browser-only phone-scam red-flag check with no phone-number lookup or data transfer.</description>
+      <pubDate>Fri, 21 Aug 2026 21:44:59 GMT</pubDate>
     </item>
     <item>
       <title>Suspicious link checker: is this link safe to open?</title>
