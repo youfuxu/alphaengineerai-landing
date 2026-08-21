@@ -5,7 +5,7 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 22:16:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 02:16:59 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>v0.1.41 global search metadata and language alignment release</title>
@@ -13,6 +13,13 @@
       <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.41</guid>
       <description>Multilingual safety-guide titles and social metadata now identify MindDividend Shield consistently, with sitemap freshness updated and public discovery health checks in place.</description>
       <pubDate>Thu, 20 Aug 2026 22:16:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fake package delivery message checker published</title>
+      <link>https://alphaengineerai.com/fake-package-delivery-text.html</link>
+      <guid isPermaLink="false">fake-package-delivery-text-guide-2026-08-21</guid>
+      <description>A practical first-check guide for fake shipping alerts, redelivery fees, delivery links, customs requests, and messages asking for payment or personal details.</description>
+      <pubDate>Fri, 21 Aug 2026 02:16:59 GMT</pubDate>
     </item>
     <item>
       <title>v0.1.39 brand consistency and indexing freshness release</title>
