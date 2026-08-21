@@ -5,8 +5,15 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 04:31:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 07:05:30 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fake bank text message safety discussion published</title>
+      <link>https://github.com/youfuxu/alphaengineerai-landing/discussions/31</link>
+      <guid isPermaLink="true">https://github.com/youfuxu/alphaengineerai-landing/discussions/31</guid>
+      <description>A public checklist for verifying bank alerts outside the message before signing in, replying, or sharing a security code.</description>
+      <pubDate>Fri, 21 Aug 2026 07:05:30 GMT</pubDate>
+    </item>
     <item>
       <title>v0.1.42 delivery safety discovery release</title>
       <link>https://alphaengineerai.com/fake-package-delivery-text.html</link>
