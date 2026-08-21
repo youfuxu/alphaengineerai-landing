@@ -2,7 +2,7 @@
 
 [![MindDividend Shield — Global Scam Checker](https://alphaengineerai.com/og-shield.png)](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=og_banner)
 
-[Latest public release: romance scam safety discovery](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.44)
+[Latest public release: recovery scam safety discovery](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.45)
 
 MindDividend Shield is a free, safety-first first check for suspicious texts, emails, social messages, payment requests, account alerts, job offers, and delivery notices.
 
@@ -22,6 +22,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Scam message checker guide](https://alphaengineerai.com/scam-message-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [Fake bank text message checker](https://alphaengineerai.com/fake-bank-text-message.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides): verify suspicious account alerts without signing in through the message
 - [Romance scam checker](https://alphaengineerai.com/romance-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides): check when online affection becomes pressure for money, crypto, gifts, or private material
+- [Recovery scam checker](https://alphaengineerai.com/recovery-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides): check fake refund, tracing, legal, bank, and recovery-agent messages after an earlier loss
 - [Public discussion: romance scam warning signs](https://github.com/youfuxu/alphaengineerai-landing/discussions/32): share a calm checklist before sending money or private material
 - [Public discussion: fake bank text message safety](https://github.com/youfuxu/alphaengineerai-landing/discussions/31): share the independent-verification checklist before signing in or replying
 - [How to report an online scam officially](https://alphaengineerai.com/report-online-scam.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting): official reporting routes across 19 countries and regions, plus a cross-border fallback through econsumer.gov for international consumer scams.
