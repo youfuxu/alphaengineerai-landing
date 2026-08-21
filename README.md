@@ -56,6 +56,16 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 
 The public guides are available in English, Traditional Chinese, Spanish, Portuguese, French, German, Hindi, Arabic, Indonesian, Vietnamese, Japanese, Korean, and Italian.
 
+## Embed the public safety badge
+
+Websites, newsletters, classrooms, and community hubs can link readers to the canonical organization resource with this public badge:
+
+[![Free scam safety resource from MindDividend Shield](https://alphaengineerai.com/minddividend-public-resource-badge.svg)](https://alphaengineerai.com/scam-safety-resource-for-organizations.html?utm_source=github&utm_medium=readme&utm_campaign=embed_badge)
+
+```html
+<a href="https://alphaengineerai.com/scam-safety-resource-for-organizations.html"><img src="https://alphaengineerai.com/minddividend-public-resource-badge.svg" alt="Free scam safety resource from MindDividend Shield" width="600" height="160"></a>
+```
+
 - [English](https://alphaengineerai.com/common-online-scams.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Español](https://alphaengineerai.com/estafas-online-comunes.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
 - [Português](https://alphaengineerai.com/golpes-online-comuns.html?utm_source=github&utm_medium=readme&utm_campaign=language_hub)
