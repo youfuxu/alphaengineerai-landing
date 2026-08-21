@@ -26,6 +26,7 @@ jobs:
           python - <<'PY'
           from html.parser import HTMLParser
           from pathlib import Path
+          import re
           from urllib.parse import unquote, urlparse
 
           root = Path.cwd().resolve()
@@ -61,6 +62,17 @@ jobs:
                       errors.append(f"{source.relative_to(root)}: {attribute}={raw!r} escapes repository")
                   elif not target.is_file():
                       errors.append(f"{source.relative_to(root)}: {attribute}={raw!r} -> {target.relative_to(root) if root in target.parents else target}")
+
+          llms_source = root / "llms.txt"
+          for match in re.finditer(r"https://alphaengineerai\.com/[^\s<>()]+", llms_source.read_text(encoding="utf-8")):
+              raw = match.group(0).rstrip(".,;)")
+              parsed = urlparse(raw)
+              relative_path = unquote(parsed.path).lstrip("/") or "index.html"
+              target = (root / relative_path).resolve()
+              if root not in target.parents and target != root:
+                  errors.append(f"llms.txt: URL={raw!r} escapes repository")
+              elif not target.is_file():
+                  errors.append(f"llms.txt: URL={raw!r} -> {target.relative_to(root) if root in target.parents else target}")
 
           if errors:
               print("Broken local links or assets found:")
