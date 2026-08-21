@@ -262,12 +262,17 @@ jobs:
 
           for sitemap in "$base/core-sitemap.xml" "$base/sitemap.xml"; do
             sitemap_xml="$(fetch_url "$sitemap")"
+            if grep -Fq "$base/blog/" <<<"$sitemap_xml"; then
+              echo "Legacy blog content must not enter the public MindDividend Shield sitemap: $sitemap" >&2
+              exit 1
+            fi
             sitemap_urls="$(grep -o '<loc>[^<]*</loc>' <<<"$sitemap_xml" | sed -e 's#<loc>##' -e 's#</loc>##')"
             while IFS= read -r page_url; do
               [ -z "$page_url" ] && continue
               echo "Checking sitemap page $page_url"
               check_url "$page_url"
               page_html="$(fetch_url "$page_url")"
+              grep -Fq "MindDividend Shield" <<<"$page_html"
               if grep -Fqi "noindex" <<<"$page_html"; then
                 echo "Unexpected noindex directive on $page_url" >&2
                 exit 1
