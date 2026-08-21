@@ -20,7 +20,7 @@ powershell -ExecutionPolicy Bypass -File tools/submit-indexnow.ps1  # 送出目�
 
 `submit-indexnow.ps1` 會讀取線上 `sitemap.xml` 與公開 IndexNow key，提交目前完整網址清單，並輸出 HTTP 狀態及提交數量。
 
-GitHub Actions 會每 6 小時自動執行同一支腳本；也可以從 Actions 頁面手動觸發，確認目前 84 個公開網址已送出。
+GitHub Actions 會每 6 小時自動執行同一支腳本；也可以從 Actions 頁面手動觸發，確認目前 67 個公開網址已送出。
 
 維護腳本都遵循冪等模式；批次寫入後，請依下方清單驗證再提交。
 
