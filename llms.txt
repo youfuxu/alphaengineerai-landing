@@ -114,7 +114,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [XML sitemap](https://alphaengineerai.com/sitemap.xml): machine-readable index of the public pages.
 - [RSS safety guide feed](https://alphaengineerai.com/feed.xml): machine-readable updates for the global safety guides.
 - [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the MindDividend Shield site.
-- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.49): MindDividend Shield global phone-scam safety guide, privacy rules, and public resource-map updates.
+- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.50): MindDividend Shield privacy-first phone check, global phone-scam safety guide, and public resource-map updates.
 - [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
 - [Public discussions](https://github.com/youfuxu/alphaengineerai-landing/discussions): regional scam patterns and translation feedback.
 - [Launch announcement](https://github.com/youfuxu/alphaengineerai-landing/discussions/3): free global first check, thirteen languages including Italian, and safe-use rules.
