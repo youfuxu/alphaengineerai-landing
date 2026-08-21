@@ -105,6 +105,6 @@ Redact passwords, payment details, verification codes, identity documents, priva
 - Launch announcement: [free global first check for suspicious messages](https://github.com/youfuxu/alphaengineerai-landing/discussions/3)
 - Public share announcement: [share the safety rule before you click or pay](https://github.com/youfuxu/alphaengineerai-landing/discussions/7)
 - Global guide directory: [13 languages, one safe starting point](https://github.com/youfuxu/alphaengineerai-landing/discussions/8)
-- Latest safety release: [v0.1.44 romance scam safety discovery](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.44)
+- Latest safety release: [v0.1.45 recovery scam safety discovery](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.45)
 - Public updates: [YouTube](https://www.youtube.com/@theminddividend), [TikTok](https://www.tiktok.com/@minddividend), [Instagram](https://www.instagram.com/minddividend/)
 - Live safety posts: [pause-before-clicking](https://www.instagram.com/minddividend/p/DcQBgqpgdWq/) · [after-click recovery](https://www.instagram.com/minddividend/p/DcQDJCHAV7g/)
