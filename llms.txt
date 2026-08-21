@@ -11,9 +11,11 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Global safety guide directory](https://alphaengineerai.com/guide-directory.html): browse thirteen language hubs, message checkers, recovery checklists, common-scam pattern guides, and official reporting routes.
 - [Is this text a scam?](https://alphaengineerai.com/is-this-text-a-scam.html): psychology-aware first-check guide to urgency, codes, payment requests, impersonation, unsafe links, and safer next steps.
 - [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html): focused entry point with safe-use rules, common signals, FAQs, and thirteen-language links including Italian.
+- [MindDividend Shield overview](https://alphaengineerai.com/minddividend-shield.html): a free global first check for suspicious texts, emails, and social messages before you click, pay, or reply.
 - [Website scam checker guide](https://alphaengineerai.com/website-scam-checker.html): a safety-first checklist for suspicious sites, stores, payment pages, and links; includes Google Safe Browsing and official next steps without claiming that any green result is a guarantee.
 - [Online shopping scam checker](https://alphaengineerai.com/online-shopping-scam-checker.html): checks unfamiliar stores and marketplace sellers for low-price pressure, copied identity, payment risks, delivery promises, and refund uncertainty.
 - [Scam message checker](https://alphaengineerai.com/scam-message-checker.html): English guide for suspicious texts, email, DMs, bank alerts, jobs, and payments.
+- [Fake bank text message checker](https://alphaengineerai.com/fake-bank-text-message.html): warning signs and safe verification steps for suspicious bank alerts before signing in or sharing a code.
 - [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html): checks verification-code requests, family emergencies, fake support, groups, and payment links.
 - [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html): checks sender identity, login links, attachments, invoices, payment requests, and urgency.
 - [Online job scam checker](https://alphaengineerai.com/online-job-scam-checker.html): checks upfront fees, crypto tasks, reshipping requests, fake recruiters, and pressure to move off-platform.
