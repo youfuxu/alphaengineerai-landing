@@ -16,6 +16,58 @@ jobs:
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
+      - name: Check out the public site source
+        uses: actions/checkout@v4
+
+      - name: Validate local HTML links and assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import unquote, urlparse
+
+          root = Path.cwd().resolve()
+          errors = []
+
+          class LinkParser(HTMLParser):
+              def __init__(self, source):
+                  super().__init__(convert_charrefs=True)
+                  self.source = source
+                  self.links = []
+
+              def handle_starttag(self, tag, attrs):
+                  for name, value in attrs:
+                      if name in {"href", "src"} and value:
+                          self.links.append((name, value))
+
+          ignored_prefixes = ("#", "//", "mailto:", "tel:", "data:", "javascript:")
+          for source in root.rglob("*.html"):
+              parser = LinkParser(source)
+              parser.feed(source.read_text(encoding="utf-8"))
+              for attribute, raw in parser.links:
+                  value = raw.strip()
+                  if not value or value.startswith(ignored_prefixes):
+                      continue
+                  parsed = urlparse(value)
+                  if parsed.scheme:
+                      continue
+                  relative_path = unquote(parsed.path)
+                  if relative_path in {"", "/"}:
+                      continue
+                  target = (root / relative_path.lstrip("/") if relative_path.startswith("/") else source.parent / relative_path).resolve()
+                  if root not in target.parents and target != root:
+                      errors.append(f"{source.relative_to(root)}: {attribute}={raw!r} escapes repository")
+                  elif not target.is_file():
+                      errors.append(f"{source.relative_to(root)}: {attribute}={raw!r} -> {target.relative_to(root) if root in target.parents else target}")
+
+          if errors:
+              print("Broken local links or assets found:")
+              print("\n".join(sorted(errors)))
+              raise SystemExit(1)
+          print("All local HTML links and assets resolve.")
+
       - name: Check public pages and discovery files
         shell: bash
         run: |
