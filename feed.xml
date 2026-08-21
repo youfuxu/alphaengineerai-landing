@@ -5,7 +5,14 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 23:28:59 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 23:35:55 GMT</lastBuildDate>
+    <item>
+      <title>Release notes now link directly to the embeddable badge</title>
+      <link>https://alphaengineerai.com/scam-safety-resource-for-organizations.html</link>
+      <guid isPermaLink="false">organization-resource-embed-anchor-2026-08-22-0735</guid>
+      <description>The organization resource now exposes a stable embed section for the public badge and copy-ready HTML snippet.</description>
+      <pubDate>Fri, 21 Aug 2026 23:35:55 GMT</pubDate>
+    </item>
     <item>
       <title>Organization resource adds an embeddable public safety badge</title>
       <link>https://alphaengineerai.com/scam-safety-resource-for-organizations.html</link>
