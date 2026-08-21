@@ -68,6 +68,17 @@ jobs:
           grep -Fq "MindDividend Shield" <<<"$llms"
           grep -Fq "Global safety guide directory" <<<"$llms"
 
+          analytics="$(curl --fail --silent --show-error --location --max-time 30 "$base/analytics.js")"
+          grep -Fq "G-E50HX5K6LP" <<<"$analytics"
+          for page in \
+            "$base/" \
+            "$base/start.html" \
+            "$base/global-online-scam-checker.html" \
+            "$base/guide-directory.html"; do
+            page_html="$(curl --fail --silent --show-error --location --max-time 30 "$page")"
+            grep -Fq "/analytics.js" <<<"$page_html"
+          done
+
           feed="$(curl --fail --silent --show-error --location --max-time 30 "$base/feed.xml")"
           grep -Fq "<rss" <<<"$feed"
           grep -Fq "MindDividend Shield" <<<"$feed"
