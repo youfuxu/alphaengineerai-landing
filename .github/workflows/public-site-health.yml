@@ -87,4 +87,14 @@ jobs:
           grep -Fq "$base/core-sitemap.xml" <<<"$index"
           grep -Fq "$base/sitemap.xml" <<<"$index"
 
+          for sitemap in "$base/core-sitemap.xml" "$base/sitemap.xml"; do
+            sitemap_xml="$(curl --fail --silent --show-error --location --max-time 30 "$sitemap")"
+            sitemap_urls="$(grep -o '<loc>[^<]*</loc>' <<<"$sitemap_xml" | sed -e 's#<loc>##' -e 's#</loc>##')"
+            while IFS= read -r page_url; do
+              [ -z "$page_url" ] && continue
+              echo "Checking sitemap page $page_url"
+              check_url "$page_url"
+            done <<<"$sitemap_urls"
+          done
+
           echo "Public site health checks passed."
