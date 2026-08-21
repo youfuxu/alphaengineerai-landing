@@ -135,6 +135,7 @@ jobs:
             "$base/"
             "$base/start.html"
             "$base/global-online-scam-checker.html"
+            "$base/community-scam-awareness-toolkit.html"
             "$base/guide-directory.html"
             "$base/report-online-scam.html"
             "$base/ai-deepfake-scam-checker.html"
