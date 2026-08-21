@@ -29,7 +29,7 @@
 {
   "@context":"https://schema.org",
   "@graph":[
-    {"@type":"Article","@id":"https://alphaengineerai.com/scam-safety-resource-for-organizations.html#article","headline":"Free Scam Safety Resource for Organizations and Creators","description":"A public resource for organizations, educators, creators, and community leaders to cite or share before people act on suspicious messages.","url":"https://alphaengineerai.com/scam-safety-resource-for-organizations.html","mainEntityOfPage":{"@id":"https://alphaengineerai.com/scam-safety-resource-for-organizations.html"},"datePublished":"2026-08-22T06:49:19+08:00","dateModified":"2026-08-22T06:59:19+08:00","image":"https://alphaengineerai.com/og-shield.png","author":{"@type":"Organization","name":"MindDividend Shield","url":"https://alphaengineerai.com/"},"publisher":{"@type":"Organization","name":"MindDividend Shield","url":"https://alphaengineerai.com/"},"inLanguage":"en"},
+    {"@type":"Article","@id":"https://alphaengineerai.com/scam-safety-resource-for-organizations.html#article","headline":"Free Scam Safety Resource for Organizations and Creators","description":"A public resource for organizations, educators, creators, and community leaders to cite or share before people act on suspicious messages.","url":"https://alphaengineerai.com/scam-safety-resource-for-organizations.html","mainEntityOfPage":{"@id":"https://alphaengineerai.com/scam-safety-resource-for-organizations.html"},"datePublished":"2026-08-22T06:49:19+08:00","dateModified":"2026-08-22T07:12:13+08:00","image":"https://alphaengineerai.com/og-shield.png","author":{"@type":"Organization","name":"MindDividend Shield","url":"https://alphaengineerai.com/"},"publisher":{"@type":"Organization","name":"MindDividend Shield","url":"https://alphaengineerai.com/"},"inLanguage":"en"},
     {"@type":"FAQPage","@id":"https://alphaengineerai.com/scam-safety-resource-for-organizations.html#faq","mainEntity":[{"@type":"Question","name":"Can an organization cite MindDividend Shield?","acceptedAnswer":{"@type":"Answer","text":"Yes. Link to the public guides or the global first-check page so readers can verify important claims through official channels. Keep the project’s limits and safe-use rule visible."}},{"@type":"Question","name":"What should organizations tell people not to share?","acceptedAnswer":{"@type":"Answer","text":"Tell people not to post passwords, verification codes, payment details, identity documents, private addresses, account numbers, wallet keys, or private message screenshots."}},{"@type":"Question","name":"Is MindDividend Shield an official investigation service?","acceptedAnswer":{"@type":"Answer","text":"No. It is a free public education project and first-pass signal tool, not a bank, government agency, police service, platform, lawyer, investigator, or guarantee."}}]},
     {"@type":"BreadcrumbList","@id":"https://alphaengineerai.com/scam-safety-resource-for-organizations.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"MindDividend Shield","item":"https://alphaengineerai.com/"},{"@type":"ListItem","position":2,"name":"Scam Safety Resource for Organizations","item":"https://alphaengineerai.com/scam-safety-resource-for-organizations.html"}]}
   ]
@@ -50,5 +50,35 @@
 <section><div class="container"><h2>Ready-to-paste public link</h2><div class="callout" style="overflow:auto;"><code>&lt;a href=&quot;https://alphaengineerai.com/global-online-scam-checker.html&quot;&gt;Free global scam message checker&lt;/a&gt;</code></div><p class="muted" style="margin-top:20px;">Use the canonical public URL as written. Do not add private message text, personal details, or suspicious live links to a public post.</p></div></section>
 </main>
 <footer class="container"><div>&copy; 2026 MindDividend Shield</div><div class="links"><a class="link" href="/">Home</a><a class="link" href="start.html">Start here</a><a class="link" href="guide-directory.html">All guides</a><a class="link" href="privacy-and-safety.html">Safety and privacy</a><a class="link" href="feed.xml">Safety updates</a></div></footer>
+<script>
+(() => {
+  const strip = document.querySelector('.share-strip');
+  if (!strip) return;
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'share-link';
+  button.textContent = 'Copy public link';
+  button.setAttribute('data-analytics-event', 'organization_resource_copy_click');
+  button.setAttribute('data-analytics-target', 'copy_link');
+  const status = document.createElement('span');
+  status.className = 'muted';
+  status.setAttribute('role', 'status');
+  status.setAttribute('aria-live', 'polite');
+  button.addEventListener('click', async () => {
+    const publicUrl = window.location.origin + window.location.pathname;
+    try {
+      await navigator.clipboard.writeText(publicUrl);
+      status.textContent = 'Public link copied.';
+    } catch (error) {
+      status.textContent = 'Copy unavailable; use a share button above.';
+    }
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'organization_resource_copy_click', {page_path: window.location.pathname, link_target: 'copy_link'});
+    }
+  });
+  strip.appendChild(button);
+  strip.insertAdjacentElement('afterend', status);
+})();
+</script>
 </body>
 </html>
