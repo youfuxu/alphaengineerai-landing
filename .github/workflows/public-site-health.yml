@@ -227,6 +227,39 @@ jobs:
           grep -Fq "$base/core-sitemap.xml" <<<"$index"
           grep -Fq "$base/sitemap.xml" <<<"$index"
 
+          INDEX_XML="$index" python - <<'PY'
+          import os
+          from datetime import datetime
+          from urllib.request import urlopen
+          from xml.etree import ElementTree as ET
+
+          base = "https://alphaengineerai.com"
+          namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+          index_root = ET.fromstring(os.environ["INDEX_XML"])
+
+          for sitemap in index_root.findall("sm:sitemap", namespace):
+              location = sitemap.findtext("sm:loc", namespaces=namespace)
+              declared = sitemap.findtext("sm:lastmod", namespaces=namespace)
+              if not location or not declared:
+                  raise SystemExit("Sitemap index entry is missing loc or lastmod.")
+              if not location.startswith(base + "/"):
+                  raise SystemExit(f"Unexpected sitemap host: {location}")
+              child_root = ET.fromstring(urlopen(location, timeout=30).read())
+              child_dates = [
+                  node.text for node in child_root.findall(".//sm:lastmod", namespace)
+                  if node.text
+              ]
+              if not child_dates:
+                  raise SystemExit(f"Child sitemap has no lastmod values: {location}")
+              latest = max(datetime.fromisoformat(value) for value in child_dates)
+              if datetime.fromisoformat(declared) != latest:
+                  raise SystemExit(
+                      f"Sitemap index lastmod is stale for {location}: "
+                      f"declared={declared}, latest={latest.isoformat()}"
+                  )
+              print(f"Sitemap index lastmod matches {location}: {declared}")
+          PY
+
           for sitemap in "$base/core-sitemap.xml" "$base/sitemap.xml"; do
             sitemap_xml="$(fetch_url "$sitemap")"
             sitemap_urls="$(grep -o '<loc>[^<]*</loc>' <<<"$sitemap_xml" | sed -e 's#<loc>##' -e 's#</loc>##')"
