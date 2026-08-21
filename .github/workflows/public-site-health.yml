@@ -137,6 +137,7 @@ jobs:
             "$base/global-online-scam-checker.html"
             "$base/community-scam-awareness-toolkit.html"
             "$base/scam-safety-resource-for-organizations.html"
+            "$base/minddividend-public-resource-badge.svg"
             "$base/guide-directory.html"
             "$base/report-online-scam.html"
             "$base/ai-deepfake-scam-checker.html"
@@ -181,6 +182,9 @@ jobs:
           home="$(fetch_url "$base/")"
           grep -Fq "MindDividend Shield" <<<"$home"
           ! grep -Fq "Alpha Engineer" <<<"$home"
+
+          organization_resource="$(fetch_url "$base/scam-safety-resource-for-organizations.html")"
+          grep -Fq "minddividend-public-resource-badge.svg" <<<"$organization_resource"
 
           llms="$(fetch_url "$base/llms.txt")"
           grep -Fq "MindDividend Shield" <<<"$llms"
