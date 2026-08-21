@@ -94,6 +94,12 @@ jobs:
               [ -z "$page_url" ] && continue
               echo "Checking sitemap page $page_url"
               check_url "$page_url"
+              page_html="$(curl --fail --silent --show-error --location --max-time 30 "$page_url")"
+              if grep -Fqi "noindex" <<<"$page_html"; then
+                echo "Unexpected noindex directive on $page_url" >&2
+                exit 1
+              fi
+              grep -Fq 'rel="canonical"' <<<"$page_html"
             done <<<"$sitemap_urls"
           done
 
