@@ -82,6 +82,12 @@ jobs:
           feed="$(curl --fail --silent --show-error --location --max-time 30 "$base/feed.xml")"
           grep -Fq "<rss" <<<"$feed"
           grep -Fq "MindDividend Shield" <<<"$feed"
+          external_feed_links="$(grep -o '<link>[^<]*</link>' <<<"$feed" | sed -e 's#<link>##' -e 's#</link>##' | grep -v "^$base/" || true)"
+          if [ -n "$external_feed_links" ]; then
+            echo "RSS sitemap contains off-domain item links:" >&2
+            echo "$external_feed_links" >&2
+            exit 1
+          fi
 
           index="$(curl --fail --silent --show-error --location --max-time 30 "$base/sitemap-index.xml")"
           grep -Fq "$base/core-sitemap.xml" <<<"$index"
