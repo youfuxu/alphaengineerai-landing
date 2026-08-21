@@ -14,6 +14,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Global safety guide directory](https://alphaengineerai.com/guide-directory.html?utm_source=github&utm_medium=readme&utm_campaign=guide_directory)
 - [Live MindDividend Shield checker](https://alphaengineerai.com/global-online-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=global_checker)
 - [MindDividend Shield overview](https://alphaengineerai.com/minddividend-shield.html?utm_source=github&utm_medium=readme&utm_campaign=overview): understand the free global first-check workflow before using it
+- [About MindDividend Shield](https://alphaengineerai.com/about-minddividend-shield.html?utm_source=github&utm_medium=readme&utm_campaign=about): understand the public method, privacy rules, official-source approach, and limits
 - [Website scam checker guide](https://alphaengineerai.com/website-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=website_checker): check a suspicious site safely before signing in, paying, or downloading
 - [Public discussion: website scam checker](https://github.com/youfuxu/alphaengineerai-landing/discussions/27): share the safety-first checklist and recovery guidance
 - [Online shopping scam checker](https://alphaengineerai.com/online-shopping-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=shopping_checker): check an unfamiliar store or marketplace seller before paying
