@@ -186,6 +186,24 @@ jobs:
           feed="$(fetch_url "$base/feed.xml")"
           grep -Fq "<rss" <<<"$feed"
           grep -Fq "MindDividend Shield" <<<"$feed"
+          required_language_hubs=(
+            "common-online-scams.html"
+            "estafas-online-comunes.html"
+            "golpes-online-comuns.html"
+            "arnaques-en-ligne-courantes.html"
+            "online-betrugsmaschen.html"
+            "online-scam-guide-hi.html"
+            "online-scam-guide-ar.html"
+            "common-online-scams-zh-hant.html"
+            "common-online-scams-id.html"
+            "common-online-scams-vi.html"
+            "common-online-scams-ja.html"
+            "common-online-scams-ko.html"
+            "common-online-scams-it.html"
+          )
+          for language_hub in "${required_language_hubs[@]}"; do
+            grep -Fq "$base/$language_hub" <<<"$feed"
+          done
           external_feed_links="$(grep -o '<link>[^<]*</link>' <<<"$feed" | sed -e 's#<link>##' -e 's#</link>##' | grep -v "^$base/" || true)"
           if [ -n "$external_feed_links" ]; then
             echo "RSS sitemap contains off-domain item links:" >&2
