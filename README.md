@@ -24,6 +24,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Romance scam checker](https://alphaengineerai.com/romance-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides): check when online affection becomes pressure for money, crypto, gifts, or private material
 - [Recovery scam checker](https://alphaengineerai.com/recovery-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides): check fake refund, tracing, legal, bank, and recovery-agent messages after an earlier loss
 - [QR code scam checker](https://alphaengineerai.com/qr-code-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides): inspect unexpected QR codes in messages, packages, signs, invoices, and payment requests before scanning
+- [Public discussion: QR code scam warning signs](https://github.com/youfuxu/alphaengineerai-landing/discussions/34): share the rule to inspect independently before scanning or paying
 - [Public discussion: recovery scam warning signs](https://github.com/youfuxu/alphaengineerai-landing/discussions/33): share the rule that an unexpected recovery agent should never require an upfront payment
 - [Public discussion: romance scam warning signs](https://github.com/youfuxu/alphaengineerai-landing/discussions/32): share a calm checklist before sending money or private material
 - [Public discussion: fake bank text message safety](https://github.com/youfuxu/alphaengineerai-landing/discussions/31): share the independent-verification checklist before signing in or replying
