@@ -5,7 +5,7 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 21:18:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 21:36:41 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Phone scam checker: is this call or number safe?</title>
@@ -20,6 +20,13 @@
       <guid isPermaLink="false">phone-scam-language-entry-2026-08-22-0518</guid>
       <description>The phone-safety guide now connects callers to public first-check entry points in thirteen languages without pretending the English guide is translated.</description>
       <pubDate>Fri, 21 Aug 2026 21:18:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Global scam checker adds a suspicious-call path</title>
+      <link>https://alphaengineerai.com/global-online-scam-checker.html</link>
+      <guid isPermaLink="false">global-checker-phone-path-2026-08-22-0536</guid>
+      <description>The primary global checker now links directly to the phone-scam safety guide and explains why caller ID is not proof of identity.</description>
+      <pubDate>Fri, 21 Aug 2026 21:36:41 GMT</pubDate>
     </item>
     <item>
       <title>Suspicious link checker: is this link safe to open?</title>
