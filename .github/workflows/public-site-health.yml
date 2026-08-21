@@ -68,6 +68,52 @@ jobs:
               raise SystemExit(1)
           print("All local HTML links and assets resolve.")
 
+      - name: Validate JSON-LD structured data
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import json
+
+          class StructuredDataParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.in_json_ld = False
+                  self.blocks = []
+
+              def handle_starttag(self, tag, attrs):
+                  if tag == "script" and any(name == "type" and value == "application/ld+json" for name, value in attrs):
+                      self.in_json_ld = True
+                      self.blocks.append("")
+
+              def handle_endtag(self, tag):
+                  if tag == "script" and self.in_json_ld:
+                      self.in_json_ld = False
+
+              def handle_data(self, data):
+                  if self.in_json_ld:
+                      self.blocks[-1] += data
+
+          errors = []
+          block_count = 0
+          for source in Path.cwd().rglob("*.html"):
+              parser = StructuredDataParser()
+              parser.feed(source.read_text(encoding="utf-8"))
+              for block_number, raw in enumerate(parser.blocks, start=1):
+                  block_count += 1
+                  try:
+                      json.loads(raw)
+                  except json.JSONDecodeError as error:
+                      errors.append(f"{source}:{block_number}: {error}")
+
+          if errors:
+              print("Invalid JSON-LD structured data found:")
+              print("\n".join(errors))
+              raise SystemExit(1)
+          print(f"All {block_count} JSON-LD blocks are valid.")
+
       - name: Check public pages and discovery files
         shell: bash
         run: |
