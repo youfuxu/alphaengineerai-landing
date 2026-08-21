@@ -114,6 +114,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Global guide directory discussion](https://github.com/youfuxu/alphaengineerai-landing/discussions/8): a public introduction to the 13-language safety resource and safe sharing rule.
 - [Global guide feedback issue](https://github.com/youfuxu/alphaengineerai-landing/issues/10): request a missing language, country, or scam pattern without posting private or sensitive data.
 - [Practical first check Q&A](https://github.com/youfuxu/alphaengineerai-landing/discussions/4): what to do with a suspicious SMS, email, or WhatsApp message.
+- [Fake bank text message safety discussion](https://github.com/youfuxu/alphaengineerai-landing/discussions/31): an independent-verification checklist before signing in or replying to a bank alert.
 - [Clicked-link recovery checklist](https://github.com/youfuxu/alphaengineerai-landing/discussions/5): calm next steps after clicking, paying, downloading, or sharing information.
 - [Mind Dividend on YouTube](https://www.youtube.com/@theminddividend): public videos and multilingual safety updates.
 - [MindDividend on Instagram](https://www.instagram.com/minddividend/): short-form psychology, money, human behavior, and online-safety updates.
