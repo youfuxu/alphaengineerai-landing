@@ -50,5 +50,35 @@
 <section class="cta"><div class="container"><h2>Start with a redacted example.</h2><p class="muted">MindDividend Shield is a free first-pass signal, not a guarantee or official investigation.</p><a class="btn" href="global-online-scam-checker.html" data-analytics-event="global_checker_click" data-analytics-target="community_toolkit_cta">Open MindDividend Shield &rarr;</a><p class="muted" style="margin-top:20px;font-size:14px;"><a class="link" href="https://github.com/youfuxu/alphaengineerai-landing/discussions/65" target="_blank" rel="noopener" data-analytics-event="community_discussion_click" data-analytics-target="community_toolkit_discussion">Read the public community announcement &rarr;</a></p></div></section>
 </main>
 <footer class="container"><div>&copy; 2026 MindDividend Shield</div><div class="links"><a class="link" href="/">Home</a><a class="link" href="start.html">Start here</a><a class="link" href="guide-directory.html">All guides</a><a class="link" href="privacy-and-safety.html">Safety and privacy</a><a class="link" href="feed.xml">Safety updates</a></div></footer>
+<script>
+(() => {
+  const strip = document.querySelector('.share-strip');
+  if (!strip) return;
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'share-link';
+  button.textContent = 'Copy public link';
+  button.setAttribute('data-analytics-event', 'toolkit_copy_click');
+  button.setAttribute('data-analytics-target', 'copy_link');
+  const status = document.createElement('span');
+  status.className = 'muted';
+  status.setAttribute('role', 'status');
+  status.setAttribute('aria-live', 'polite');
+  button.addEventListener('click', async () => {
+    const publicUrl = window.location.origin + window.location.pathname;
+    try {
+      await navigator.clipboard.writeText(publicUrl);
+      status.textContent = 'Public link copied.';
+    } catch (error) {
+      status.textContent = 'Copy unavailable; use a share button above.';
+    }
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'toolkit_copy_click', {page_path: window.location.pathname, link_target: 'copy_link'});
+    }
+  });
+  strip.appendChild(button);
+  strip.insertAdjacentElement('afterend', status);
+})();
+</script>
 </body>
 </html>
