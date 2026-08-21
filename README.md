@@ -22,6 +22,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [Online job scam checker](https://alphaengineerai.com/online-job-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
+- [Fake package delivery message checker](https://alphaengineerai.com/fake-package-delivery-text.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides): check shipping alerts, redelivery fees, delivery links, and payment requests
 - [AI and deepfake scam checker](https://alphaengineerai.com/ai-deepfake-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides): check voice clones, synthetic video, fake executives, and family-emergency impersonation
 - [Investment scam checker](https://alphaengineerai.com/investment-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides): check guaranteed returns, fake trading apps, crypto pitches, social-media tips, and withdrawal fees
 - [Common online scams](https://alphaengineerai.com/common-online-scams.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
