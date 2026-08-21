@@ -5,7 +5,7 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 02:52:43 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 04:31:00 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>v0.1.42 delivery safety discovery release</title>
@@ -20,6 +20,27 @@
       <guid isPermaLink="false">fake-package-delivery-text-guide-2026-08-21</guid>
       <description>A practical first-check guide for fake shipping alerts, redelivery fees, delivery links, customs requests, and messages asking for payment or personal details.</description>
       <pubDate>Fri, 21 Aug 2026 02:16:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Estafas online comunes en español</title>
+      <link>https://alphaengineerai.com/estafas-online-comunes.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/estafas-online-comunes.html</guid>
+      <description>Guía práctica para reconocer señales de estafas bancarias, de entregas, empleo, inversión, marketplace y falso soporte técnico.</description>
+      <pubDate>Fri, 21 Aug 2026 04:31:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Golpes online comuns em português</title>
+      <link>https://alphaengineerai.com/golpes-online-comuns.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/golpes-online-comuns.html</guid>
+      <description>Um guia prático para reconhecer sinais de golpes bancários, de entrega, emprego, investimento, marketplace e falso suporte.</description>
+      <pubDate>Fri, 21 Aug 2026 04:31:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Arnaques en ligne courantes en français</title>
+      <link>https://alphaengineerai.com/arnaques-en-ligne-courantes.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/arnaques-en-ligne-courantes.html</guid>
+      <description>Guide pratique pour reconnaître les signaux des arnaques bancaires, de livraison, d’emploi, d’investissement et de faux support.</description>
+      <pubDate>Fri, 21 Aug 2026 04:31:00 GMT</pubDate>
     </item>
     <item>
       <title>v0.1.39 brand consistency and indexing freshness release</title>
