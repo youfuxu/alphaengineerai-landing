@@ -13,6 +13,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html): focused entry point with safe-use rules, common signals, FAQs, and thirteen-language links including Italian.
 - [Community scam-awareness toolkit](https://alphaengineerai.com/community-scam-awareness-toolkit.html): a free, shareable five-step reminder for families, educators, creators, and community groups.
 - [Scam safety resource for organizations](https://alphaengineerai.com/scam-safety-resource-for-organizations.html): a public description and citation guide for organizations, educators, creators, moderators, and community leaders.
+- [Global share kit](https://alphaengineerai.com/global-share-kit.html): a public page with copy-ready messages, privacy rules, share links, and 13-language entry points.
 - [Copy-ready public safety reminder](https://gist.github.com/youfuxu/cc352fdf5dfb8fc00e9173a8f3e93e5f): a plain-text checklist that communities can share without exposing private messages or live suspicious links.
 - [Global share kit](https://github.com/youfuxu/alphaengineerai-landing/blob/main/global-share-kit.md): copy-ready short messages, privacy rules, and direct entry points in 13 languages.
 - [MindDividend Shield overview](https://alphaengineerai.com/minddividend-shield.html): a free global first check for suspicious texts, emails, and social messages before you click, pay, or reply.
@@ -120,6 +121,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the MindDividend Shield site.
 - [Copy-ready public safety reminder](https://gist.github.com/youfuxu/cc352fdf5dfb8fc00e9173a8f3e93e5f): a reusable plain-text version for educators, creators, moderators, and community leaders.
 - [Global share kit](https://github.com/youfuxu/alphaengineerai-landing/blob/main/global-share-kit.md): reusable public wording and language-specific links for community distribution.
+- [Global share kit web page](https://alphaengineerai.com/global-share-kit.html): the indexable public version with copy buttons and direct share links.
 - [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.52): global share kit with copy-ready messages, privacy rules, and 13-language entry points.
 - [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
 - [Public discussions](https://github.com/youfuxu/alphaengineerai-landing/discussions): regional scam patterns and translation feedback.
