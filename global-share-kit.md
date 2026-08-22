@@ -45,6 +45,12 @@ Use the closest public guide instead of forwarding a private message or live sus
 - Unexpected QR code: https://alphaengineerai.com/qr-code-scam-checker.html
 - Fake refund or recovery agent: https://alphaengineerai.com/recovery-scam-checker.html
 
+## Official reporting routes
+
+After a first check, send readers to the country or cross-border reporting route instead of asking them to post private evidence publicly:
+
+- Official reporting guide for police, banks, fraud agencies, platforms, and 19 countries or regions: https://alphaengineerai.com/report-online-scam.html
+
 ## Language-specific scenario overviews
 
 These four language pages connect readers directly to suspicious-link, suspicious-call, QR-code, and recovery guidance:
@@ -65,4 +71,4 @@ Never paste or publish passwords, verification codes, payment details, wallet ke
 - Publisher and NGO kit: https://alphaengineerai.com/global-publisher-kit.html
 - Copy-ready safety reminder: https://gist.github.com/youfuxu/cc352fdf5dfb8fc00e9173a8f3e93e5f
 
-Last reviewed: 2026-08-22. This kit is public education, not professional, legal, financial, or law-enforcement advice.
+Last reviewed: 2026-08-23. This kit is public education, not professional, legal, financial, or law-enforcement advice.
