@@ -406,6 +406,10 @@ jobs:
               check_url "$page_url"
               page_html="$(fetch_url "$page_url")"
               grep -Fq "MindDividend Shield" <<<"$page_html"
+              if grep -Fqi "Alpha Engineer" <<<"$page_html"; then
+                echo "Legacy Alpha Engineer branding leaked into indexable page: $page_url" >&2
+                exit 1
+              fi
               if grep -Fqi "noindex" <<<"$page_html"; then
                 echo "Unexpected noindex directive on $page_url" >&2
                 exit 1
