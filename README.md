@@ -115,6 +115,15 @@ Use the route for the relevant country or service, and verify through an officia
 - [Offizieller Leitfaden auf Deutsch](https://alphaengineerai.com/betrug-online-melden.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
 - [Guida ufficiale in italiano](https://alphaengineerai.com/segnalare-truffa-online.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
 
+### Primary references for the next step
+
+The project is a first-pass education resource. When a real incident involves money, account access, or personal information, use the official route you open independently:
+
+- [Consumer.gov: report international scams](https://consumer.gov/media/79836)
+- [USAGov: where to report scams](https://www.usa.gov/where-report-scams)
+- [GOV.UK: report internet scams and phishing](https://www.gov.uk/report-suspicious-emails-websites-phishing/report-internet-scams-and-phishing)
+- [Google: avoid and report phishing](https://support.google.com/mail/answer/8253?hl=en)
+
 ## Safe-use rule
 
 Redact passwords, payment details, verification codes, identity documents, private addresses, and other sensitive information before using a checker. When money or account access is involved, verify through the official app, website, or a known contact route.
