@@ -1,0 +1,49 @@
+# MindDividend Shield: Global Share Kit
+
+Use this page when sharing MindDividend Shield in a community channel, newsletter, classroom, help centre, creator bio, or support reply. The messages below are intentionally short and avoid asking people to publish private conversations.
+
+## The safest short version
+
+> Before you click, pay, reply, download, or share a verification code, pause and verify through the official app, website, or a contact route you already know. MindDividend Shield is a free first-check resource in 13 languages: https://alphaengineerai.com/start.html
+
+## One-line version
+
+> A free first check for suspicious messages in 13 languages: pause before you click or pay — https://alphaengineerai.com/start.html
+
+## Community moderator version
+
+> If a message creates urgency, fear, secrecy, or pressure to move money, open the official app or website independently before acting. Share the public guide, not the private message: https://alphaengineerai.com/start.html
+
+## Newsletter or help-centre version
+
+> MindDividend Shield provides a free, privacy-first first check for suspicious texts, emails, social messages, payment requests, account alerts, job offers, and delivery notices. It covers 13 languages and points people to official verification and reporting routes. It is educational guidance, not a bank, platform, government agency, investigation, or guarantee: https://alphaengineerai.com/start.html
+
+## Direct language entry points
+
+Choose the link that best matches the reader’s language:
+
+- English: https://alphaengineerai.com/common-online-scams.html
+- Español: https://alphaengineerai.com/estafas-online-comunes.html
+- Português: https://alphaengineerai.com/golpes-online-comuns.html
+- Français: https://alphaengineerai.com/arnaques-en-ligne-courantes.html
+- Deutsch: https://alphaengineerai.com/online-betrugsmaschen.html
+- हिन्दी: https://alphaengineerai.com/online-scam-guide-hi.html
+- العربية: https://alphaengineerai.com/online-scam-guide-ar.html
+- 繁體中文: https://alphaengineerai.com/common-online-scams-zh-hant.html
+- Bahasa Indonesia: https://alphaengineerai.com/pemeriksa-pesan-penipuan.html
+- Tiếng Việt: https://alphaengineerai.com/kiem-tra-tin-nhan-lua-dao.html
+- 日本語: https://alphaengineerai.com/scam-message-checker-ja.html
+- 한국어: https://alphaengineerai.com/scam-message-checker-ko.html
+- Italiano: https://alphaengineerai.com/common-online-scams-it.html
+
+## Privacy rule for every share
+
+Never paste or publish passwords, verification codes, payment details, wallet keys, identity documents, private addresses, private screenshots, session URLs, or a live suspicious link. Use a fictional or fully redacted example only. For important decisions, verify independently with the real organization and use its official reporting route.
+
+## More public resources
+
+- Five-step community toolkit: https://alphaengineerai.com/community-scam-awareness-toolkit.html
+- Resource for organizations and creators: https://alphaengineerai.com/scam-safety-resource-for-organizations.html
+- Copy-ready safety reminder: https://gist.github.com/youfuxu/cc352fdf5dfb8fc00e9173a8f3e93e5f
+
+Last reviewed: 2026-08-22. This kit is public education, not professional, legal, financial, or law-enforcement advice.

@@ -14,6 +14,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Community scam-awareness toolkit](https://alphaengineerai.com/community-scam-awareness-toolkit.html): a free, shareable five-step reminder for families, educators, creators, and community groups.
 - [Scam safety resource for organizations](https://alphaengineerai.com/scam-safety-resource-for-organizations.html): a public description and citation guide for organizations, educators, creators, moderators, and community leaders.
 - [Copy-ready public safety reminder](https://gist.github.com/youfuxu/cc352fdf5dfb8fc00e9173a8f3e93e5f): a plain-text checklist that communities can share without exposing private messages or live suspicious links.
+- [Global share kit](https://github.com/youfuxu/alphaengineerai-landing/blob/main/global-share-kit.md): copy-ready short messages, privacy rules, and direct entry points in 13 languages.
 - [MindDividend Shield overview](https://alphaengineerai.com/minddividend-shield.html): a free global first check for suspicious texts, emails, and social messages before you click, pay, or reply.
 - [About MindDividend Shield](https://alphaengineerai.com/about-minddividend-shield.html): public methodology, privacy rules, source approach, multilingual scope, and limits of the first-pass checker.
 - [Website scam checker guide](https://alphaengineerai.com/website-scam-checker.html): a safety-first checklist for suspicious sites, stores, payment pages, and links; includes Google Safe Browsing and official next steps without claiming that any green result is a guarantee.
@@ -118,6 +119,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [RSS safety guide feed](https://alphaengineerai.com/feed.xml): machine-readable updates for the global safety guides.
 - [Public GitHub project](https://github.com/youfuxu/alphaengineerai-landing): source and public implementation for the MindDividend Shield site.
 - [Copy-ready public safety reminder](https://gist.github.com/youfuxu/cc352fdf5dfb8fc00e9173a8f3e93e5f): a reusable plain-text version for educators, creators, moderators, and community leaders.
+- [Global share kit](https://github.com/youfuxu/alphaengineerai-landing/blob/main/global-share-kit.md): reusable public wording and language-specific links for community distribution.
 - [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.51): global community scam-awareness toolkit, organization citation resource, one-click public-link sharing, and discovery updates.
 - [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
 - [Public discussions](https://github.com/youfuxu/alphaengineerai-landing/discussions): regional scam patterns and translation feedback.
