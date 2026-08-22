@@ -114,6 +114,13 @@ Use the route for the relevant country or service, and verify through an officia
 - [Guide officiel en français](https://alphaengineerai.com/signaler-arnaque-en-ligne.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
 - [Offizieller Leitfaden auf Deutsch](https://alphaengineerai.com/betrug-online-melden.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
 - [Guida ufficiale in italiano](https://alphaengineerai.com/segnalare-truffa-online.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [हिन्दी आधिकारिक रिपोर्टिंग गाइड](https://alphaengineerai.com/report-online-scam-hi.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [دليل الإبلاغ الرسمي بالعربية](https://alphaengineerai.com/report-online-scam-ar.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [繁體中文官方通報指南](https://alphaengineerai.com/report-online-scam-zh-hant.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [Panduan pelaporan resmi Bahasa Indonesia](https://alphaengineerai.com/laporkan-penipuan-online.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [Hướng dẫn báo cáo chính thức bằng tiếng Việt](https://alphaengineerai.com/bao-cao-lua-dao-online.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [日本語の公式報告ガイド](https://alphaengineerai.com/report-online-scam-ja.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
+- [한국어 공식 신고 안내](https://alphaengineerai.com/report-online-scam-ko.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting)
 
 ### Primary references for the next step
 

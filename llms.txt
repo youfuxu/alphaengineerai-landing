@@ -61,6 +61,13 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Signaler une arnaque en ligne](https://alphaengineerai.com/signaler-arnaque-en-ligne.html): canaux officiels en français et étapes sûres avant d'envoyer des preuves ou données sensibles.
 - [Online-Betrug melden](https://alphaengineerai.com/betrug-online-melden.html): offizielle Meldestellen auf Deutsch und sichere Schritte vor dem Senden von Beweisen oder sensiblen Daten.
 - [Segnalare una truffa online](https://alphaengineerai.com/segnalare-truffa-online.html): canali ufficiali in italiano e passi sicuri prima di inviare prove o dati sensibili.
+- [ऑनलाइन धोखाधड़ी की रिपोर्ट कैसे करें](https://alphaengineerai.com/report-online-scam-hi.html): भारत और अन्य क्षेत्रों के लिए सुरक्षित आधिकारिक रिपोर्टिंग मार्ग।
+- [كيفية الإبلاغ عن احتيال عبر الإنترنت](https://alphaengineerai.com/report-online-scam-ar.html): خطوات آمنة لاختيار قناة الإبلاغ الرسمية حسب البلد.
+- [如何通報網路詐騙](https://alphaengineerai.com/report-online-scam-zh-hant.html): 繁體中文的銀行、警方與跨境通報安全步驟。
+- [Cara Melaporkan Penipuan Online](https://alphaengineerai.com/laporkan-penipuan-online.html): kanal resmi dan langkah aman dalam Bahasa Indonesia.
+- [Cách báo cáo lừa đảo trực tuyến](https://alphaengineerai.com/bao-cao-lua-dao-online.html): kênh chính thức và bước bảo vệ tài khoản bằng tiếng Việt.
+- [オンライン詐欺を報告する方法](https://alphaengineerai.com/report-online-scam-ja.html): 日本語の公式相談・報告ルートと安全な手順。
+- [온라인 사기 신고 방법](https://alphaengineerai.com/report-online-scam-ko.html): 한국어 공식 신고 경로와 계정 보호 단계.
 - [Controllo messaggio truffa](https://alphaengineerai.com/controllo-messaggio-truffa.html): segnali da controllare prima di cliccare, pagare o rispondere.
 
 ## Language resources
@@ -72,6 +79,13 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [French official reporting guide](https://alphaengineerai.com/signaler-arnaque-en-ligne.html): official fraud and cybercrime routes by country in French.
 - [German official reporting guide](https://alphaengineerai.com/betrug-online-melden.html): official fraud and cybercrime routes by country in German.
 - [Italian official reporting guide](https://alphaengineerai.com/segnalare-truffa-online.html): official fraud and cybercrime routes by country in Italian.
+- [Hindi official reporting guide](https://alphaengineerai.com/report-online-scam-hi.html): official routes and safe reporting steps in Hindi.
+- [Arabic official reporting guide](https://alphaengineerai.com/report-online-scam-ar.html): official routes and safe reporting steps in Arabic.
+- [Traditional Chinese official reporting guide](https://alphaengineerai.com/report-online-scam-zh-hant.html): official routes and safe reporting steps in Traditional Chinese.
+- [Indonesian official reporting guide](https://alphaengineerai.com/laporkan-penipuan-online.html): official routes and safe reporting steps in Indonesian.
+- [Vietnamese official reporting guide](https://alphaengineerai.com/bao-cao-lua-dao-online.html): official routes and safe reporting steps in Vietnamese.
+- [Japanese official reporting guide](https://alphaengineerai.com/report-online-scam-ja.html): official routes and safe reporting steps in Japanese.
+- [Korean official reporting guide](https://alphaengineerai.com/report-online-scam-ko.html): official routes and safe reporting steps in Korean.
 - [Italian message checker](https://alphaengineerai.com/controllo-messaggio-truffa.html): warning signs before clicking, paying, or replying.
 - [Portuguese](https://alphaengineerai.com/verificador-mensagem-golpe.html): warning signs before clicking, paying, or replying.
 - [French](https://alphaengineerai.com/verificateur-message-arnaque.html): warning signs before clicking, paying, or replying.
