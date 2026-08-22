@@ -55,7 +55,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [사기 링크를 클릭한 후 해야 할 일](https://alphaengineerai.com/what-to-do-after-clicking-scam-link-ko.html): 수상한 링크를 연 후 계정, 결제, 기기를 보호하는 한국어 체크리스트.
 - [How to tell if a text is a scam](https://alphaengineerai.com/how-to-tell-if-a-text-is-a-scam.html): pause-and-verify checklist.
 - [Scam Checker Privacy: What Not to Paste](https://alphaengineerai.com/privacy-and-safety.html): what not to paste into a public checker, how to redact messages, and when to use an official provider.
-- [How to report an online scam to police, your bank, or a platform](https://alphaengineerai.com/report-online-scam.html): official reporting routes across 19 countries and regions, plus a cross-border fallback through econsumer.gov for international consumer scams.
+- [How to report an online scam or scammer to police, your bank, or a platform](https://alphaengineerai.com/report-online-scam.html): official reporting routes across 19 countries and regions, plus a cross-border fallback through econsumer.gov for international consumer scams.
 - [Cómo denunciar una estafa online: policía, banco y plataforma](https://alphaengineerai.com/reportar-estafa-online.html): canales oficiales en español y pasos seguros para proteger el banco y guardar pruebas.
 - [Denunciar um golpe online](https://alphaengineerai.com/denunciar-golpe-online.html): canais oficiais em português e passos seguros antes de enviar provas ou dados sensíveis.
 - [Signaler une arnaque en ligne](https://alphaengineerai.com/signaler-arnaque-en-ligne.html): canaux officiels en français et étapes sûres avant d'envoyer des preuves ou données sensibles.
