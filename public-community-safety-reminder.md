@@ -11,6 +11,7 @@ Use this short reminder before clicking a link, paying, replying, downloading a 
 MindDividend Shield is a free global first-check project with practical guides in 13 languages:
 
 - Start here: https://alphaengineerai.com/start.html
+- Global share kit: https://alphaengineerai.com/global-share-kit.html
 - Global first check: https://alphaengineerai.com/global-online-scam-checker.html
 - Community toolkit: https://alphaengineerai.com/community-scam-awareness-toolkit.html
 - Resource for organizations and creators: https://alphaengineerai.com/scam-safety-resource-for-organizations.html
