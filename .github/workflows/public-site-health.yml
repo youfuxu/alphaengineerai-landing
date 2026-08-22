@@ -181,6 +181,42 @@ jobs:
           print(f"All {len(indexable)} indexable HTML pages are covered by the public sitemaps.")
           PY
 
+      - name: Keep legacy Alpha Engineer pages out of search
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+
+          class RobotsParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.noindex = False
+
+              def handle_starttag(self, tag, attrs):
+                  if tag != "meta":
+                      return
+                  values = {name.lower(): (value or "") for name, value in attrs}
+                  if values.get("name", "").lower() == "robots" and "noindex" in values.get("content", "").lower():
+                      self.noindex = True
+
+          root = Path.cwd()
+          legacy = [root / "blog.html", root / "tools.html", *sorted((root / "blog").glob("*.html"))]
+          missing = []
+          for source in legacy:
+              parser = RobotsParser()
+              parser.feed(source.read_text(encoding="utf-8"))
+              if not parser.noindex:
+                  missing.append(str(source.relative_to(root)))
+
+          if missing:
+              print("Legacy Alpha Engineer pages must remain noindex:")
+              print("\n".join(missing))
+              raise SystemExit(1)
+          print(f"All {len(legacy)} legacy Alpha Engineer pages remain noindex.")
+          PY
+
       - name: Check public pages and discovery files
         shell: bash
         run: |
