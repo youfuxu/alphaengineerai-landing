@@ -66,11 +66,16 @@ function Get-SitemapUrls {
 $feedUrl = "$BaseUrl/feed.xml"
 $blogFeedUrl = "$BaseUrl/blog-feed.xml"
 $legacyBlogDirectory = Join-Path (Join-Path $PSScriptRoot "..") "blog"
+$legacyRootUrls = @(
+    "$BaseUrl/index.html"
+    "$BaseUrl/blog.html"
+    "$BaseUrl/tools.html"
+)
 $legacyBlogUrls = @(
     Get-ChildItem -LiteralPath $legacyBlogDirectory -Filter "*.html" -File |
         ForEach-Object { "$BaseUrl/blog/$($_.Name)" }
 )
-$urls = @(Get-SitemapUrls -Uri $sitemapUrl -Visited @{} | Where-Object { $_ }) + $legacyBlogUrls + $feedUrl + $blogFeedUrl
+$urls = @(Get-SitemapUrls -Uri $sitemapUrl -Visited @{} | Where-Object { $_ }) + $legacyRootUrls + $legacyBlogUrls + $feedUrl + $blogFeedUrl
 $urls = @($urls | Where-Object { $_ } | Sort-Object -Unique)
 if ($urls.Count -eq 0) {
     throw "The sitemap index produced no public URLs."
