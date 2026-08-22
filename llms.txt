@@ -17,7 +17,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Global publisher kit](https://alphaengineerai.com/global-publisher-kit.html): copy-ready descriptions, canonical links, privacy rules, and an embeddable public badge for publishers, NGOs, educators, and community hubs.
 - [Copy-ready public safety reminder](https://gist.github.com/youfuxu/cc352fdf5dfb8fc00e9173a8f3e93e5f): a plain-text checklist that communities can share without exposing private messages or live suspicious links.
 - [Global share kit](https://github.com/youfuxu/alphaengineerai-landing/blob/main/global-share-kit.md): copy-ready short messages, privacy rules, and direct entry points in 13 languages.
-- [MindDividend Shield overview](https://alphaengineerai.com/minddividend-shield.html): a free global first check for suspicious texts, emails, and social messages before you click, pay, or reply.
+- [Free Online Scam Message Checker](https://alphaengineerai.com/minddividend-shield.html): a free global first check for suspicious texts, emails, social DMs, bank alerts, jobs, and payment requests before you act.
 - [About MindDividend Shield](https://alphaengineerai.com/about-minddividend-shield.html): public methodology, privacy rules, source approach, multilingual scope, and limits of the first-pass checker.
 - [Website scam checker guide](https://alphaengineerai.com/website-scam-checker.html): a safety-first checklist for suspicious sites, stores, payment pages, and links; includes Google Safe Browsing and official next steps without claiming that any green result is a guarantee.
 - [Suspicious link checker guide](https://alphaengineerai.com/suspicious-link-checker.html): inspect a link without opening it, verify the real domain through an independent route, protect private session links, and choose safer next steps before clicking or paying.
@@ -39,7 +39,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Investment scam checker](https://alphaengineerai.com/investment-scam-checker.html): checks guaranteed returns, fake trading apps, social-media tips, crypto deposits, romance-investment pressure, and withdrawal fees.
 - [Common online scams](https://alphaengineerai.com/common-online-scams.html): English overview of bank, delivery, job, investment, marketplace, impersonation, and tech-support scams.
 - [What to do if you clicked a scam link](https://alphaengineerai.com/what-to-do-if-you-clicked-a-scam-link.html): calm response checklist after a click.
-- [點擊詐騙連結後怎麼辦？](https://alphaengineerai.com/what-to-do-after-clicking-scam-link-zh-hant.html): 點擊可疑連結後保護帳戶、付款、裝置與證據的繁體中文清單。
+- [點擊詐騙連結後怎麼辦？立即處理清單（繁體中文）](https://alphaengineerai.com/what-to-do-after-clicking-scam-link-zh-hant.html): 點擊可疑連結後停止輸入，保護密碼、付款、裝置與證據的繁體中文清單。
 - [Cosa fare dopo aver cliccato un link truffa](https://alphaengineerai.com/cosa-fare-dopo-aver-cliccato-link-truffa.html): checklist italiana per proteggere account, pagamenti e dispositivo dopo un clic sospetto.
 - [Qué hacer si hiciste clic en un enlace de estafa](https://alphaengineerai.com/que-hacer-si-hiciste-clic-en-un-enlace-de-estafa.html): lista tranquila en español para proteger cuentas, pagos y dispositivos.
 - [O que fazer se clicou num link de golpe](https://alphaengineerai.com/o-que-fazer-se-clicou-num-link-de-golpe.html): lista calma em português para proteger contas, pagamentos e dispositivos.
@@ -54,9 +54,9 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [사기 메시지 검사기](https://alphaengineerai.com/scam-message-checker-ko.html): 한국어 문자, 이메일, DM을 행동하기 전에 확인하는 안전 가이드.
 - [사기 링크를 클릭한 후 해야 할 일](https://alphaengineerai.com/what-to-do-after-clicking-scam-link-ko.html): 수상한 링크를 연 후 계정, 결제, 기기를 보호하는 한국어 체크리스트.
 - [How to tell if a text is a scam](https://alphaengineerai.com/how-to-tell-if-a-text-is-a-scam.html): pause-and-verify checklist.
-- [Privacy and safety](https://alphaengineerai.com/privacy-and-safety.html): what not to paste into a checker and how to use it responsibly.
+- [Scam Checker Privacy: What Not to Paste](https://alphaengineerai.com/privacy-and-safety.html): what not to paste into a public checker, how to redact messages, and when to use an official provider.
 - [How to report an online scam to police, your bank, or a platform](https://alphaengineerai.com/report-online-scam.html): official reporting routes across 19 countries and regions, plus a cross-border fallback through econsumer.gov for international consumer scams.
-- [Cómo reportar una estafa online a la policía, el banco o la plataforma](https://alphaengineerai.com/reportar-estafa-online.html): canales oficiales en español y pasos seguros antes de enviar pruebas o datos sensibles.
+- [Cómo denunciar una estafa online: policía, banco y plataforma](https://alphaengineerai.com/reportar-estafa-online.html): canales oficiales en español y pasos seguros para proteger el banco y guardar pruebas.
 - [Denunciar um golpe online](https://alphaengineerai.com/denunciar-golpe-online.html): canais oficiais em português e passos seguros antes de enviar provas ou dados sensíveis.
 - [Signaler une arnaque en ligne](https://alphaengineerai.com/signaler-arnaque-en-ligne.html): canaux officiels en français et étapes sûres avant d'envoyer des preuves ou données sensibles.
 - [Online-Betrug melden](https://alphaengineerai.com/betrug-online-melden.html): offizielle Meldestellen auf Deutsch und sichere Schritte vor dem Senden von Beweisen oder sensiblen Daten.
@@ -65,7 +65,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 
 ## Language resources
 
-- [Traditional Chinese](https://alphaengineerai.com/common-online-scams-zh-hant.html): common scam patterns before clicking, paying, or replying.
+- [常見網路詐騙有哪些？繁體中文辨識指南](https://alphaengineerai.com/common-online-scams-zh-hant.html): common scam patterns and safe verification steps before clicking, paying, or replying.
 - [Spanish](https://alphaengineerai.com/comprobador-mensajes-estafa.html): warning signs before clicking, paying, or replying.
 - [Spanish official reporting guide](https://alphaengineerai.com/reportar-estafa-online.html): official fraud and cybercrime routes by country in Spanish.
 - [Portuguese official reporting guide](https://alphaengineerai.com/denunciar-golpe-online.html): official fraud and cybercrime routes by country in Portuguese.
@@ -108,7 +108,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [आम ऑनलाइन ठगी（हिन्दी）](https://alphaengineerai.com/online-scam-guide-hi.html): बैंक, डिलीवरी, नौकरी, निवेश और नकली सहायता के सामान्य तरीके।
 - [أشكال الاحتيال الشائعة（العربية）](https://alphaengineerai.com/online-scam-guide-ar.html): علامات التحذير في البنوك والتوصيل والعمل والاستثمار والدعم المزيف.
 - [English common online scams](https://alphaengineerai.com/common-online-scams.html): bank, delivery, job, investment, marketplace, impersonation, and tech-support patterns.
-- [常見網路詐騙（繁體中文）](https://alphaengineerai.com/common-online-scams-zh-hant.html): 點擊、付款或回覆前的常見故事與施壓模式。
+- [常見網路詐騙有哪些？繁體中文辨識指南](https://alphaengineerai.com/common-online-scams-zh-hant.html): 點擊、付款或回覆前的常見故事、施壓模式與安全查證步驟。
 - [Penipuan online umum（Bahasa Indonesia）](https://alphaengineerai.com/common-online-scams-id.html): tanda bahaya bank, pengiriman, pekerjaan, investasi, marketplace, dan akun palsu.
 - [Các trò lừa đảo trực tuyến phổ biến（Tiếng Việt）](https://alphaengineerai.com/common-online-scams-vi.html): dấu hiệu trong ngân hàng, giao hàng, việc làm, đầu tư và hỗ trợ giả.
 - [よくあるネット詐欺（日本語）](https://alphaengineerai.com/common-online-scams-ja.html): 急がせるパターンをクリック・送金・返信の前に確認するガイド。
