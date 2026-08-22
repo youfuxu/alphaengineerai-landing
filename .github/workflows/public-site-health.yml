@@ -302,6 +302,15 @@ jobs:
           grep -Fq "official reporting" <<<"$report_guide"
           grep -Fq "official channel" <<<"$report_guide"
 
+          for legacy_page in blog/*.html; do
+            legacy_name="$(basename "$legacy_page")"
+            legacy_html="$(fetch_url "$base/blog/$legacy_name")"
+            grep -Fq "This archive has moved." <<<"$legacy_html"
+            grep -Fq 'noindex,nofollow' <<<"$legacy_html"
+            grep -Fq "window.location.replace('/guide-directory.html')" <<<"$legacy_html"
+            ! grep -Fq "Alpha Engineer" <<<"$legacy_html"
+          done
+
           llms="$(fetch_url "$base/llms.txt")"
           grep -Fq "MindDividend Shield" <<<"$llms"
           grep -Fq "Free global scam checkers in 13 languages" <<<"$llms"

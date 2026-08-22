@@ -1,240 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="robots" content="noindex,follow">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI Tools for Reels B-Roll: Why Editors Miss It | Alpha Engineer</title>
-<meta name="description" content="Auto-highlight editors are transcript-first, so silent b-roll gives them nothing to score. The reason why, plus a timed run on 72s of dialogue-free footage.">
-<meta name="keywords" content="ai tool to cut raw footage into reels, ai video editing b-roll, opusclip alternative b-roll, auto highlight silent footage, edit client footage with ai">
-<meta property="og:type" content="article">
-<meta property="og:title" content="AI Tools for Reels B-Roll: Why Editors Miss It">
-<meta property="og:description" content="The architectural reason auto-editors fail on silent footage, and a real test with the raw JSON output.">
-<meta property="og:url" content="https://alphaengineerai.com/blog/ai-cut-raw-footage-into-reels-broll.html">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AI Tools for Reels B-Roll: Why Editors Miss It">
-<meta name="twitter:description" content="The architectural reason, and a real test with the raw JSON output.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { background: #0D1117; color: #C9D1D9; font-family: 'Inter', sans-serif; line-height: 1.7; font-size: 18px; }
-  .grid-bg { position: fixed; inset: 0; background-image: linear-gradient(rgba(0,212,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(0,212,255,0.04) 1px, transparent 1px); background-size: 60px 60px; pointer-events: none; z-index: 0; }
-  .wrap { max-width: 760px; margin: 0 auto; padding: 64px 24px 96px; position: relative; z-index: 1; }
-  .brand { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; color: #00D4FF; letter-spacing: 0.04em; text-decoration: none; display: inline-block; margin-bottom: 48px; }
-  .tag { display: inline-block; background: rgba(0,212,255,0.12); color: #00D4FF; font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 16px; border-radius: 6px; margin-bottom: 24px; }
-  h1 { font-family: 'Space Grotesk', sans-serif; font-size: 44px; font-weight: 700; color: #E6EDF3; line-height: 1.12; letter-spacing: -0.02em; margin-bottom: 20px; }
-  h1 span, h2 span { color: #00D4FF; }
-  h2 { font-family: 'Space Grotesk', sans-serif; font-size: 30px; font-weight: 700; color: #E6EDF3; line-height: 1.2; margin: 56px 0 20px; letter-spacing: -0.01em; }
-  h3 { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; color: #E6EDF3; margin: 36px 0 14px; }
-  p { margin-bottom: 20px; color: #C9D1D9; }
-  a { color: #00D4FF; text-decoration: none; border-bottom: 1px solid rgba(0,212,255,0.3); }
-  a:hover { border-bottom-color: #00D4FF; }
-  .meta { color: #768F92; font-size: 15px; margin-bottom: 40px; font-family: 'Space Grotesk', sans-serif; }
-  .lead { font-size: 21px; color: #E6EDF3; line-height: 1.6; margin-bottom: 32px; }
-  ul, ol { margin: 0 0 24px 0; padding-left: 0; list-style: none; }
-  ul li { padding: 8px 0 8px 28px; position: relative; }
-  ul li::before { content: '▸'; color: #00D4FF; position: absolute; left: 0; }
-  ol { counter-reset: item; }
-  ol li { padding: 8px 0 8px 36px; position: relative; counter-increment: item; }
-  ol li::before { content: counter(item); color: #00D4FF; font-family: 'Space Grotesk', sans-serif; font-weight: 700; position: absolute; left: 0; }
-  strong { color: #E6EDF3; font-weight: 600; }
-  code { font-family: 'Space Grotesk', monospace; background: #161B22; border: 1px solid #1E2A30; border-radius: 4px; padding: 2px 7px; font-size: 15px; color: #00D4FF; }
-  pre { background: #161B22; border: 1px solid #1E2A30; border-left: 3px solid #00D4FF; border-radius: 10px; padding: 20px 24px; margin: 24px 0; overflow-x: auto; font-size: 14px; line-height: 1.6; }
-  pre code { background: none; border: none; padding: 0; color: #C9D1D9; font-size: 14px; }
-  pre .k { color: #00D4FF; }
-  pre .d { color: #768F92; }
-  .feature { background: #161B22; border: 1px solid #1E2A30; border-left: 3px solid #00D4FF; border-radius: 10px; padding: 24px 32px; margin: 24px 0; }
-  .feature h3 { margin-top: 0; }
-  .caveat { background: #161B22; border: 1px solid #1E2A30; border-left: 3px solid #768F92; border-radius: 10px; padding: 24px 32px; margin: 32px 0; }
-  .caveat h3 { margin-top: 0; color: #E6EDF3; }
-  .caveat p:last-child { margin-bottom: 0; }
-  table.cmp { width: 100%; border-collapse: collapse; margin: 28px 0; font-size: 16px; background: #161B22; border: 1px solid #1E2A30; border-radius: 10px; overflow: hidden; }
-  table.cmp th, table.cmp td { text-align: left; padding: 14px 18px; border-bottom: 1px solid #1E2A30; }
-  table.cmp th { font-family: 'Space Grotesk', sans-serif; color: #E6EDF3; font-weight: 600; background: #0D1117; }
-  table.cmp td:first-child { color: #768F92; font-family: 'Space Grotesk', sans-serif; font-size: 14px; }
-  table.cmp tr:last-child td { border-bottom: none; }
-  table.cmp .hi { color: #00D4FF; font-weight: 600; }
-  .checklist { background: #161B22; border: 1px solid #1E2A30; border-radius: 12px; padding: 28px 32px; margin: 32px 0; }
-  .checklist h3 { margin-top: 0; }
-  .checklist ol li { padding: 10px 0 10px 36px; }
-  .cta { background: #161B22; border: 1px solid #00D4FF; border-radius: 12px; padding: 32px; margin: 48px 0; text-align: center; }
-  .cta h3 { margin-top: 0; color: #E6EDF3; }
-  .btn { display: inline-block; background: #00D4FF; color: #0D1117; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 16px; padding: 14px 32px; border-radius: 8px; border-bottom: none; margin-top: 12px; }
-  .btn:hover { background: #33ddff; border-bottom: none; }
-  .divider { height: 1px; background: #1E2A30; margin: 56px 0; border: none; }
-  footer { border-top: 1px solid #1E2A30; padding-top: 32px; margin-top: 64px; color: #768F92; font-size: 14px; }
-  footer a { color: #768F92; border-bottom: none; }
-  footer a:hover { color: #00D4FF; }
-  @media (max-width: 600px) { h1 { font-size: 34px; } table.cmp { font-size: 14px; } table.cmp th, table.cmp td { padding: 10px 12px; } pre { font-size: 13px; } }
-</style>
-<link rel="canonical" href="https://alphaengineerai.com/blog/ai-cut-raw-footage-into-reels-broll.html">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "AI Tools to Cut Raw Footage Into Reels: Why Most Whiff on B-Roll",
-  "description": "Auto-highlight editors are transcript-first, so silent b-roll gives them nothing to score. The reason why, plus a timed run on 72s of dialogue-free footage.",
-  "url": "https://alphaengineerai.com/blog/ai-cut-raw-footage-into-reels-broll.html",
-  "datePublished": "2026-08-06",
-  "dateModified": "2026-08-06",
-  "inLanguage": "en",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://alphaengineerai.com/blog/ai-cut-raw-footage-into-reels-broll.html"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Alpha Engineer",
-    "url": "https://alphaengineerai.com/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Alpha Engineer",
-    "url": "https://alphaengineerai.com/"
-  }
-}
-</script>
-<meta property="og:image" content="https://alphaengineerai.com/og-shield.png">
-<meta property="og:site_name" content="Alpha Engineer">
-<meta property="og:image:alt" content="Alpha Engineer — AI tools and passive income for engineers">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:image" content="https://alphaengineerai.com/og-shield.png">
-<script src="/analytics.js" defer></script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://alphaengineerai.com/"},{"@type":"ListItem","position":2,"name":"AI Tools to Cut Raw Footage Into Reels: Why Most Whiff on B-Roll | Alpha Engineer","item":"https://alphaengineerai.com/blog/ai-cut-raw-footage-into-reels-broll.html"}]}
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="MindDividend Shield Safety Guides" href="https://alphaengineerai.com/feed.xml">
-<link rel="alternate" type="application/rss+xml" title="MindDividend Shield Safety Guides" href="https://alphaengineerai.com/feed.xml"></head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>This archive has moved | MindDividend Shield</title>
+  <meta name="description" content="This legacy article archive has moved to MindDividend Shield's global scam-safety guides.">
+  <link rel="canonical" href="https://alphaengineerai.com/guide-directory.html">
+  <meta http-equiv="refresh" content="0;url=/guide-directory.html">
+  <meta property="og:title" content="This archive has moved | MindDividend Shield">
+  <meta property="og:description" content="Continue to MindDividend Shield's global scam-safety guides and first-pass checker.">
+  <meta property="og:url" content="https://alphaengineerai.com/guide-directory.html">
+  <script>window.location.replace('/guide-directory.html');</script>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #0d1117; color: #e6edf3; font: 18px/1.6 system-ui, sans-serif; }
+    main { width: min(680px, calc(100% - 40px)); padding: 40px 0; }
+    h1 { font-size: clamp(32px, 6vw, 56px); line-height: 1.05; margin: 0 0 20px; }
+    p { color: #b8c4d0; }
+    a { color: #6ee7ff; }
+  </style>
+</head>
 <body>
-<div class="grid-bg"></div>
-<div class="wrap">
-  <a href="../index.html" class="brand">&#10230; ALPHA ENGINEER</a>
-
-  <span class="tag">Build In Public</span>
-  <h1>AI Tools to Cut Raw Footage Into Reels &mdash; <span>Why Most Whiff on B-Roll</span></h1>
-  <div class="meta">By Alpha Engineer &middot; August 2026 &middot; 8 min read</div>
-
-  <p class="lead">If you have ever been handed a folder of unlabelled client footage and told to make Reels out of it, you already know the auto-highlight tools do not save you. They are not broken. They are built on an assumption your footage violates, and once you see the assumption you can stop shopping and start solving the right problem.</p>
-
-  <h2>The complaint that keeps repeating</h2>
-  <p>Spend ten minutes in the small-business and social-marketing forums and the same post cycles through every few weeks: <em>"Is there any tool that can go through raw footage and find the good moments?"</em> The replies recommend the usual auto-editors. Then, reliably, somebody who has actually tried them says the quiet part:</p>
-  <blockquote style="border-left:3px solid #1E2A30;padding-left:20px;margin:24px 0;color:#768F92;font-style:italic;">"auto-highlight tools are built for long podcasts and tend to whiff on short b-roll"</blockquote>
-  <p>That single line is the whole diagnosis, and it is worth spelling out because it changes what you should be looking for.</p>
-
-  <h2>The assumption you are violating</h2>
-  <p>Nearly every mainstream auto-editor is a <strong>transcript-first</strong> system. The pipeline is: transcribe the audio, score the sentences, keep the high-scoring ones, cut on word boundaries. That design is excellent for a two-hour podcast or a talking-head webinar, where the words <em>are</em> the content and there is a dense signal to score.</p>
-  <p>Now feed it b-roll. Handheld shots of a storefront. A slow pan across a plated dish. Someone walking through a door. The transcript is empty, or it is thirty seconds of traffic noise and a half-audible "okay, again". There is nothing to score. The model is not making bad decisions &mdash; it has no input at all.</p>
-  <p>This is why the fix is never a different transcript-based tool. Anything that leads with speech-to-text will fail in the same place. What you need is a system that <strong>looks at the pictures</strong>.</p>
-
-  <h2>So I tested exactly that</h2>
-  <p>I run a small self-built pipeline for my own short-form output. Its first stage is deliberately vision-first: a multimodal model watches the video and returns timestamped segments describing <em>what is on screen</em>, with the transcript as one optional field among several. I had never pushed it with genuinely dialogue-free material, so I built the worst case on purpose.</p>
-
-  <div class="feature">
-    <h3>The test material</h3>
-    <ul>
-      <li><strong>8 unrelated clips</strong> concatenated into one file &mdash; different rooms, different lighting, no continuity, exactly the "client dump" shape</li>
-      <li><strong>72.3 seconds</strong> total, 720&times;1280 vertical</li>
-      <li><strong>Zero audio stream.</strong> Not quiet &mdash; <code>ffprobe</code> reports no audio track at all</li>
-      <li>No labels, no filenames, no shot list, no timecode notes</li>
-    </ul>
-  </div>
-
-  <h3>Stage 1 &mdash; what the vision model returned</h3>
-  <p>Trimmed from the actual output file:</p>
-<pre><code><span class="k">"language"</span>: <span class="k">"no voiceover"</span>,
-<span class="k">"segments"</span>: [
-  { <span class="k">"start"</span>: 0, <span class="k">"end"</span>: 8, <span class="k">"speech"</span>: <span class="k">""</span>, <span class="k">"energy"</span>: <span class="k">"low"</span>,
-    <span class="k">"visual"</span>: <span class="d">"seated by a warm window reading,</span>
-<span class="d">               then looks up and smiles"</span> },
-
-  { <span class="k">"start"</span>: 26, <span class="k">"end"</span>: 35, <span class="k">"speech"</span>: <span class="k">""</span>, <span class="k">"energy"</span>: <span class="k">"mid"</span>,
-    <span class="k">"visual"</span>: <span class="d">"in an apron, absorbed in painting</span>
-<span class="d">               at a studio desk, then a smile to camera"</span> },
-
-  { <span class="k">"start"</span>: 44, <span class="k">"end"</span>: 53, <span class="k">"speech"</span>: <span class="k">""</span>, <span class="k">"energy"</span>: <span class="k">"mid"</span>,
-    <span class="k">"visual"</span>: <span class="d">"jogging lightly along a green park path"</span> }
-
-  <span class="d">... 8 segments total, every one with speech: ""</span>
-]</code></pre>
-  <p>Two things matter here. First, <strong>every single <code>speech</code> field is an empty string</strong> &mdash; this is precisely the input a transcript-first tool would be working from, and it is nothing. Second, the <code>visual</code> and <code>energy</code> fields are populated for all eight segments, which is a usable signal where the transcript had none.</p>
-
-  <h3>It also found the cuts by itself</h3>
-  <p>I never told it there were eight clips. It returned eight segments &mdash; <strong>the correct count</strong> &mdash; with boundaries at 0/8/17/26/35/44/53/62/71 seconds against true splice points of 0/9.04/18.08/27.13/36.17/45.21/54.25/63.29/72.33.</p>
-  <p>Being honest about that number: every boundary sits <strong>1.0&ndash;1.3 seconds early</strong>, and the error grows monotonically. That is a sampling/rounding drift (the model answers in whole seconds), not a scene it got wrong. Shot detection: 8 of 8. Frame-accuracy: not there, and you would not want to trust it for a hard cut without a nudge.</p>
-
-  <h3>Stage 2 &mdash; the edit decisions</h3>
-  <p>The segment list then goes to a reasoning model that returns a cut plan. It kept 7 cuts totalling 36 seconds, and the interesting part is not the trimming, it is the <em>reordering and the rejection</em>:</p>
-  <table class="cmp">
-    <tr><th>Cut</th><th>Source time</th><th>Role</th><th>Stated reason</th></tr>
-    <tr><td>1</td><td class="hi">26&ndash;29.5s</td><td>hook</td><td>most engaging shot &mdash; pulled to the front</td></tr>
-    <tr><td>2</td><td>0&ndash;5s</td><td>body</td><td>establishes the calm tone</td></tr>
-    <tr><td>3</td><td>8&ndash;13s</td><td>body</td><td>strong light, good atmosphere</td></tr>
-    <tr><td>4</td><td>17&ndash;22s</td><td>body</td><td>contrast shot</td></tr>
-    <tr><td>5</td><td>44&ndash;49s</td><td>body</td><td>motion &mdash; lifts the pace, avoids a flat middle</td></tr>
-    <tr><td>6</td><td>53&ndash;58s</td><td>body</td><td>brings the emotion back down</td></tr>
-    <tr><td>7</td><td>62&ndash;69s</td><td>cta</td><td>quiet ending, room for the call to action</td></tr>
-    <tr><td>&mdash;</td><td>35&ndash;44s</td><td class="hi">dropped</td><td>not selected at all</td></tr>
-  </table>
-  <p>The hook is the fourth clip in the timeline, promoted to position one. One of the eight scenes was thrown away entirely. The stated logic for the running order was quiet &rarr; motion &rarr; quiet, so the middle would not sag. That is the actual job people are asking for when they say "find the good moments" &mdash; not just trimming dead air, but <em>choosing</em> and <em>sequencing</em>.</p>
-
-  <h3>The clock</h3>
-  <table class="cmp">
-    <tr><th>Stage</th><th>Time</th></tr>
-    <tr><td>Vision analysis (72s of footage)</td><td>22s</td></tr>
-    <tr><td>Cut planning</td><td>22s</td></tr>
-    <tr><td>Render + burn-in subtitles</td><td>14s</td></tr>
-    <tr><td><strong>Total, unattended</strong></td><td class="hi"><strong>58 seconds &rarr; a 35.5s vertical cut</strong></td></tr>
-  </table>
-  <p>API cost for the run was a couple of US cents. I pulled a frame at 1.5s to confirm the hook overlay had actually burned in rather than silently failing, which is the check I would recommend to anyone automating a render step.</p>
-
-  <div class="caveat">
-    <h3>What this test does <em>not</em> prove</h3>
-    <p><strong>I did not benchmark the commercial tools.</strong> I have not run this footage through the popular auto-editors, so nothing here is a head-to-head. The claim I am making is narrower and architectural: a transcript-first system receives an empty transcript from this material, and you can see exactly that in the <code>speech</code> fields above.</p>
-    <p><strong>My clips were AI-generated and truly silent</strong>, which is more extreme than real b-roll. Genuine client footage usually has room tone, wind, or a stray voice &mdash; in which case a transcriber returns not nothing but <em>noise</em>, which is arguably worse to score against.</p>
-    <p><strong>One run, one clip set, one pipeline.</strong> Sample size one. It tells you the approach works on the hard case; it does not tell you it wins on your footage.</p>
-  </div>
-
-  <h2>The workflow, whether or not you write code</h2>
-  <p>The transferable part is the order of operations, not my particular stack.</p>
-
-  <div class="checklist">
-    <h3>Raw footage triage &mdash; the running order</h3>
-    <ol>
-      <li><strong>Sort by whether there is speech, before you open an editor.</strong> Anything with a real voice track can go to a transcript-based tool and will do fine. Everything else must go down a visual path. Mixing them is what makes the whole batch feel broken.</li>
-      <li><strong>Describe before you select.</strong> Get a one-line description plus an energy rating per shot. This is the step people skip, and it is the step that makes selection possible &mdash; you cannot rank what you have not labelled.</li>
-      <li><strong>Let shot detection do the log.</strong> Splice points are the cheapest structure in a dump of unlabelled clips, and any competent vision pass finds them. Do not scrub manually to build a shot list.</li>
-      <li><strong>Choose the hook independently of timeline order.</strong> The strongest three seconds are almost never the first three seconds. If your process cannot promote a mid-timeline shot to position one, it is trimming, not editing.</li>
-      <li><strong>Sequence for energy, not chronology.</strong> Quiet &rarr; motion &rarr; quiet beats "the order it was filmed in" nearly every time.</li>
-      <li><strong>Budget for a rejection.</strong> If every shot survives, the selection step is not doing anything. Something should get cut.</li>
-      <li><strong>Verify the render, not the log.</strong> Pull a frame and look at it. Overlays and subtitle burn-in fail silently more often than they error out.</li>
-    </ol>
-  </div>
-
-  <h3>If you are hiring the tools rather than building</h3>
-  <p>Ask one question before you pay for anything: <em>does it look at the frames, or only at the words?</em> Vendors describe this in their own way &mdash; "scene detection", "visual understanding", "multimodal" &mdash; but the test is simple. Feed it sixty seconds of your silent footage during the trial. If it returns nothing useful, that is the architecture answering, and no amount of settings will change it.</p>
-
-  <h2>Where I landed</h2>
-  <p>The recurring forum complaint is not a gap in the market for a better transcript tool. It is people bringing visual material to a linguistic system. Once the first stage of your pipeline is something that genuinely watches the footage, "go through this dump and find the good bits" turns into a solvable, and surprisingly fast, problem &mdash; 58 seconds unattended in my run, on the least helpful input I could construct.</p>
-  <p>Whether that holds up across a real 50-clip client batch is the next thing worth measuring, and I will publish that number too.</p>
-
-  <div class="cta">
-    <h3>Free: The Faceless YouTube Starter Checklist</h3>
-    <p>The exact setup behind a camera-free AI channel &mdash; tool stack, the order to wire it in, and the silent failure points that cost me weeks. Free, no email gate.</p>
-    <a href="https://alphatech4.gumroad.com/l/faceless-checklist?utm_source=alphaengineerai&amp;utm_medium=blog&amp;utm_campaign=broll" class="btn" target="_blank" rel="noopener">Get the free checklist &rarr;</a>
-  </div>
-
-  <footer>
-    <p><strong>Alpha Engineer</strong> &mdash; Engineer using AI to build financial freedom.</p>
-    <p><a href="../index.html">Home</a> &middot; <a href="shipped-11-scrapers-one-week-niche-data.html">Shipping 11 scrapers in a week</a> &middot; <a href="best-ai-voiceover-tools-faceless-youtube-2025.html">AI voiceover tools</a> &middot; Built for engineers, by an engineer.</p>
-      <p><a href="../guide-directory.html">Global safety guides</a> · Free public resource.</p>
-  </footer>
-</div>
-<aside data-global-safety="true" style="max-width:780px;margin:48px auto 24px;padding:20px;border:1px solid rgba(0,212,255,.28);border-radius:10px;text-align:center"><strong>Need a safer second look?</strong><br><a href="../start.html?utm_source=alphaengineerai&amp;utm_medium=blog&amp;utm_campaign=global_safety" data-analytics-event="global_safety_click" data-analytics-target="start_guide">Try the free MindDividend Shield first check &rarr;</a><br><a data-analytics-event="official_report_click" data-analytics-target="report-guide" href="../report-online-scam.html?utm_source=alphaengineerai&amp;utm_medium=blog&amp;utm_campaign=official_reporting">Report a scam officially &rarr;</a></aside>
+  <main>
+    <p>MindDividend Shield</p>
+    <h1>This archive has moved.</h1>
+    <p>Older articles are no longer the active project. Continue to the current global scam-safety guides and free first-pass checker.</p>
+    <p><a href="/guide-directory.html">Open the global guide directory</a> · <a href="/">Open MindDividend Shield</a></p>
+    <noscript><p>JavaScript is disabled. Use one of the links above to continue.</p></noscript>
+  </main>
 </body>
 </html>
