@@ -299,8 +299,8 @@ jobs:
           grep -Fq 'href="report-online-scam.html"' <<<"$checker"
           grep -Fq 'data-analytics-event="official_report_click"' <<<"$checker"
           report_guide="$(fetch_url "$base/report-online-scam.html")"
-          grep -Fq "official police" <<<"$report_guide"
-          grep -Fq "official bank" <<<"$report_guide"
+          grep -Fq "official reporting" <<<"$report_guide"
+          grep -Fq "official channel" <<<"$report_guide"
 
           llms="$(fetch_url "$base/llms.txt")"
           grep -Fq "MindDividend Shield" <<<"$llms"
