@@ -138,6 +138,7 @@ jobs:
             "$base/community-scam-awareness-toolkit.html"
             "$base/scam-safety-resource-for-organizations.html"
             "$base/global-share-kit.html"
+            "$base/global-publisher-kit.html"
             "$base/minddividend-public-resource-badge.svg"
             "$base/guide-directory.html"
             "$base/report-online-scam.html"
@@ -190,6 +191,9 @@ jobs:
           share_kit="$(fetch_url "$base/global-share-kit.html")"
           grep -Fq "Global Scam-Safety Share Kit" <<<"$share_kit"
           grep -Fq "Copy this message" <<<"$share_kit"
+          publisher_kit="$(fetch_url "$base/global-publisher-kit.html")"
+          grep -Fq "Global Scam-Safety Publisher Kit" <<<"$publisher_kit"
+          grep -Fq "Copy badge HTML" <<<"$publisher_kit"
 
           llms="$(fetch_url "$base/llms.txt")"
           grep -Fq "MindDividend Shield" <<<"$llms"

@@ -14,6 +14,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Community scam-awareness toolkit](https://alphaengineerai.com/community-scam-awareness-toolkit.html): a free, shareable five-step reminder for families, educators, creators, and community groups.
 - [Scam safety resource for organizations](https://alphaengineerai.com/scam-safety-resource-for-organizations.html): a public description and citation guide for organizations, educators, creators, moderators, and community leaders.
 - [Global share kit](https://alphaengineerai.com/global-share-kit.html): a public page with copy-ready messages, privacy rules, share links, and 13-language entry points.
+- [Global publisher kit](https://alphaengineerai.com/global-publisher-kit.html): copy-ready descriptions, canonical links, privacy rules, and an embeddable public badge for publishers, NGOs, educators, and community hubs.
 - [Copy-ready public safety reminder](https://gist.github.com/youfuxu/cc352fdf5dfb8fc00e9173a8f3e93e5f): a plain-text checklist that communities can share without exposing private messages or live suspicious links.
 - [Global share kit](https://github.com/youfuxu/alphaengineerai-landing/blob/main/global-share-kit.md): copy-ready short messages, privacy rules, and direct entry points in 13 languages.
 - [MindDividend Shield overview](https://alphaengineerai.com/minddividend-shield.html): a free global first check for suspicious texts, emails, and social messages before you click, pay, or reply.

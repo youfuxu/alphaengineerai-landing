@@ -44,6 +44,7 @@ Never paste or publish passwords, verification codes, payment details, wallet ke
 
 - Five-step community toolkit: https://alphaengineerai.com/community-scam-awareness-toolkit.html
 - Resource for organizations and creators: https://alphaengineerai.com/scam-safety-resource-for-organizations.html
+- Publisher and NGO kit: https://alphaengineerai.com/global-publisher-kit.html
 - Copy-ready safety reminder: https://gist.github.com/youfuxu/cc352fdf5dfb8fc00e9173a8f3e93e5f
 
 Last reviewed: 2026-08-22. This kit is public education, not professional, legal, financial, or law-enforcement advice.

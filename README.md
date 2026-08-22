@@ -16,6 +16,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Community scam-awareness toolkit](https://alphaengineerai.com/community-scam-awareness-toolkit.html?utm_source=github&utm_medium=readme&utm_campaign=community_toolkit)
 - [Scam safety resource for organizations](https://alphaengineerai.com/scam-safety-resource-for-organizations.html?utm_source=github&utm_medium=readme&utm_campaign=organization_resource)
 - [Global share kit](https://alphaengineerai.com/global-share-kit.html?utm_source=github&utm_medium=readme&utm_campaign=global_share_kit): copy-ready messages, privacy rules, and 13-language entry points
+- [Global publisher and NGO kit](https://alphaengineerai.com/global-publisher-kit.html?utm_source=github&utm_medium=readme&utm_campaign=global_publisher_kit): copy-ready descriptions, canonical links, privacy rules, and a public badge for newsletters, classrooms, and community hubs
 - [Copy-ready public safety reminder](https://github.com/youfuxu/alphaengineerai-landing/blob/main/public-community-safety-reminder.md)
 - [Global share kit](https://github.com/youfuxu/alphaengineerai-landing/blob/main/global-share-kit.md): copy-ready messages and 13-language entry points for communities, newsletters, and help centres
 - [Public community announcement](https://github.com/youfuxu/alphaengineerai-landing/discussions/65)
