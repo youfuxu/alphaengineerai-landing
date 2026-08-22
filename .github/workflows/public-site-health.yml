@@ -260,7 +260,7 @@ jobs:
 
           llms="$(fetch_url "$base/llms.txt")"
           grep -Fq "MindDividend Shield" <<<"$llms"
-          grep -Fq "Global safety guide directory" <<<"$llms"
+          grep -Fq "Free global scam checkers in 13 languages" <<<"$llms"
 
           analytics="$(fetch_url "$base/analytics.js")"
           grep -Fq "G-E50HX5K6LP" <<<"$analytics"
