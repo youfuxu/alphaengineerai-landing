@@ -424,6 +424,7 @@ jobs:
                 exit 1
               fi
               grep -Fq 'rel="canonical"' <<<"$page_html"
+              grep -Fq '/analytics.js' <<<"$page_html"
             done <<<"$sitemap_urls"
           done
 
