@@ -5,7 +5,14 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2026 21:09:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 21:22:13 GMT</lastBuildDate>
+    <item>
+      <title>v0.1.54 adds primary reporting references and multilingual discovery guard</title>
+      <link>https://alphaengineerai.com/start.html</link>
+      <guid isPermaLink="false">release-v0154-primary-reporting-references-2026-08-22-2122</guid>
+      <description>The latest public release adds first-party reporting references, README discovery links, and an automated reciprocal hreflang health check.</description>
+      <pubDate>Sat, 22 Aug 2026 21:22:13 GMT</pubDate>
+    </item>
     <item>
       <title>Reporting guide now links to primary official guidance</title>
       <link>https://alphaengineerai.com/report-online-scam.html</link>

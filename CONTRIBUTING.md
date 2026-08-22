@@ -19,7 +19,7 @@ Never include real passwords, payment details, verification codes, identity docu
 - [Multilingual start page](https://alphaengineerai.com/start.html)
 - [Global safety guide directory](https://alphaengineerai.com/guide-directory.html)
 - [Global share kit](https://alphaengineerai.com/global-share-kit.html)
-- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.53)
+- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.54)
 - [Global feedback discussion](https://github.com/youfuxu/alphaengineerai-landing/discussions/1)
 
 When reporting a problem, include the public page URL, the language, and the smallest safe example that explains the issue.
