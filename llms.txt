@@ -139,7 +139,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [Copy-ready public safety reminder](https://gist.github.com/youfuxu/cc352fdf5dfb8fc00e9173a8f3e93e5f): a reusable plain-text version for educators, creators, moderators, and community leaders.
 - [Global share kit](https://github.com/youfuxu/alphaengineerai-landing/blob/main/global-share-kit.md): reusable public wording and language-specific links for community distribution.
 - [Global share kit web page](https://alphaengineerai.com/global-share-kit.html): the indexable public version with copy buttons and direct share links.
-- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.54): primary reporting references and a multilingual hreflang discovery guard for the public safety guide network.
+- [Latest public release](https://github.com/youfuxu/alphaengineerai-landing/releases/tag/v0.1.55): localized official reporting guides in all 13 public languages, with reciprocal hreflang and discovery updates.
 - [Contribution guide](https://github.com/youfuxu/alphaengineerai-landing/blob/main/CONTRIBUTING.md): safe ways to improve translations and regional guidance.
 - [Public discussions](https://github.com/youfuxu/alphaengineerai-landing/discussions): regional scam patterns and translation feedback.
 - [Launch announcement](https://github.com/youfuxu/alphaengineerai-landing/discussions/3): free global first check, thirteen languages including Italian, and safe-use rules.
