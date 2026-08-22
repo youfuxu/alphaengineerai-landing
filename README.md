@@ -41,6 +41,7 @@ It helps a person pause before clicking, paying, replying, sharing a code, or gi
 - [Public discussion: romance scam warning signs](https://github.com/youfuxu/alphaengineerai-landing/discussions/32): share a calm checklist before sending money or private material
 - [Public discussion: fake bank text message safety](https://github.com/youfuxu/alphaengineerai-landing/discussions/31): share the independent-verification checklist before signing in or replying
 - [How to report an online scam officially](https://alphaengineerai.com/report-online-scam.html?utm_source=github&utm_medium=readme&utm_campaign=official_reporting): official reporting routes across 19 countries and regions, plus a cross-border fallback through econsumer.gov for international consumer scams.
+- [Public discussion: how to report an online scam safely across countries](https://github.com/youfuxu/alphaengineerai-landing/discussions/71): a practical verification, evidence, official-reporting, and recovery-scam checklist without posting private data.
 - [WhatsApp scam message checker](https://alphaengineerai.com/whatsapp-scam-message-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [Phishing email checker](https://alphaengineerai.com/phishing-email-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
 - [Online job scam checker](https://alphaengineerai.com/online-job-scam-checker.html?utm_source=github&utm_medium=readme&utm_campaign=safety_guides)
