@@ -8,7 +8,7 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 
 - [MindDividend Shield](https://minddividend-shield.joe303262000.chatgpt.site/): live interactive first-pass checker for a redacted suspicious message; never paste passwords, payment details, verification codes, or identity documents.
 - [Start here](https://alphaengineerai.com/start.html): multilingual entry point, safety rule, and public sharing links.
-- [Global safety guide directory](https://alphaengineerai.com/guide-directory.html): browse thirteen language hubs, message checkers, recovery checklists, common-scam pattern guides, and official reporting routes.
+- [Free global scam checkers in 13 languages](https://alphaengineerai.com/guide-directory.html): browse language hubs, message checkers, recovery checklists, common-scam pattern guides, and official reporting routes.
 - [Is this text a scam?](https://alphaengineerai.com/is-this-text-a-scam.html): psychology-aware first-check guide to urgency, codes, payment requests, impersonation, unsafe links, and safer next steps.
 - [Global online scam message checker](https://alphaengineerai.com/global-online-scam-checker.html): focused entry point with safe-use rules, common signals, FAQs, and thirteen-language links including Italian.
 - [Community scam-awareness toolkit](https://alphaengineerai.com/community-scam-awareness-toolkit.html): a free, shareable five-step reminder for families, educators, creators, and community groups.
@@ -55,8 +55,8 @@ MindDividend Shield helps people pause before clicking, paying, replying, sharin
 - [사기 링크를 클릭한 후 해야 할 일](https://alphaengineerai.com/what-to-do-after-clicking-scam-link-ko.html): 수상한 링크를 연 후 계정, 결제, 기기를 보호하는 한국어 체크리스트.
 - [How to tell if a text is a scam](https://alphaengineerai.com/how-to-tell-if-a-text-is-a-scam.html): pause-and-verify checklist.
 - [Privacy and safety](https://alphaengineerai.com/privacy-and-safety.html): what not to paste into a checker and how to use it responsibly.
-- [How to report an online scam](https://alphaengineerai.com/report-online-scam.html): official reporting routes across 19 countries and regions, plus a cross-border fallback through econsumer.gov for international consumer scams.
-- [Reportar una estafa online](https://alphaengineerai.com/reportar-estafa-online.html): canales oficiales en español y pasos seguros antes de enviar pruebas o datos sensibles.
+- [How to report an online scam to police, your bank, or a platform](https://alphaengineerai.com/report-online-scam.html): official reporting routes across 19 countries and regions, plus a cross-border fallback through econsumer.gov for international consumer scams.
+- [Cómo reportar una estafa online a la policía, el banco o la plataforma](https://alphaengineerai.com/reportar-estafa-online.html): canales oficiales en español y pasos seguros antes de enviar pruebas o datos sensibles.
 - [Denunciar um golpe online](https://alphaengineerai.com/denunciar-golpe-online.html): canais oficiais em português e passos seguros antes de enviar provas ou dados sensíveis.
 - [Signaler une arnaque en ligne](https://alphaengineerai.com/signaler-arnaque-en-ligne.html): canaux officiels en français et étapes sûres avant d'envoyer des preuves ou données sensibles.
 - [Online-Betrug melden](https://alphaengineerai.com/betrug-online-melden.html): offizielle Meldestellen auf Deutsch und sichere Schritte vor dem Senden von Beweisen oder sensiblen Daten.
