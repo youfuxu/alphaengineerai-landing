@@ -204,6 +204,7 @@ jobs:
             "$base/robots.txt"
             "$base/llms.txt"
             "$base/feed.xml"
+            "$base/blog-feed.xml"
             "$base/sitemap-index.xml"
             "$base/core-sitemap.xml"
             "$base/sitemap.xml"
@@ -299,6 +300,17 @@ jobs:
             echo "$external_feed_links" >&2
             exit 1
           fi
+
+          blog_feed="$(fetch_url "$base/blog-feed.xml")"
+          grep -Fq "<rss" <<<"$blog_feed"
+          grep -Fq "MindDividend Shield" <<<"$blog_feed"
+          for focused_page in \
+            "suspicious-link-checker.html" \
+            "suspicious-call-checker.html" \
+            "qr-code-scam-checker.html" \
+            "recovery-scam-checker.html"; do
+            grep -Fq "$base/$focused_page" <<<"$blog_feed"
+          done
 
           index="$(fetch_url "$base/sitemap-index.xml")"
           grep -Fq "$base/core-sitemap.xml" <<<"$index"
