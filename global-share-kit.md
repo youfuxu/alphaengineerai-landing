@@ -45,6 +45,15 @@ Use the closest public guide instead of forwarding a private message or live sus
 - Unexpected QR code: https://alphaengineerai.com/qr-code-scam-checker.html
 - Fake refund or recovery agent: https://alphaengineerai.com/recovery-scam-checker.html
 
+## Language-specific scenario overviews
+
+These four language pages connect readers directly to suspicious-link, suspicious-call, QR-code, and recovery guidance:
+
+- Bahasa Indonesia: https://alphaengineerai.com/common-online-scams-id.html
+- Tiếng Việt: https://alphaengineerai.com/common-online-scams-vi.html
+- 日本語: https://alphaengineerai.com/common-online-scams-ja.html
+- 한국어: https://alphaengineerai.com/common-online-scams-ko.html
+
 ## Privacy rule for every share
 
 Never paste or publish passwords, verification codes, payment details, wallet keys, identity documents, private addresses, private screenshots, session URLs, or a live suspicious link. Use a fictional or fully redacted example only. For important decisions, verify independently with the real organization and use its official reporting route.
