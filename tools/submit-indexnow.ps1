@@ -63,7 +63,9 @@ function Get-SitemapUrls {
     }
 }
 
-$urls = @(Get-SitemapUrls -Uri $sitemapUrl -Visited @{} | Where-Object { $_ } | Sort-Object -Unique)
+$feedUrl = "$BaseUrl/feed.xml"
+$urls = @(Get-SitemapUrls -Uri $sitemapUrl -Visited @{} | Where-Object { $_ }) + $feedUrl
+$urls = @($urls | Where-Object { $_ } | Sort-Object -Unique)
 if ($urls.Count -eq 0) {
     throw "The sitemap index produced no public URLs."
 }
