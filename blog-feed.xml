@@ -5,8 +5,36 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Safety-first, multilingual guidance for suspicious messages, links, payments, account alerts, and online scams.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Aug 2026 05:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 05:59:58 GMT</lastBuildDate>
     <atom:link href="https://alphaengineerai.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Suspicious link checker guide</title>
+      <link>https://alphaengineerai.com/suspicious-link-checker.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/suspicious-link-checker.html</guid>
+      <description>Inspect a suspicious link without opening it, verify the real domain, protect private session links, and choose safer next steps before clicking or paying.</description>
+      <pubDate>Sat, 22 Aug 2026 05:59:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Phone scam checker guide</title>
+      <link>https://alphaengineerai.com/suspicious-call-checker.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/suspicious-call-checker.html</guid>
+      <description>Pause before calling back an unexpected number, sharing a verification code, moving money, or trusting caller ID.</description>
+      <pubDate>Sat, 22 Aug 2026 05:59:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>QR code scam checker guide</title>
+      <link>https://alphaengineerai.com/qr-code-scam-checker.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/qr-code-scam-checker.html</guid>
+      <description>Inspect unexpected QR codes in messages, packages, signs, invoices, and payment requests before scanning, signing in, or paying.</description>
+      <pubDate>Sat, 22 Aug 2026 05:59:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Recovery scam checker guide</title>
+      <link>https://alphaengineerai.com/recovery-scam-checker.html</link>
+      <guid isPermaLink="true">https://alphaengineerai.com/recovery-scam-checker.html</guid>
+      <description>Check unexpected refund, tracing, legal, bank, or recovery-agent messages after an earlier loss, and never pay an upfront recovery fee.</description>
+      <pubDate>Sat, 22 Aug 2026 05:59:58 GMT</pubDate>
+    </item>
     <item>
       <title>Why scam messages feel urgent</title>
       <link>https://alphaengineerai.com/is-this-text-a-scam.html</link>
