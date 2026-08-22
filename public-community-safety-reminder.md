@@ -18,4 +18,11 @@ MindDividend Shield is a free global first-check project with practical guides i
 - Resource for organizations and creators: https://alphaengineerai.com/scam-safety-resource-for-organizations.html
 - Official reporting routes: https://alphaengineerai.com/report-online-scam.html
 
+Focused public guides:
+
+- Suspicious link: https://alphaengineerai.com/suspicious-link-checker.html
+- Suspicious call or phone number: https://alphaengineerai.com/suspicious-call-checker.html
+- Unexpected QR code: https://alphaengineerai.com/qr-code-scam-checker.html
+- Fake refund or recovery agent: https://alphaengineerai.com/recovery-scam-checker.html
+
 This is public education and a first-pass signal, not a bank, government agency, police service, platform, investigator, lawyer, or guarantee.

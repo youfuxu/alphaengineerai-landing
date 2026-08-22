@@ -36,6 +36,15 @@ Choose the link that best matches the reader’s language:
 - 한국어: https://alphaengineerai.com/scam-message-checker-ko.html
 - Italiano: https://alphaengineerai.com/common-online-scams-it.html
 
+## Focused scenario guides
+
+Use the closest public guide instead of forwarding a private message or live suspicious link:
+
+- Suspicious link: https://alphaengineerai.com/suspicious-link-checker.html
+- Suspicious call or phone number: https://alphaengineerai.com/suspicious-call-checker.html
+- Unexpected QR code: https://alphaengineerai.com/qr-code-scam-checker.html
+- Fake refund or recovery agent: https://alphaengineerai.com/recovery-scam-checker.html
+
 ## Privacy rule for every share
 
 Never paste or publish passwords, verification codes, payment details, wallet keys, identity documents, private addresses, private screenshots, session URLs, or a live suspicious link. Use a fictional or fully redacted example only. For important decisions, verify independently with the real organization and use its official reporting route.
