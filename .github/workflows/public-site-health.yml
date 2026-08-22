@@ -134,6 +134,7 @@ jobs:
           urls=(
             "$base/"
             "$base/start.html"
+            "$base/go.html"
             "$base/global-online-scam-checker.html"
             "$base/community-scam-awareness-toolkit.html"
             "$base/scam-safety-resource-for-organizations.html"
@@ -196,6 +197,10 @@ jobs:
           grep -Fq "Copy badge HTML" <<<"$publisher_kit"
           grep -Fq "publisher_kit_share_click" <<<"$publisher_kit"
           grep -Fq "global_feedback_click" <<<"$publisher_kit"
+
+          social_redirect="$(fetch_url "$base/go.html")"
+          grep -Fq "incoming.toString()" <<<"$social_redirect"
+          grep -Fq "window.location.replace(target)" <<<"$social_redirect"
 
           llms="$(fetch_url "$base/llms.txt")"
           grep -Fq "MindDividend Shield" <<<"$llms"
