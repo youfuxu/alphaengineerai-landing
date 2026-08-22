@@ -194,6 +194,8 @@ jobs:
           publisher_kit="$(fetch_url "$base/global-publisher-kit.html")"
           grep -Fq "Global Scam-Safety Publisher Kit" <<<"$publisher_kit"
           grep -Fq "Copy badge HTML" <<<"$publisher_kit"
+          grep -Fq "publisher_kit_share_click" <<<"$publisher_kit"
+          grep -Fq "global_feedback_click" <<<"$publisher_kit"
 
           llms="$(fetch_url "$base/llms.txt")"
           grep -Fq "MindDividend Shield" <<<"$llms"
