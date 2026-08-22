@@ -126,6 +126,61 @@ jobs:
               raise SystemExit(1)
           print(f"All {block_count} JSON-LD blocks are valid.")
 
+      - name: Validate indexable HTML coverage in sitemaps
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urlparse
+          from xml.etree import ElementTree as ET
+
+          root = Path.cwd().resolve()
+          namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+          excluded = {"google27c1c1b7630e0015.html"}
+
+          class RobotsParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.noindex = False
+
+              def handle_starttag(self, tag, attrs):
+                  if tag != "meta":
+                      return
+                  values = {name.lower(): (value or "") for name, value in attrs}
+                  if values.get("name", "").lower() == "robots" and "noindex" in values.get("content", "").lower():
+                      self.noindex = True
+
+          indexable = set()
+          for source in root.glob("*.html"):
+              if source.name in excluded:
+                  continue
+              parser = RobotsParser()
+              parser.feed(source.read_text(encoding="utf-8"))
+              if parser.noindex:
+                  continue
+              indexable.add("/" if source.name == "index.html" else f"/{source.name}")
+
+          listed = set()
+          for sitemap_name in ("sitemap.xml", "core-sitemap.xml"):
+              document = ET.parse(root / sitemap_name)
+              for loc in document.findall(".//sm:loc", namespace):
+                  if not loc.text:
+                      continue
+                  parsed = urlparse(loc.text.strip())
+                  if parsed.netloc != "alphaengineerai.com":
+                      raise SystemExit(f"Unexpected sitemap host in {sitemap_name}: {loc.text}")
+                  listed.add(parsed.path or "/")
+
+          missing = sorted(indexable - listed)
+          if missing:
+              print("Indexable HTML pages missing from sitemap.xml or core-sitemap.xml:")
+              print("\n".join(missing))
+              raise SystemExit(1)
+          print(f"All {len(indexable)} indexable HTML pages are covered by the public sitemaps.")
+          PY
+
       - name: Check public pages and discovery files
         shell: bash
         run: |
