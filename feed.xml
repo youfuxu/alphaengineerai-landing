@@ -5,7 +5,14 @@
     <link>https://alphaengineerai.com/start.html</link>
     <description>Practical, multilingual first-check guides for suspicious messages and common online scams.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2026 22:55:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 23:05:00 GMT</lastBuildDate>
+    <item>
+      <title>Reporting guide now exposes all 13 language routes from one core page</title>
+      <link>https://alphaengineerai.com/report-online-scam.html</link>
+      <guid isPermaLink="false">reporting-language-network-core-page-2026-08-22-2305</guid>
+      <description>The core reporting page now gives users and crawlers a visible internal-link path to every localized official reporting guide.</description>
+      <pubDate>Sat, 22 Aug 2026 23:05:00 GMT</pubDate>
+    </item>
     <item>
       <title>v0.1.55 adds localized official reporting guides in 13 languages</title>
       <link>https://alphaengineerai.com/guide-directory.html</link>
